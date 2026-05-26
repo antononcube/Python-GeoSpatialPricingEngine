@@ -21,14 +21,20 @@ pip install GeoSpatialPricingEngine
 
 Let us define the Geo-Spatial Pricing Problem (GSPP) in most general terms:
 
-**Definition GSSP:** Create a mathematical artifact that approximates prices of deliveries of goods 
-between different geographical locations using a generic pricing formula and using 
-a relatively small, sparse pricing dataset. 
+**Definition GSSP:** Create a Mathematical Artifact (MA) that approximates prices 
+of deliveries of goods between different geographical locations using a generic pricing formula 
+and using a relatively small, sparse pricing dataset. 
 
-The "pricing landscape" (or "manifold of prices") is expected to be non-linear in terms of 
-start and destination locations, distances, routes, and Geo-spatial directions.
+GSSP is difficult because any geographical point from which the deliveries of good start has its own
+"pricing landscape." 
 
-Here is a _simplified_, but concrete definition in which the "pricing landscape" is 
+The collection of those "pricing landscapes" -- a "manifold of prices" -- is expected to be non-linear 
+in terms of start and destination locations, distances, routes, and Geo-spatial directions.
+
+Importantly, different instances of GSSP's MAs are used in business simulations (optimal price search, what-if scenarios, etc.), 
+hence MA derivation must be fast. 
+
+Here is a _simplified_, but concrete definition in which the "manifold of prices" is 
 approximated with a set of formulas that have the same form. 
 That set of formulas is the "mathematical artifact." 
 
@@ -52,7 +58,7 @@ GSSP has the following properties:
 - The pricing is not symmetric in any of the Geo-spatial directions
   - Generally, $p(g_1, g_2) \neq p(g_2, g_1)$ 
 - Proximity of start- or end locations does not imply price proximity 
-  - Consider two deliveries of goods starting at the same location $g_0$ and finishing different locations $g_1$ and $g_2$ 
+  - Consider two deliveries of goods starting at the same location, $g_0$, and finishing at different locations, $g_1$ and $g_2$ 
   - The distance $d(g_1, g_2)$ is very small compared to $d(g_0, g_1)$ and $d(g_0, g_2)$, e.g., $d(g_1, g_2) ≤ 0.02 * d(g_0, g_1)$ 
   - Though, the prices difference can be significant, e.g., $p(g_0, g_1) ≥ 1.2 * p(g_0, g_2)$
 - Routes can have lengths significantly larger than the corresponding over-air distances.  
@@ -63,7 +69,7 @@ GSSP has the following properties:
 
 ## Methodology
 
-A possible solution GSPP can be seen re-implementation of Multi-dimensional Quantile Regression (QR) 
+As a possible solution, GSPP can be seen as a re-implementation of Multi-dimensional Quantile Regression (QR) 
 using specially designed basis functions. From the GSPP formulation above it follows that 
 routes between start and end locations are ignored and only distances over the air are used then 
 QR is applied in a six-dimensional space. 
