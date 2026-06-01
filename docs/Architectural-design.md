@@ -58,9 +58,7 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
 
 ----
 
-## Software architectural design
-
-### Classes
+## Classes
  
 - `Point2D` 
   - Has `(x, y)` coordinates
@@ -122,10 +120,11 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
     - Post-processing
   - The retrieval and ingestion steps can involve reading files or accessing databases. 
 
+----
 
-### Workflows
+## Workflows
 
-#### Pricing engine creation and calibration
+### Pricing engine creation and calibration
 
 1. Ingest creation and calibration spec
 2. Ingest Geo-taxonomy
@@ -142,7 +141,7 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
 6. Post process the calibrated parameter values according to the spec
    - Like, extrapolation of variables
 
-#### Using a pricing engine
+### Using a pricing engine
 
 1. For a given pricing engine identifier find an already created and calibrated `PricingEngine` object.
 2. For the given geographical start point and end point find a tile path using the `TiledRegion` object of the `PricingEngine` object.
@@ -150,7 +149,9 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
 3. For the found tile path and optional distance calculate the price.
    - Using the calibrated parameters of the `PricingEngine` object.
 
-### CLI
+----
+
+## CLI
 
 The implementation has a Command Line Interface (CLI) script that allows the creation, calibration, and usage pricing engines
 from Unix terminal or similar Windows applications. For example.
@@ -184,7 +185,7 @@ Similarly, for price calculation:
 
 ----
 
-## Diagram
+## Diagrams
 
 ### Class diagram
 
