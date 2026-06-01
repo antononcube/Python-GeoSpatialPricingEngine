@@ -123,6 +123,47 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
   - The retrieval and ingestion steps can involve reading files or accessing databases. 
 
 
+### Workflows
+
+#### Pricing engine creation and calibration
+
+1. Ingest creation and calibration spec
+2. Ingest Geo-taxonomy
+3. Ingest orders
+4. Create a "hollow" `PricingEngine` object
+   - With parameters corresponding to the ingested Geo-taxonomy
+5. Calibrate
+   - Google OR-Tools framework is used here
+     - Its linear programming part
+   - Formulate the mathematical optimization problem
+   - Solve the problem
+   - Handle errors or "no solution" events
+   - If the solution is successfully found assign values to pricing engine's parameters
+6. Post process the calibrated parameter values according to the spec
+   - Like, extrapolation of variables
+
+#### Using a pricing engine
+
+1. For a given pricing engine identifier find an already created and calibrated `PricingEngine` object.
+2. For the given geographical start point and end point find a tile path using the `TiledRegion` object of the `PricingEngine` object.
+   - Using the Geg-taxonomy used during calibration. 
+3. For the found tile path and optional distance calculate the price.
+   - Using the calibrated parameters of the `PricingEngine` object.
+
+### CLI
+
+The implementation has a Command Line Interface (CLI) script that allows the creation, calibration, and usage pricing engines
+from Unix terminal or similar Windows applications. For example.
+
+```shell
+geo_pricing create --pricing-engine-id=myPrEng1 --spec-file=prEng.json
+geo_pricing price --pricing-engine-id=myPrEng --start-lat-lon='30.297186,-82.987802' --end-zip-code=45323
+geo_pricing recalibrate --pricing-engine-id=myPrEng1 --dateset=ordersNew.csv --add-orders
+```
+
+Instead of `--start-lat-lon`, `--start-geo-point`, `--end-zip-code`, etc., the CLI can automatically determine the type of argument. 
+It is assumed that calibrates pricing engine objects are quickly rehydrated from their disk storage formats.
+
 ----
 
 ## Adjustments for a Python implementation
@@ -144,6 +185,8 @@ Similarly, for price calculation:
 ----
 
 ## Diagram
+
+### Class diagram
 
 ```mermaid
 classDiagram
@@ -232,4 +275,9 @@ classDiagram
     PricingEngineBuilder ..> Orders
     PricingEngineBuilder ..> PricingEngineCalibrator
     PricingEngineBuilder ..> PricingEngineExtrapolator
+```
+
+### Sequence diagram
+
+```mermaid
 ```
