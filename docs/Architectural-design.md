@@ -89,7 +89,7 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
     - Geo-point given with `(x, y)` coordinates
   - Has abstract methods for finding tile paths between:
     - Two `GeoPoint` objects
-    - Two Geo-points gives as `(x1, y1, x2, y2)` arguments
+    - Two Geo-points given as `(x1, y1, x2, y2)` arguments
 - `TiledRegionTrivial`
   - Inherits `TiledRegion` 
   - All tile paths are just the start tile and end tile.
@@ -125,8 +125,111 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
 
 ----
 
+## Adjustments for a Python implementation
+
+### Signatures
+
+Since Python is hard to use with overloaded signatures, there should be separate method signatures
+for methods that would be overloaded in other languages, like, Java. For example:
+
+- `tiledRegionObj.tile_path(g1: GeoPoint, g2: GeoPoint)`
+- `tiledRegionObj.tile_path_for_coords(lat1: float, lon1: float, lat2: float, lon2: float)`
+
+Similarly, for price calculation: 
+
+- `pricingEngineObj.price(g1: GeoPoint, g2: GeoPoint, d: float)`
+- `pricingEngineObj.price_for_coords(lat1: float, lon1: float, lat2: float, lon2: float, d: float)`
+
+
+----
+
 ## Diagram
 
 ```mermaid
+classDiagram
+    class Point2D {
+        +x
+        +y
+        +norm()
+        +dot_product()
+        +distance_to()
+    }
 
+    class GeoPoint {
+        +id
+        +__str__()
+        +distance_miles()
+        +distance_km()
+    }
+
+    class GeoTaxonomy {
+        +read_csv()
+        +read_json()
+        +read_dataframe()
+    }
+
+    class TiledRegion {
+        <<abstract>>
+        +geo_taxonomy
+        +tile_for_point(GeoPoint)
+        +tile_for_coords(x, y)
+        *find_path(GeoPoint, GeoPoint)
+        *find_path_for_coords(x1, y1, x2, y2)
+    }
+
+    class TiledRegionTrivial {
+        +find_path(GeoPoint, GeoPoint)
+    }
+
+    class TiledRegionGraph {
+        +coarse_graph
+        +fine_graph
+        +find_path(GeoPoint, GeoPoint)
+    }
+
+    class Orders {
+        <<abstract>>
+        +ingest_csv()
+        +ingest_json()
+        +ingest_db()
+    }
+
+    class PricingEngine {
+        +compute_price(GeoPoint, GeoPoint, d)
+        +compute_price_for_coords(lat1, lon1, lat2, lon2, d)
+    }
+
+    class PricingEngineCalibrator {
+        +orders : Orders
+        +tiled_region : TiledRegion
+        +pricing_engine : PricingEngine
+        +calibrate()
+    }
+
+    class PricingEngineExtrapolator {
+        +post_process()
+    }
+
+    class PricingEngineBuilder {
+        +build_from_json(spec)
+        +retrieve_geo_taxonomy()
+        +ingest_orders()
+        +calibrate()
+        +post_process()
+    }
+
+    %% Inheritance
+    GeoPoint --|> Point2D
+    TiledRegionTrivial --|> TiledRegion
+    TiledRegionGraph --|> TiledRegion
+
+    %% Composition / Aggregation
+    TiledRegion "1" *-- "1" GeoTaxonomy
+    PricingEngineCalibrator "1" *-- "1" Orders
+    PricingEngineCalibrator "1" *-- "1" TiledRegion
+    PricingEngineCalibrator "1" *-- "1" PricingEngine
+    PricingEngineBuilder ..> GeoTaxonomy
+    PricingEngineBuilder ..> Orders
+    PricingEngineBuilder ..> PricingEngineCalibrator
+    PricingEngineBuilder ..> PricingEngineExtrapolator
 ```
