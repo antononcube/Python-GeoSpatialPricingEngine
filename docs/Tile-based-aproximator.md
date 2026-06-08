@@ -39,6 +39,63 @@ composed of Geo-spatial tiles that cover the geographical area of interest.
 ## The model formulation
 
 
+### Definitions 
+
+The definitions are given with the "primary task" in minde. Some of the definitions are have are differ when considering "simplified task". 
+
+- **Geo-taxonomy** 
+  - A Geo taxonomy is a collection of polygons:
+  - The polygons cover the geographical area of interest.
+  - The mesh or grid of a Geo-taxonomy can be regular or irregular.
+    - For example, square grid, each square with length 1 degree (i.e. ≈ 69 miles or 111 km).
+    - Geohash with resolution 4 can be used to define a Geo-taxonomy.
+- **Tile**
+  - A two-dimensional (2D) polygon which is an element of a Geo-taxonomy.
+- **Geo-tile basis**
+  - A set of Geo-spatial tiles each endowed with a formula based on a set of variables.
+  - Each tile has the same formula, $F_{generic}$.
+    - $F_{gen}$ for short, if the context allows.  
+  - Each tile has its own localization of $F_{gen}$ based on the tile-localized generic variables.
+- **Tile identifier (tile ID)**
+  - A string that uniquely identifies a tile in a given Geo-taxonomy.
+- **Tile center**
+  - For a given tile $i$ the geometric center $c(i)$, of its polygon.
+    - Also, $c_i$ is used.
+- **Tile basis function**
+  - For given tile ID $i$ a piecewise continuous function $b(i):\mathbb R^{2}\to\mathbb R$.
+  - The function support can be the tile itself, or the tile and a certain set of neighboring tiles.
+    - In other words, the basis function support can coincide with the tile, or it is larger than the tile.
+  - Larger-than-the-tile support basis functions can be used to obtain smoother approximations.
+- **Tile path** 
+  - Primary task: An ordered set of *adjacent* tiles that correspond to a *transportation trip*.
+    - The first tile contains trip's start location, the last tile contains trip's end location.
+  - Simplified task: An ordered *pair* of tiles that correspond to a *transportation trip*.
+- **Geo-taxonomy data**
+  - Geospatial data associated with a given taxonomy.
+  - For tile ID $i$:
+    - $pop(i)$ : population in tile $i$ (number of people, count)
+    - $elev(i)$ : average Geo-elevation in the tile $i$ (feet or meters)
+    - *For now the Geo-elevation variance is not considered.*
+- **Tile variables**
+  - For a tile ID $i$ we define the following variables
+  - $k(i)$ : a distance multiplier of the tile basis function $b(i)$
+  - $n(i)$ : an intercept for $b(i)$
+  - The approximation formula uses this term $k(i) \, b(i)+n(i)$
+  - $sn(i)$ : starting tile offset
+  - $en(i)$ : end tile offest
+  - $vec(j), j \in [1,8]$ : eight Geo-direction vectors enumerated counter-clockwise, starting with the vector $(1,0)$
+  - $dir(i,j), j \in [1,8]$ : multipliers for the Geo-direction vectors
+  - $p(i)$ : population offset
+  - $ev(i)$ : Geo-elevation offset
+- **Tile path passing direction**
+  - For given tile $i$ that belongs to certain tile path $p$, and it is not the last of tile of $p$, 
+    the "passing direction" of $p$ over $i$ is the Geo-direction vector $vec(j)$ with the smallest 
+    Cosine distance with the vector $\overrightarrow{c_{i}c_{i+1}}$. 
+      - I.e., the vector connecting the center of tile $i$ with the center of tile $i+1$.
+  - The index $j$ of the found passing direction of $vec(j)$ is denoted with $pass(p,i)$.
+- **Tile formula**
+  - $k(i) \, b(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))$
+
 ----
 
 ## The calibration optimization problem 
