@@ -39,9 +39,7 @@ composed of Geo-spatial tiles that cover the geographical area of interest.
 ## The model formulation
 
 
-### Definitions 
-
-The definitions are given with the "primary task" in minde. Some of the definitions are have are differ when considering "simplified task". 
+The definitions are given with the "primary task" in mind. Some of the definitions are have are differ when considering "simplified task". 
 
 - **Geo-taxonomy** 
   - A Geo taxonomy is a collection of polygons:
@@ -51,16 +49,22 @@ The definitions are given with the "primary task" in minde. Some of the definiti
     - Geohash with resolution 4 can be used to define a Geo-taxonomy.
 - **Tile**
   - A two-dimensional (2D) polygon which is an element of a Geo-taxonomy.
-- **Geo-tile basis**
-  - A set of Geo-spatial tiles each endowed with a formula based on a set of variables.
-  - Each tile has the same formula, $F_{generic}$.
-    - $F_{gen}$ for short, if the context allows.  
-  - Each tile has its own localization of $F_{gen}$ based on the tile-localized generic variables.
 - **Tile identifier (tile ID)**
   - A string that uniquely identifies a tile in a given Geo-taxonomy.
 - **Tile center**
   - For a given tile $i$ the geometric center $c(i)$, of its polygon.
     - Also, $c_i$ is used.
+- **Geo-taxonomy graph**
+  - Undirected graph obtained by connecting the center each tile with the centers of its adjacent neighbors.
+    - The polygons of two adjacent neighbor tiles have a common side.
+- **Route network subgraph**
+  - A Geo-taxonomy graph $GT$ can have one or many subgraphs that have edges determined by route networks mapped on $GT$.
+    - Those route networks are in the geographical area covered by $GT$.
+- **Geo-tile basis**
+  - A set of Geo-spatial tiles each endowed with a formula based on a set of variables.
+  - Each tile has the same formula, $F_{generic}$.
+    - $F_{gen}$ for short, if the context allows.  
+  - Each tile has its own localization of $F_{gen}$ based on the tile-localized generic variables.
 - **Tile basis function**
   - For given tile ID $i$ a piecewise continuous function $b(i):\mathbb R^{2}\to\mathbb R$.
   - The function support can be the tile itself, or the tile and a certain set of neighboring tiles.
@@ -80,7 +84,7 @@ The definitions are given with the "primary task" in minde. Some of the definiti
   - For a tile ID $i$ we define the following variables
   - $k(i)$ : a distance multiplier of the tile basis function $b(i)$
   - $n(i)$ : an intercept for $b(i)$
-  - The approximation formula uses this term $k(i) \, b(i)+n(i)$
+    - The approximation formula uses this term $k(i) \, b(i)+n(i)$; see below.
   - $sn(i)$ : starting tile offset
   - $en(i)$ : end tile offest
   - $vec(j), j \in [1,8]$ : eight Geo-direction vectors enumerated counter-clockwise, starting with the vector $(1,0)$
@@ -94,7 +98,44 @@ The definitions are given with the "primary task" in minde. Some of the definiti
       - I.e., the vector connecting the center of tile $i$ with the center of tile $i+1$.
   - The index $j$ of the found passing direction of $vec(j)$ is denoted with $pass(p,i)$.
 - **Tile formula**
-  - $k(i) \, b(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))$
+  - For given tile $i$ its formula is:
+    - $k(i) \, b(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))$
+- **Price approximation formula** 
+  - Input
+    - Geo-taxonomy graph
+    - Geo-coordinates of a start location $g_1$ 
+    - Geo-coordinates of an end location $g_2$
+  - Computation
+    1. Find the tiles $t_1: g_1 \in t_1$ and $t_2: t_2 \in g_2$  
+    2. Find a path $p$ from $t_1$ to $t_2$ in the Geo-taxonomy graph
+       - This can be the shortest path, a or path over a subgraph (that corresponds to a route network.)
+    3. Let the length of $p$ is $n$.
+    4. For each tile $i$ in $p$ find the passing direction $pass(p, i)$  
+    5. Here is the global formula assuming the support of each basis function $b(i)$ is the tile $i$:
+  $$
+    price(g_1,g_2)=\sum_{i=1}^{n}{k(i) \, b(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))}
+  $$
+- **Training data** or **training dataset**
+  - A dataset of transportation trips.
+  - The dataset does not need to be large -- the calibration process can run with a few transportation trips.
+  - The training data can transportation trips that are with the same start- and end points but different prices.
+  - The training is assumed to be "generally" consistent. I.e., there is a certain rationale behind the trips and associated prices.
+- **Optimization problem**
+  - An optimization problem that finds concrete values for all tile variables 
+    with which that minimizes a certain metric of the difference of between the training dataset prices
+    and the prices computed with the price approximation formula.
+  - Several metrics of the difference can be considered:
+    - Minimizing the total difference:
+      - total of approximated prices vs. total of training prices
+      - I.e. 1-norm, or taxicab norm, or Manhattan norm)
+    - Minimizing the difference per transportation trip
+      - I.e. Infinity norm, or Chebyshev distance
+  - *See the next section for full mathematical details.*
+- **Calibration**
+  - The solving of the optimization problem with particular:
+    - Geo-taxonomy
+    - Geo-data
+    - Training dataset
 
 ----
 
