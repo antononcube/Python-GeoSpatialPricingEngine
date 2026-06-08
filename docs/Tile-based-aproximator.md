@@ -124,6 +124,10 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - An optimization problem that finds concrete values for all tile variables 
     with which that minimizes a certain metric of the difference of between the training dataset prices
     and the prices computed with the price approximation formula.
+  - The optimization problem formulation can incorporate constraints like:
+    - $k(1) = k(i), \forall \, i \in GT$, i.e., constant distance factor for all tiles
+    - $n(1) = n(i), \forall \, i \in GT$, i.e., constant offset for all tiles
+    - $dir(i,j) ≤ 20, \forall \, i \in GT \land j \in [1,8]$. i.e., not tile is too "pivotal" in price conribution
   - Several metrics of the difference can be considered:
     - Minimizing the total difference:
       - total of approximated prices vs. total of training prices
@@ -140,6 +144,40 @@ The definitions are given with the "primary task" in mind. Some of the definitio
 ----
 
 ## The calibration optimization problem 
+
+In order to calibrate the tile-based approximation model (or "mathematical artifact")
+a linear optimization problem is formulated with the following steps:
+
+1. Define a Geo-taxonomy, $GT$ with $n_{GT}$ tiles 
+2. Obtain a training dataset, $TD$, with $n_D$ transportation trips
+   - Each $trip(k) \in TD$ has an associated price $price(k)$. 
+3. For each transportation trip $trip(k) \in TD$ apply the price approximation formula
+   - Denote the expression as $formula(k)$
+4. Introduce the non-negative slack variables $s^{+}(i) \ge 0, i \in [1, n_{TD}]$ and $s^{-}(i) \ge 0, i \in [1, n_{TD}]$
+5. Make the constraints:
+
+$$
+expr(k) + s^{+}(k) - s^{-}(k) = price(k), k \in [1, n_{TD}]
+$$
+ 
+6. Make the objective function to be minimized -- infinity norm:
+
+$$
+\sum_{k=1}^{n_{TD}}{s^{+}(k)} + \sum_{k=1}^{n_{TD}}{s^{-}(k)}
+$$
+
+7. From the constraints make the corresponding matrix to be multiplied by the vector:
+
+$$
+(k(1), \dots, k(n_{GT}), n(1), \dots , n(n_{GT}), sn(1), \dots , sn(n_{GT}), en(1), \dots , en(n_{GT}), p(1), \dots , p(n_{GT}), ev(1), \dots , ev(n_{GT}), dir(1,1), \dots , dir(1, 8), \dots, dir(8, n_{GT}))
+$$
+
+8. From the constraints make the corresponding Right Hand Side (RHS) vector:
+
+$$
+(price(1), \dots, price(n_{GT}))
+$$
+
 
 ----
 
