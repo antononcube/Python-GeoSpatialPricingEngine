@@ -135,11 +135,11 @@ $$
   - The training is assumed to be "generally" consistent. I.e., there is a certain rationale behind the trips and associated prices.
 - **Optimization problem**
   - An optimization problem that finds concrete values for all tile variables 
-    with which that minimizes a certain metric of the difference of between the training dataset prices
+    that minimize a certain metric of the difference between the training dataset prices
     and the prices computed with the price approximation formula.
   - Several metrics of the difference can be considered:
     - Minimizing the total difference:
-      - total of approximated prices vs. total of training prices
+      - "total of approximated prices" vs. "total of training prices"
       - I.e. 1-norm, or taxicab norm, or Manhattan norm)
     - Minimizing the difference per transportation trip
       - I.e. Infinity norm, or Chebyshev distance
@@ -206,9 +206,10 @@ If distance is given for each transportation trip then only $k(1)\,d(k) + n(1)$ 
 
 ### Modification using the uniform norm
 
-In some cases using the Chebyshev distance or Infinity norm as a minimization objective function (as in the formulation above)
-the Uniform norm might be preferred. With the Uniform norm is attempted to make all deviations relatively small.
-Which norm to use should be determined by experiments. (Like business simulations.) 
+In some cases instead of using the 1-norm (aka taxicab norm) as a minimization objective function (as in the formulation above)
+it is preferred to use the max-norm (aka uniform norm or infinity norm.) 
+It is attempted with the max-norm to make all deviations relatively small.
+Which norm to use in concrete cases should be determined by experiments. (Like business simulations.) 
 
 ----
 
