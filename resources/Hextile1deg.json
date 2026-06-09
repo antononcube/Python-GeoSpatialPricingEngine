@@ -1,6 +1,6 @@
 [
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00001",
 		"CenterLon":-1.245e2,
 		"CenterLat":4.243524478543749e1,
@@ -32,7 +32,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00002",
 		"CenterLon":-1.245e2,
 		"CenterLat":4.763139720814413e1,
@@ -64,7 +64,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00003",
 		"CenterLon":-1.24e2,
 		"CenterLat":3.9837168574084174e1,
@@ -96,7 +96,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00004",
 		"CenterLon":-1.24e2,
 		"CenterLat":4.1569219381653056e1,
@@ -128,7 +128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00005",
 		"CenterLon":-1.24e2,
 		"CenterLat":4.330127018922193e1,
@@ -160,7 +160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00006",
 		"CenterLon":-1.24e2,
 		"CenterLat":4.503332099679081e1,
@@ -192,7 +192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00007",
 		"CenterLon":-1.24e2,
 		"CenterLat":4.676537180435968e1,
@@ -224,7 +224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00008",
 		"CenterLon":-1.235e2,
 		"CenterLat":3.897114317029974e1,
@@ -256,7 +256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00009",
 		"CenterLon":-1.235e2,
 		"CenterLat":4.0703193977868615e1,
@@ -288,7 +288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00010",
 		"CenterLon":-1.235e2,
 		"CenterLat":4.243524478543749e1,
@@ -320,7 +320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00011",
 		"CenterLon":-1.235e2,
 		"CenterLat":4.4167295593006365e1,
@@ -352,7 +352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00012",
 		"CenterLon":-1.235e2,
 		"CenterLat":4.589934640057525e1,
@@ -384,7 +384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00013",
 		"CenterLon":-1.235e2,
 		"CenterLat":4.763139720814413e1,
@@ -416,7 +416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00014",
 		"CenterLon":-1.23e2,
 		"CenterLat":3.81051177665153e1,
@@ -448,7 +448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00015",
 		"CenterLon":-1.23e2,
 		"CenterLat":3.9837168574084174e1,
@@ -480,7 +480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00016",
 		"CenterLon":-1.23e2,
 		"CenterLat":4.1569219381653056e1,
@@ -512,7 +512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00017",
 		"CenterLon":-1.23e2,
 		"CenterLat":4.330127018922193e1,
@@ -544,7 +544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00018",
 		"CenterLon":-1.23e2,
 		"CenterLat":4.503332099679081e1,
@@ -576,7 +576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00019",
 		"CenterLon":-1.23e2,
 		"CenterLat":4.676537180435968e1,
@@ -608,7 +608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00020",
 		"CenterLon":-1.225e2,
 		"CenterLat":3.897114317029974e1,
@@ -640,7 +640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00021",
 		"CenterLon":-1.225e2,
 		"CenterLat":4.0703193977868615e1,
@@ -672,7 +672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00022",
 		"CenterLon":-1.225e2,
 		"CenterLat":4.243524478543749e1,
@@ -704,7 +704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00023",
 		"CenterLon":-1.225e2,
 		"CenterLat":4.4167295593006365e1,
@@ -736,7 +736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00024",
 		"CenterLon":-1.225e2,
 		"CenterLat":4.589934640057525e1,
@@ -768,7 +768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00025",
 		"CenterLon":-1.225e2,
 		"CenterLat":4.763139720814413e1,
@@ -800,7 +800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00026",
 		"CenterLon":-1.225e2,
 		"CenterLat":4.9363448015713e1,
@@ -832,7 +832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00027",
 		"CenterLon":-1.22e2,
 		"CenterLat":3.81051177665153e1,
@@ -864,7 +864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00028",
 		"CenterLon":-1.22e2,
 		"CenterLat":3.9837168574084174e1,
@@ -896,7 +896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00029",
 		"CenterLon":-1.22e2,
 		"CenterLat":4.1569219381653056e1,
@@ -928,7 +928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00030",
 		"CenterLon":-1.22e2,
 		"CenterLat":4.330127018922193e1,
@@ -960,7 +960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00031",
 		"CenterLon":-1.22e2,
 		"CenterLat":4.503332099679081e1,
@@ -992,7 +992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00032",
 		"CenterLon":-1.22e2,
 		"CenterLat":4.676537180435968e1,
@@ -1024,7 +1024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00033",
 		"CenterLon":-1.22e2,
 		"CenterLat":4.849742261192856e1,
@@ -1056,7 +1056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00034",
 		"CenterLon":-1.215e2,
 		"CenterLat":3.723909236273086e1,
@@ -1088,7 +1088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00035",
 		"CenterLon":-1.215e2,
 		"CenterLat":3.897114317029974e1,
@@ -1120,7 +1120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00036",
 		"CenterLon":-1.215e2,
 		"CenterLat":4.0703193977868615e1,
@@ -1152,7 +1152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00037",
 		"CenterLon":-1.215e2,
 		"CenterLat":4.243524478543749e1,
@@ -1184,7 +1184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00038",
 		"CenterLon":-1.215e2,
 		"CenterLat":4.4167295593006365e1,
@@ -1216,7 +1216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00039",
 		"CenterLon":-1.215e2,
 		"CenterLat":4.589934640057525e1,
@@ -1248,7 +1248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00040",
 		"CenterLon":-1.215e2,
 		"CenterLat":4.763139720814413e1,
@@ -1280,7 +1280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00041",
 		"CenterLon":-1.215e2,
 		"CenterLat":4.9363448015713e1,
@@ -1312,7 +1312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00042",
 		"CenterLon":-1.21e2,
 		"CenterLat":3.6373066958946424e1,
@@ -1344,7 +1344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00043",
 		"CenterLon":-1.21e2,
 		"CenterLat":3.81051177665153e1,
@@ -1376,7 +1376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00044",
 		"CenterLon":-1.21e2,
 		"CenterLat":3.9837168574084174e1,
@@ -1408,7 +1408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00045",
 		"CenterLon":-1.21e2,
 		"CenterLat":4.1569219381653056e1,
@@ -1440,7 +1440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00046",
 		"CenterLon":-1.21e2,
 		"CenterLat":4.330127018922193e1,
@@ -1472,7 +1472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00047",
 		"CenterLon":-1.21e2,
 		"CenterLat":4.503332099679081e1,
@@ -1504,7 +1504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00048",
 		"CenterLon":-1.21e2,
 		"CenterLat":4.676537180435968e1,
@@ -1536,7 +1536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00049",
 		"CenterLon":-1.21e2,
 		"CenterLat":4.849742261192856e1,
@@ -1568,7 +1568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00050",
 		"CenterLon":-1.205e2,
 		"CenterLat":3.550704155516198e1,
@@ -1600,7 +1600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00051",
 		"CenterLon":-1.205e2,
 		"CenterLat":3.723909236273086e1,
@@ -1632,7 +1632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00052",
 		"CenterLon":-1.205e2,
 		"CenterLat":3.897114317029974e1,
@@ -1664,7 +1664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00053",
 		"CenterLon":-1.205e2,
 		"CenterLat":4.0703193977868615e1,
@@ -1696,7 +1696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00054",
 		"CenterLon":-1.205e2,
 		"CenterLat":4.243524478543749e1,
@@ -1728,7 +1728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00055",
 		"CenterLon":-1.205e2,
 		"CenterLat":4.4167295593006365e1,
@@ -1760,7 +1760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00056",
 		"CenterLon":-1.205e2,
 		"CenterLat":4.589934640057525e1,
@@ -1792,7 +1792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00057",
 		"CenterLon":-1.205e2,
 		"CenterLat":4.763139720814413e1,
@@ -1824,7 +1824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00058",
 		"CenterLon":-1.205e2,
 		"CenterLat":4.9363448015713e1,
@@ -1856,7 +1856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00059",
 		"CenterLon":-1.2e2,
 		"CenterLat":3.464101615137754e1,
@@ -1888,7 +1888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00060",
 		"CenterLon":-1.2e2,
 		"CenterLat":3.6373066958946424e1,
@@ -1920,7 +1920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00061",
 		"CenterLon":-1.2e2,
 		"CenterLat":3.81051177665153e1,
@@ -1952,7 +1952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00062",
 		"CenterLon":-1.2e2,
 		"CenterLat":3.9837168574084174e1,
@@ -1984,7 +1984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00063",
 		"CenterLon":-1.2e2,
 		"CenterLat":4.1569219381653056e1,
@@ -2016,7 +2016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00064",
 		"CenterLon":-1.2e2,
 		"CenterLat":4.330127018922193e1,
@@ -2048,7 +2048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00065",
 		"CenterLon":-1.2e2,
 		"CenterLat":4.503332099679081e1,
@@ -2080,7 +2080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00066",
 		"CenterLon":-1.2e2,
 		"CenterLat":4.676537180435968e1,
@@ -2112,7 +2112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00067",
 		"CenterLon":-1.2e2,
 		"CenterLat":4.849742261192856e1,
@@ -2144,7 +2144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00068",
 		"CenterLon":-1.195e2,
 		"CenterLat":3.550704155516198e1,
@@ -2176,7 +2176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00069",
 		"CenterLon":-1.195e2,
 		"CenterLat":3.723909236273086e1,
@@ -2208,7 +2208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00070",
 		"CenterLon":-1.195e2,
 		"CenterLat":3.897114317029974e1,
@@ -2240,7 +2240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00071",
 		"CenterLon":-1.195e2,
 		"CenterLat":4.0703193977868615e1,
@@ -2272,7 +2272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00072",
 		"CenterLon":-1.195e2,
 		"CenterLat":4.243524478543749e1,
@@ -2304,7 +2304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00073",
 		"CenterLon":-1.195e2,
 		"CenterLat":4.4167295593006365e1,
@@ -2336,7 +2336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00074",
 		"CenterLon":-1.195e2,
 		"CenterLat":4.589934640057525e1,
@@ -2368,7 +2368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00075",
 		"CenterLon":-1.195e2,
 		"CenterLat":4.763139720814413e1,
@@ -2400,7 +2400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00076",
 		"CenterLon":-1.195e2,
 		"CenterLat":4.9363448015713e1,
@@ -2432,7 +2432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00077",
 		"CenterLon":-1.19e2,
 		"CenterLat":3.464101615137754e1,
@@ -2464,7 +2464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00078",
 		"CenterLon":-1.19e2,
 		"CenterLat":3.6373066958946424e1,
@@ -2496,7 +2496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00079",
 		"CenterLon":-1.19e2,
 		"CenterLat":3.81051177665153e1,
@@ -2528,7 +2528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00080",
 		"CenterLon":-1.19e2,
 		"CenterLat":3.9837168574084174e1,
@@ -2560,7 +2560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00081",
 		"CenterLon":-1.19e2,
 		"CenterLat":4.1569219381653056e1,
@@ -2592,7 +2592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00082",
 		"CenterLon":-1.19e2,
 		"CenterLat":4.330127018922193e1,
@@ -2624,7 +2624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00083",
 		"CenterLon":-1.19e2,
 		"CenterLat":4.503332099679081e1,
@@ -2656,7 +2656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00084",
 		"CenterLon":-1.19e2,
 		"CenterLat":4.676537180435968e1,
@@ -2688,7 +2688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00085",
 		"CenterLon":-1.19e2,
 		"CenterLat":4.849742261192856e1,
@@ -2720,7 +2720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00086",
 		"CenterLon":-1.185e2,
 		"CenterLat":3.550704155516198e1,
@@ -2752,7 +2752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00087",
 		"CenterLon":-1.185e2,
 		"CenterLat":3.723909236273086e1,
@@ -2784,7 +2784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00088",
 		"CenterLon":-1.185e2,
 		"CenterLat":3.897114317029974e1,
@@ -2816,7 +2816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00089",
 		"CenterLon":-1.185e2,
 		"CenterLat":4.0703193977868615e1,
@@ -2848,7 +2848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00090",
 		"CenterLon":-1.185e2,
 		"CenterLat":4.243524478543749e1,
@@ -2880,7 +2880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00091",
 		"CenterLon":-1.185e2,
 		"CenterLat":4.4167295593006365e1,
@@ -2912,7 +2912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00092",
 		"CenterLon":-1.185e2,
 		"CenterLat":4.589934640057525e1,
@@ -2944,7 +2944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00093",
 		"CenterLon":-1.185e2,
 		"CenterLat":4.763139720814413e1,
@@ -2976,7 +2976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00094",
 		"CenterLon":-1.185e2,
 		"CenterLat":4.9363448015713e1,
@@ -3008,7 +3008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00095",
 		"CenterLon":-1.18e2,
 		"CenterLat":3.464101615137754e1,
@@ -3040,7 +3040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00096",
 		"CenterLon":-1.18e2,
 		"CenterLat":3.6373066958946424e1,
@@ -3072,7 +3072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00097",
 		"CenterLon":-1.18e2,
 		"CenterLat":3.81051177665153e1,
@@ -3104,7 +3104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00098",
 		"CenterLon":-1.18e2,
 		"CenterLat":3.9837168574084174e1,
@@ -3136,7 +3136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00099",
 		"CenterLon":-1.18e2,
 		"CenterLat":4.1569219381653056e1,
@@ -3168,7 +3168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00100",
 		"CenterLon":-1.18e2,
 		"CenterLat":4.330127018922193e1,
@@ -3200,7 +3200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00101",
 		"CenterLon":-1.18e2,
 		"CenterLat":4.503332099679081e1,
@@ -3232,7 +3232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00102",
 		"CenterLon":-1.18e2,
 		"CenterLat":4.676537180435968e1,
@@ -3264,7 +3264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00103",
 		"CenterLon":-1.18e2,
 		"CenterLat":4.849742261192856e1,
@@ -3296,7 +3296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00104",
 		"CenterLon":-1.175e2,
 		"CenterLat":3.377499074759311e1,
@@ -3328,7 +3328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00105",
 		"CenterLon":-1.175e2,
 		"CenterLat":3.550704155516198e1,
@@ -3360,7 +3360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00106",
 		"CenterLon":-1.175e2,
 		"CenterLat":3.723909236273086e1,
@@ -3392,7 +3392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00107",
 		"CenterLon":-1.175e2,
 		"CenterLat":3.897114317029974e1,
@@ -3424,7 +3424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00108",
 		"CenterLon":-1.175e2,
 		"CenterLat":4.0703193977868615e1,
@@ -3456,7 +3456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00109",
 		"CenterLon":-1.175e2,
 		"CenterLat":4.243524478543749e1,
@@ -3488,7 +3488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00110",
 		"CenterLon":-1.175e2,
 		"CenterLat":4.4167295593006365e1,
@@ -3520,7 +3520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00111",
 		"CenterLon":-1.175e2,
 		"CenterLat":4.589934640057525e1,
@@ -3552,7 +3552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00112",
 		"CenterLon":-1.175e2,
 		"CenterLat":4.763139720814413e1,
@@ -3584,7 +3584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00113",
 		"CenterLon":-1.175e2,
 		"CenterLat":4.9363448015713e1,
@@ -3616,7 +3616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00114",
 		"CenterLon":-1.17e2,
 		"CenterLat":3.290896534380867e1,
@@ -3648,7 +3648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00115",
 		"CenterLon":-1.17e2,
 		"CenterLat":3.464101615137754e1,
@@ -3680,7 +3680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00116",
 		"CenterLon":-1.17e2,
 		"CenterLat":3.6373066958946424e1,
@@ -3712,7 +3712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00117",
 		"CenterLon":-1.17e2,
 		"CenterLat":3.81051177665153e1,
@@ -3744,7 +3744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00118",
 		"CenterLon":-1.17e2,
 		"CenterLat":3.9837168574084174e1,
@@ -3776,7 +3776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00119",
 		"CenterLon":-1.17e2,
 		"CenterLat":4.1569219381653056e1,
@@ -3808,7 +3808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00120",
 		"CenterLon":-1.17e2,
 		"CenterLat":4.330127018922193e1,
@@ -3840,7 +3840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00121",
 		"CenterLon":-1.17e2,
 		"CenterLat":4.503332099679081e1,
@@ -3872,7 +3872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00122",
 		"CenterLon":-1.17e2,
 		"CenterLat":4.676537180435968e1,
@@ -3904,7 +3904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00123",
 		"CenterLon":-1.17e2,
 		"CenterLat":4.849742261192856e1,
@@ -3936,7 +3936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00124",
 		"CenterLon":-1.165e2,
 		"CenterLat":3.377499074759311e1,
@@ -3968,7 +3968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00125",
 		"CenterLon":-1.165e2,
 		"CenterLat":3.550704155516198e1,
@@ -4000,7 +4000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00126",
 		"CenterLon":-1.165e2,
 		"CenterLat":3.723909236273086e1,
@@ -4032,7 +4032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00127",
 		"CenterLon":-1.165e2,
 		"CenterLat":3.897114317029974e1,
@@ -4064,7 +4064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00128",
 		"CenterLon":-1.165e2,
 		"CenterLat":4.0703193977868615e1,
@@ -4096,7 +4096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00129",
 		"CenterLon":-1.165e2,
 		"CenterLat":4.243524478543749e1,
@@ -4128,7 +4128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00130",
 		"CenterLon":-1.165e2,
 		"CenterLat":4.4167295593006365e1,
@@ -4160,7 +4160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00131",
 		"CenterLon":-1.165e2,
 		"CenterLat":4.589934640057525e1,
@@ -4192,7 +4192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00132",
 		"CenterLon":-1.165e2,
 		"CenterLat":4.763139720814413e1,
@@ -4224,7 +4224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00133",
 		"CenterLon":-1.165e2,
 		"CenterLat":4.9363448015713e1,
@@ -4256,7 +4256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00134",
 		"CenterLon":-1.16e2,
 		"CenterLat":3.290896534380867e1,
@@ -4288,7 +4288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00135",
 		"CenterLon":-1.16e2,
 		"CenterLat":3.464101615137754e1,
@@ -4320,7 +4320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00136",
 		"CenterLon":-1.16e2,
 		"CenterLat":3.6373066958946424e1,
@@ -4352,7 +4352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00137",
 		"CenterLon":-1.16e2,
 		"CenterLat":3.81051177665153e1,
@@ -4384,7 +4384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00138",
 		"CenterLon":-1.16e2,
 		"CenterLat":3.9837168574084174e1,
@@ -4416,7 +4416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00139",
 		"CenterLon":-1.16e2,
 		"CenterLat":4.1569219381653056e1,
@@ -4448,7 +4448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00140",
 		"CenterLon":-1.16e2,
 		"CenterLat":4.330127018922193e1,
@@ -4480,7 +4480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00141",
 		"CenterLon":-1.16e2,
 		"CenterLat":4.503332099679081e1,
@@ -4512,7 +4512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00142",
 		"CenterLon":-1.16e2,
 		"CenterLat":4.676537180435968e1,
@@ -4544,7 +4544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00143",
 		"CenterLon":-1.16e2,
 		"CenterLat":4.849742261192856e1,
@@ -4576,7 +4576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00144",
 		"CenterLon":-1.155e2,
 		"CenterLat":3.377499074759311e1,
@@ -4608,7 +4608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00145",
 		"CenterLon":-1.155e2,
 		"CenterLat":3.550704155516198e1,
@@ -4640,7 +4640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00146",
 		"CenterLon":-1.155e2,
 		"CenterLat":3.723909236273086e1,
@@ -4672,7 +4672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00147",
 		"CenterLon":-1.155e2,
 		"CenterLat":3.897114317029974e1,
@@ -4704,7 +4704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00148",
 		"CenterLon":-1.155e2,
 		"CenterLat":4.0703193977868615e1,
@@ -4736,7 +4736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00149",
 		"CenterLon":-1.155e2,
 		"CenterLat":4.243524478543749e1,
@@ -4768,7 +4768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00150",
 		"CenterLon":-1.155e2,
 		"CenterLat":4.4167295593006365e1,
@@ -4800,7 +4800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00151",
 		"CenterLon":-1.155e2,
 		"CenterLat":4.589934640057525e1,
@@ -4832,7 +4832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00152",
 		"CenterLon":-1.155e2,
 		"CenterLat":4.763139720814413e1,
@@ -4864,7 +4864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00153",
 		"CenterLon":-1.155e2,
 		"CenterLat":4.9363448015713e1,
@@ -4896,7 +4896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00154",
 		"CenterLon":-1.15e2,
 		"CenterLat":3.290896534380867e1,
@@ -4928,7 +4928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00155",
 		"CenterLon":-1.15e2,
 		"CenterLat":3.464101615137754e1,
@@ -4960,7 +4960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00156",
 		"CenterLon":-1.15e2,
 		"CenterLat":3.6373066958946424e1,
@@ -4992,7 +4992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00157",
 		"CenterLon":-1.15e2,
 		"CenterLat":3.81051177665153e1,
@@ -5024,7 +5024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00158",
 		"CenterLon":-1.15e2,
 		"CenterLat":3.9837168574084174e1,
@@ -5056,7 +5056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00159",
 		"CenterLon":-1.15e2,
 		"CenterLat":4.1569219381653056e1,
@@ -5088,7 +5088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00160",
 		"CenterLon":-1.15e2,
 		"CenterLat":4.330127018922193e1,
@@ -5120,7 +5120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00161",
 		"CenterLon":-1.15e2,
 		"CenterLat":4.503332099679081e1,
@@ -5152,7 +5152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00162",
 		"CenterLon":-1.15e2,
 		"CenterLat":4.676537180435968e1,
@@ -5184,7 +5184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00163",
 		"CenterLon":-1.15e2,
 		"CenterLat":4.849742261192856e1,
@@ -5216,7 +5216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00164",
 		"CenterLon":-1.145e2,
 		"CenterLat":3.377499074759311e1,
@@ -5248,7 +5248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00165",
 		"CenterLon":-1.145e2,
 		"CenterLat":3.550704155516198e1,
@@ -5280,7 +5280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00166",
 		"CenterLon":-1.145e2,
 		"CenterLat":3.723909236273086e1,
@@ -5312,7 +5312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00167",
 		"CenterLon":-1.145e2,
 		"CenterLat":3.897114317029974e1,
@@ -5344,7 +5344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00168",
 		"CenterLon":-1.145e2,
 		"CenterLat":4.0703193977868615e1,
@@ -5376,7 +5376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00169",
 		"CenterLon":-1.145e2,
 		"CenterLat":4.243524478543749e1,
@@ -5408,7 +5408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00170",
 		"CenterLon":-1.145e2,
 		"CenterLat":4.4167295593006365e1,
@@ -5440,7 +5440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00171",
 		"CenterLon":-1.145e2,
 		"CenterLat":4.589934640057525e1,
@@ -5472,7 +5472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00172",
 		"CenterLon":-1.145e2,
 		"CenterLat":4.763139720814413e1,
@@ -5504,7 +5504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00173",
 		"CenterLon":-1.145e2,
 		"CenterLat":4.9363448015713e1,
@@ -5536,7 +5536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00174",
 		"CenterLon":-1.14e2,
 		"CenterLat":3.290896534380867e1,
@@ -5568,7 +5568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00175",
 		"CenterLon":-1.14e2,
 		"CenterLat":3.464101615137754e1,
@@ -5600,7 +5600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00176",
 		"CenterLon":-1.14e2,
 		"CenterLat":3.6373066958946424e1,
@@ -5632,7 +5632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00177",
 		"CenterLon":-1.14e2,
 		"CenterLat":3.81051177665153e1,
@@ -5664,7 +5664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00178",
 		"CenterLon":-1.14e2,
 		"CenterLat":3.9837168574084174e1,
@@ -5696,7 +5696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00179",
 		"CenterLon":-1.14e2,
 		"CenterLat":4.1569219381653056e1,
@@ -5728,7 +5728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00180",
 		"CenterLon":-1.14e2,
 		"CenterLat":4.330127018922193e1,
@@ -5760,7 +5760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00181",
 		"CenterLon":-1.14e2,
 		"CenterLat":4.503332099679081e1,
@@ -5792,7 +5792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00182",
 		"CenterLon":-1.14e2,
 		"CenterLat":4.676537180435968e1,
@@ -5824,7 +5824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00183",
 		"CenterLon":-1.14e2,
 		"CenterLat":4.849742261192856e1,
@@ -5856,7 +5856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00184",
 		"CenterLon":-1.135e2,
 		"CenterLat":3.2042939940024226e1,
@@ -5888,7 +5888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00185",
 		"CenterLon":-1.135e2,
 		"CenterLat":3.377499074759311e1,
@@ -5920,7 +5920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00186",
 		"CenterLon":-1.135e2,
 		"CenterLat":3.550704155516198e1,
@@ -5952,7 +5952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00187",
 		"CenterLon":-1.135e2,
 		"CenterLat":3.723909236273086e1,
@@ -5984,7 +5984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00188",
 		"CenterLon":-1.135e2,
 		"CenterLat":3.897114317029974e1,
@@ -6016,7 +6016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00189",
 		"CenterLon":-1.135e2,
 		"CenterLat":4.0703193977868615e1,
@@ -6048,7 +6048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00190",
 		"CenterLon":-1.135e2,
 		"CenterLat":4.243524478543749e1,
@@ -6080,7 +6080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00191",
 		"CenterLon":-1.135e2,
 		"CenterLat":4.4167295593006365e1,
@@ -6112,7 +6112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00192",
 		"CenterLon":-1.135e2,
 		"CenterLat":4.589934640057525e1,
@@ -6144,7 +6144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00193",
 		"CenterLon":-1.135e2,
 		"CenterLat":4.763139720814413e1,
@@ -6176,7 +6176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00194",
 		"CenterLon":-1.135e2,
 		"CenterLat":4.9363448015713e1,
@@ -6208,7 +6208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00195",
 		"CenterLon":-1.13e2,
 		"CenterLat":3.290896534380867e1,
@@ -6240,7 +6240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00196",
 		"CenterLon":-1.13e2,
 		"CenterLat":3.464101615137754e1,
@@ -6272,7 +6272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00197",
 		"CenterLon":-1.13e2,
 		"CenterLat":3.6373066958946424e1,
@@ -6304,7 +6304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00198",
 		"CenterLon":-1.13e2,
 		"CenterLat":3.81051177665153e1,
@@ -6336,7 +6336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00199",
 		"CenterLon":-1.13e2,
 		"CenterLat":3.9837168574084174e1,
@@ -6368,7 +6368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00200",
 		"CenterLon":-1.13e2,
 		"CenterLat":4.1569219381653056e1,
@@ -6400,7 +6400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00201",
 		"CenterLon":-1.13e2,
 		"CenterLat":4.330127018922193e1,
@@ -6432,7 +6432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00202",
 		"CenterLon":-1.13e2,
 		"CenterLat":4.503332099679081e1,
@@ -6464,7 +6464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00203",
 		"CenterLon":-1.13e2,
 		"CenterLat":4.676537180435968e1,
@@ -6496,7 +6496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00204",
 		"CenterLon":-1.13e2,
 		"CenterLat":4.849742261192856e1,
@@ -6528,7 +6528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00205",
 		"CenterLon":-1.125e2,
 		"CenterLat":3.2042939940024226e1,
@@ -6560,7 +6560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00206",
 		"CenterLon":-1.125e2,
 		"CenterLat":3.377499074759311e1,
@@ -6592,7 +6592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00207",
 		"CenterLon":-1.125e2,
 		"CenterLat":3.550704155516198e1,
@@ -6624,7 +6624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00208",
 		"CenterLon":-1.125e2,
 		"CenterLat":3.723909236273086e1,
@@ -6656,7 +6656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00209",
 		"CenterLon":-1.125e2,
 		"CenterLat":3.897114317029974e1,
@@ -6688,7 +6688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00210",
 		"CenterLon":-1.125e2,
 		"CenterLat":4.0703193977868615e1,
@@ -6720,7 +6720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00211",
 		"CenterLon":-1.125e2,
 		"CenterLat":4.243524478543749e1,
@@ -6752,7 +6752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00212",
 		"CenterLon":-1.125e2,
 		"CenterLat":4.4167295593006365e1,
@@ -6784,7 +6784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00213",
 		"CenterLon":-1.125e2,
 		"CenterLat":4.589934640057525e1,
@@ -6816,7 +6816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00214",
 		"CenterLon":-1.125e2,
 		"CenterLat":4.763139720814413e1,
@@ -6848,7 +6848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00215",
 		"CenterLon":-1.125e2,
 		"CenterLat":4.9363448015713e1,
@@ -6880,7 +6880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00216",
 		"CenterLon":-1.12e2,
 		"CenterLat":3.290896534380867e1,
@@ -6912,7 +6912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00217",
 		"CenterLon":-1.12e2,
 		"CenterLat":3.464101615137754e1,
@@ -6944,7 +6944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00218",
 		"CenterLon":-1.12e2,
 		"CenterLat":3.6373066958946424e1,
@@ -6976,7 +6976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00219",
 		"CenterLon":-1.12e2,
 		"CenterLat":3.81051177665153e1,
@@ -7008,7 +7008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00220",
 		"CenterLon":-1.12e2,
 		"CenterLat":3.9837168574084174e1,
@@ -7040,7 +7040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00221",
 		"CenterLon":-1.12e2,
 		"CenterLat":4.1569219381653056e1,
@@ -7072,7 +7072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00222",
 		"CenterLon":-1.12e2,
 		"CenterLat":4.330127018922193e1,
@@ -7104,7 +7104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00223",
 		"CenterLon":-1.12e2,
 		"CenterLat":4.503332099679081e1,
@@ -7136,7 +7136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00224",
 		"CenterLon":-1.12e2,
 		"CenterLat":4.676537180435968e1,
@@ -7168,7 +7168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00225",
 		"CenterLon":-1.12e2,
 		"CenterLat":4.849742261192856e1,
@@ -7200,7 +7200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00226",
 		"CenterLon":-1.115e2,
 		"CenterLat":3.2042939940024226e1,
@@ -7232,7 +7232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00227",
 		"CenterLon":-1.115e2,
 		"CenterLat":3.377499074759311e1,
@@ -7264,7 +7264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00228",
 		"CenterLon":-1.115e2,
 		"CenterLat":3.550704155516198e1,
@@ -7296,7 +7296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00229",
 		"CenterLon":-1.115e2,
 		"CenterLat":3.723909236273086e1,
@@ -7328,7 +7328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00230",
 		"CenterLon":-1.115e2,
 		"CenterLat":3.897114317029974e1,
@@ -7360,7 +7360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00231",
 		"CenterLon":-1.115e2,
 		"CenterLat":4.0703193977868615e1,
@@ -7392,7 +7392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00232",
 		"CenterLon":-1.115e2,
 		"CenterLat":4.243524478543749e1,
@@ -7424,7 +7424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00233",
 		"CenterLon":-1.115e2,
 		"CenterLat":4.4167295593006365e1,
@@ -7456,7 +7456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00234",
 		"CenterLon":-1.115e2,
 		"CenterLat":4.589934640057525e1,
@@ -7488,7 +7488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00235",
 		"CenterLon":-1.115e2,
 		"CenterLat":4.763139720814413e1,
@@ -7520,7 +7520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00236",
 		"CenterLon":-1.115e2,
 		"CenterLat":4.9363448015713e1,
@@ -7552,7 +7552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00237",
 		"CenterLon":-1.11e2,
 		"CenterLat":3.117691453623979e1,
@@ -7584,7 +7584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00238",
 		"CenterLon":-1.11e2,
 		"CenterLat":3.290896534380867e1,
@@ -7616,7 +7616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00239",
 		"CenterLon":-1.11e2,
 		"CenterLat":3.464101615137754e1,
@@ -7648,7 +7648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00240",
 		"CenterLon":-1.11e2,
 		"CenterLat":3.6373066958946424e1,
@@ -7680,7 +7680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00241",
 		"CenterLon":-1.11e2,
 		"CenterLat":3.81051177665153e1,
@@ -7712,7 +7712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00242",
 		"CenterLon":-1.11e2,
 		"CenterLat":3.9837168574084174e1,
@@ -7744,7 +7744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00243",
 		"CenterLon":-1.11e2,
 		"CenterLat":4.1569219381653056e1,
@@ -7776,7 +7776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00244",
 		"CenterLon":-1.11e2,
 		"CenterLat":4.330127018922193e1,
@@ -7808,7 +7808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00245",
 		"CenterLon":-1.11e2,
 		"CenterLat":4.503332099679081e1,
@@ -7840,7 +7840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00246",
 		"CenterLon":-1.11e2,
 		"CenterLat":4.676537180435968e1,
@@ -7872,7 +7872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00247",
 		"CenterLon":-1.11e2,
 		"CenterLat":4.849742261192856e1,
@@ -7904,7 +7904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00248",
 		"CenterLon":-1.105e2,
 		"CenterLat":3.2042939940024226e1,
@@ -7936,7 +7936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00249",
 		"CenterLon":-1.105e2,
 		"CenterLat":3.377499074759311e1,
@@ -7968,7 +7968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00250",
 		"CenterLon":-1.105e2,
 		"CenterLat":3.550704155516198e1,
@@ -8000,7 +8000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00251",
 		"CenterLon":-1.105e2,
 		"CenterLat":3.723909236273086e1,
@@ -8032,7 +8032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00252",
 		"CenterLon":-1.105e2,
 		"CenterLat":3.897114317029974e1,
@@ -8064,7 +8064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00253",
 		"CenterLon":-1.105e2,
 		"CenterLat":4.0703193977868615e1,
@@ -8096,7 +8096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00254",
 		"CenterLon":-1.105e2,
 		"CenterLat":4.243524478543749e1,
@@ -8128,7 +8128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00255",
 		"CenterLon":-1.105e2,
 		"CenterLat":4.4167295593006365e1,
@@ -8160,7 +8160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00256",
 		"CenterLon":-1.105e2,
 		"CenterLat":4.589934640057525e1,
@@ -8192,7 +8192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00257",
 		"CenterLon":-1.105e2,
 		"CenterLat":4.763139720814413e1,
@@ -8224,7 +8224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00258",
 		"CenterLon":-1.105e2,
 		"CenterLat":4.9363448015713e1,
@@ -8256,7 +8256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00259",
 		"CenterLon":-1.1e2,
 		"CenterLat":3.117691453623979e1,
@@ -8288,7 +8288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00260",
 		"CenterLon":-1.1e2,
 		"CenterLat":3.290896534380867e1,
@@ -8320,7 +8320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00261",
 		"CenterLon":-1.1e2,
 		"CenterLat":3.464101615137754e1,
@@ -8352,7 +8352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00262",
 		"CenterLon":-1.1e2,
 		"CenterLat":3.6373066958946424e1,
@@ -8384,7 +8384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00263",
 		"CenterLon":-1.1e2,
 		"CenterLat":3.81051177665153e1,
@@ -8416,7 +8416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00264",
 		"CenterLon":-1.1e2,
 		"CenterLat":3.9837168574084174e1,
@@ -8448,7 +8448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00265",
 		"CenterLon":-1.1e2,
 		"CenterLat":4.1569219381653056e1,
@@ -8480,7 +8480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00266",
 		"CenterLon":-1.1e2,
 		"CenterLat":4.330127018922193e1,
@@ -8512,7 +8512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00267",
 		"CenterLon":-1.1e2,
 		"CenterLat":4.503332099679081e1,
@@ -8544,7 +8544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00268",
 		"CenterLon":-1.1e2,
 		"CenterLat":4.676537180435968e1,
@@ -8576,7 +8576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00269",
 		"CenterLon":-1.1e2,
 		"CenterLat":4.849742261192856e1,
@@ -8608,7 +8608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00270",
 		"CenterLon":-1.095e2,
 		"CenterLat":3.2042939940024226e1,
@@ -8640,7 +8640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00271",
 		"CenterLon":-1.095e2,
 		"CenterLat":3.377499074759311e1,
@@ -8672,7 +8672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00272",
 		"CenterLon":-1.095e2,
 		"CenterLat":3.550704155516198e1,
@@ -8704,7 +8704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00273",
 		"CenterLon":-1.095e2,
 		"CenterLat":3.723909236273086e1,
@@ -8736,7 +8736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00274",
 		"CenterLon":-1.095e2,
 		"CenterLat":3.897114317029974e1,
@@ -8768,7 +8768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00275",
 		"CenterLon":-1.095e2,
 		"CenterLat":4.0703193977868615e1,
@@ -8800,7 +8800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00276",
 		"CenterLon":-1.095e2,
 		"CenterLat":4.243524478543749e1,
@@ -8832,7 +8832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00277",
 		"CenterLon":-1.095e2,
 		"CenterLat":4.4167295593006365e1,
@@ -8864,7 +8864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00278",
 		"CenterLon":-1.095e2,
 		"CenterLat":4.589934640057525e1,
@@ -8896,7 +8896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00279",
 		"CenterLon":-1.095e2,
 		"CenterLat":4.763139720814413e1,
@@ -8928,7 +8928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00280",
 		"CenterLon":-1.095e2,
 		"CenterLat":4.9363448015713e1,
@@ -8960,7 +8960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00281",
 		"CenterLon":-1.09e2,
 		"CenterLat":3.117691453623979e1,
@@ -8992,7 +8992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00282",
 		"CenterLon":-1.09e2,
 		"CenterLat":3.290896534380867e1,
@@ -9024,7 +9024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00283",
 		"CenterLon":-1.09e2,
 		"CenterLat":3.464101615137754e1,
@@ -9056,7 +9056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00284",
 		"CenterLon":-1.09e2,
 		"CenterLat":3.6373066958946424e1,
@@ -9088,7 +9088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00285",
 		"CenterLon":-1.09e2,
 		"CenterLat":3.81051177665153e1,
@@ -9120,7 +9120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00286",
 		"CenterLon":-1.09e2,
 		"CenterLat":3.9837168574084174e1,
@@ -9152,7 +9152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00287",
 		"CenterLon":-1.09e2,
 		"CenterLat":4.1569219381653056e1,
@@ -9184,7 +9184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00288",
 		"CenterLon":-1.09e2,
 		"CenterLat":4.330127018922193e1,
@@ -9216,7 +9216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00289",
 		"CenterLon":-1.09e2,
 		"CenterLat":4.503332099679081e1,
@@ -9248,7 +9248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00290",
 		"CenterLon":-1.09e2,
 		"CenterLat":4.676537180435968e1,
@@ -9280,7 +9280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00291",
 		"CenterLon":-1.09e2,
 		"CenterLat":4.849742261192856e1,
@@ -9312,7 +9312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00292",
 		"CenterLon":-1.085e2,
 		"CenterLat":3.2042939940024226e1,
@@ -9344,7 +9344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00293",
 		"CenterLon":-1.085e2,
 		"CenterLat":3.377499074759311e1,
@@ -9376,7 +9376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00294",
 		"CenterLon":-1.085e2,
 		"CenterLat":3.550704155516198e1,
@@ -9408,7 +9408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00295",
 		"CenterLon":-1.085e2,
 		"CenterLat":3.723909236273086e1,
@@ -9440,7 +9440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00296",
 		"CenterLon":-1.085e2,
 		"CenterLat":3.897114317029974e1,
@@ -9472,7 +9472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00297",
 		"CenterLon":-1.085e2,
 		"CenterLat":4.0703193977868615e1,
@@ -9504,7 +9504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00298",
 		"CenterLon":-1.085e2,
 		"CenterLat":4.243524478543749e1,
@@ -9536,7 +9536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00299",
 		"CenterLon":-1.085e2,
 		"CenterLat":4.4167295593006365e1,
@@ -9568,7 +9568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00300",
 		"CenterLon":-1.085e2,
 		"CenterLat":4.589934640057525e1,
@@ -9600,7 +9600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00301",
 		"CenterLon":-1.085e2,
 		"CenterLat":4.763139720814413e1,
@@ -9632,7 +9632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00302",
 		"CenterLon":-1.085e2,
 		"CenterLat":4.9363448015713e1,
@@ -9664,7 +9664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00303",
 		"CenterLon":-1.08e2,
 		"CenterLat":3.117691453623979e1,
@@ -9696,7 +9696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00304",
 		"CenterLon":-1.08e2,
 		"CenterLat":3.290896534380867e1,
@@ -9728,7 +9728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00305",
 		"CenterLon":-1.08e2,
 		"CenterLat":3.464101615137754e1,
@@ -9760,7 +9760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00306",
 		"CenterLon":-1.08e2,
 		"CenterLat":3.6373066958946424e1,
@@ -9792,7 +9792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00307",
 		"CenterLon":-1.08e2,
 		"CenterLat":3.81051177665153e1,
@@ -9824,7 +9824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00308",
 		"CenterLon":-1.08e2,
 		"CenterLat":3.9837168574084174e1,
@@ -9856,7 +9856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00309",
 		"CenterLon":-1.08e2,
 		"CenterLat":4.1569219381653056e1,
@@ -9888,7 +9888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00310",
 		"CenterLon":-1.08e2,
 		"CenterLat":4.330127018922193e1,
@@ -9920,7 +9920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00311",
 		"CenterLon":-1.08e2,
 		"CenterLat":4.503332099679081e1,
@@ -9952,7 +9952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00312",
 		"CenterLon":-1.08e2,
 		"CenterLat":4.676537180435968e1,
@@ -9984,7 +9984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00313",
 		"CenterLon":-1.08e2,
 		"CenterLat":4.849742261192856e1,
@@ -10016,7 +10016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00314",
 		"CenterLon":-1.075e2,
 		"CenterLat":3.2042939940024226e1,
@@ -10048,7 +10048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00315",
 		"CenterLon":-1.075e2,
 		"CenterLat":3.377499074759311e1,
@@ -10080,7 +10080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00316",
 		"CenterLon":-1.075e2,
 		"CenterLat":3.550704155516198e1,
@@ -10112,7 +10112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00317",
 		"CenterLon":-1.075e2,
 		"CenterLat":3.723909236273086e1,
@@ -10144,7 +10144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00318",
 		"CenterLon":-1.075e2,
 		"CenterLat":3.897114317029974e1,
@@ -10176,7 +10176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00319",
 		"CenterLon":-1.075e2,
 		"CenterLat":4.0703193977868615e1,
@@ -10208,7 +10208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00320",
 		"CenterLon":-1.075e2,
 		"CenterLat":4.243524478543749e1,
@@ -10240,7 +10240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00321",
 		"CenterLon":-1.075e2,
 		"CenterLat":4.4167295593006365e1,
@@ -10272,7 +10272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00322",
 		"CenterLon":-1.075e2,
 		"CenterLat":4.589934640057525e1,
@@ -10304,7 +10304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00323",
 		"CenterLon":-1.075e2,
 		"CenterLat":4.763139720814413e1,
@@ -10336,7 +10336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00324",
 		"CenterLon":-1.075e2,
 		"CenterLat":4.9363448015713e1,
@@ -10368,7 +10368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00325",
 		"CenterLon":-1.07e2,
 		"CenterLat":3.290896534380867e1,
@@ -10400,7 +10400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00326",
 		"CenterLon":-1.07e2,
 		"CenterLat":3.464101615137754e1,
@@ -10432,7 +10432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00327",
 		"CenterLon":-1.07e2,
 		"CenterLat":3.6373066958946424e1,
@@ -10464,7 +10464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00328",
 		"CenterLon":-1.07e2,
 		"CenterLat":3.81051177665153e1,
@@ -10496,7 +10496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00329",
 		"CenterLon":-1.07e2,
 		"CenterLat":3.9837168574084174e1,
@@ -10528,7 +10528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00330",
 		"CenterLon":-1.07e2,
 		"CenterLat":4.1569219381653056e1,
@@ -10560,7 +10560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00331",
 		"CenterLon":-1.07e2,
 		"CenterLat":4.330127018922193e1,
@@ -10592,7 +10592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00332",
 		"CenterLon":-1.07e2,
 		"CenterLat":4.503332099679081e1,
@@ -10624,7 +10624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00333",
 		"CenterLon":-1.07e2,
 		"CenterLat":4.676537180435968e1,
@@ -10656,7 +10656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00334",
 		"CenterLon":-1.07e2,
 		"CenterLat":4.849742261192856e1,
@@ -10688,7 +10688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00335",
 		"CenterLon":-1.065e2,
 		"CenterLat":3.2042939940024226e1,
@@ -10720,7 +10720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00336",
 		"CenterLon":-1.065e2,
 		"CenterLat":3.377499074759311e1,
@@ -10752,7 +10752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00337",
 		"CenterLon":-1.065e2,
 		"CenterLat":3.550704155516198e1,
@@ -10784,7 +10784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00338",
 		"CenterLon":-1.065e2,
 		"CenterLat":3.723909236273086e1,
@@ -10816,7 +10816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00339",
 		"CenterLon":-1.065e2,
 		"CenterLat":3.897114317029974e1,
@@ -10848,7 +10848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00340",
 		"CenterLon":-1.065e2,
 		"CenterLat":4.0703193977868615e1,
@@ -10880,7 +10880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00341",
 		"CenterLon":-1.065e2,
 		"CenterLat":4.243524478543749e1,
@@ -10912,7 +10912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00342",
 		"CenterLon":-1.065e2,
 		"CenterLat":4.4167295593006365e1,
@@ -10944,7 +10944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00343",
 		"CenterLon":-1.065e2,
 		"CenterLat":4.589934640057525e1,
@@ -10976,7 +10976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00344",
 		"CenterLon":-1.065e2,
 		"CenterLat":4.763139720814413e1,
@@ -11008,7 +11008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00345",
 		"CenterLon":-1.065e2,
 		"CenterLat":4.9363448015713e1,
@@ -11040,7 +11040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00346",
 		"CenterLon":-1.06e2,
 		"CenterLat":3.290896534380867e1,
@@ -11072,7 +11072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00347",
 		"CenterLon":-1.06e2,
 		"CenterLat":3.464101615137754e1,
@@ -11104,7 +11104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00348",
 		"CenterLon":-1.06e2,
 		"CenterLat":3.6373066958946424e1,
@@ -11136,7 +11136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00349",
 		"CenterLon":-1.06e2,
 		"CenterLat":3.81051177665153e1,
@@ -11168,7 +11168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00350",
 		"CenterLon":-1.06e2,
 		"CenterLat":3.9837168574084174e1,
@@ -11200,7 +11200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00351",
 		"CenterLon":-1.06e2,
 		"CenterLat":4.1569219381653056e1,
@@ -11232,7 +11232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00352",
 		"CenterLon":-1.06e2,
 		"CenterLat":4.330127018922193e1,
@@ -11264,7 +11264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00353",
 		"CenterLon":-1.06e2,
 		"CenterLat":4.503332099679081e1,
@@ -11296,7 +11296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00354",
 		"CenterLon":-1.06e2,
 		"CenterLat":4.676537180435968e1,
@@ -11328,7 +11328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00355",
 		"CenterLon":-1.06e2,
 		"CenterLat":4.849742261192856e1,
@@ -11360,7 +11360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00356",
 		"CenterLon":-1.055e2,
 		"CenterLat":3.2042939940024226e1,
@@ -11392,7 +11392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00357",
 		"CenterLon":-1.055e2,
 		"CenterLat":3.377499074759311e1,
@@ -11424,7 +11424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00358",
 		"CenterLon":-1.055e2,
 		"CenterLat":3.550704155516198e1,
@@ -11456,7 +11456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00359",
 		"CenterLon":-1.055e2,
 		"CenterLat":3.723909236273086e1,
@@ -11488,7 +11488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00360",
 		"CenterLon":-1.055e2,
 		"CenterLat":3.897114317029974e1,
@@ -11520,7 +11520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00361",
 		"CenterLon":-1.055e2,
 		"CenterLat":4.0703193977868615e1,
@@ -11552,7 +11552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00362",
 		"CenterLon":-1.055e2,
 		"CenterLat":4.243524478543749e1,
@@ -11584,7 +11584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00363",
 		"CenterLon":-1.055e2,
 		"CenterLat":4.4167295593006365e1,
@@ -11616,7 +11616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00364",
 		"CenterLon":-1.055e2,
 		"CenterLat":4.589934640057525e1,
@@ -11648,7 +11648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00365",
 		"CenterLon":-1.055e2,
 		"CenterLat":4.763139720814413e1,
@@ -11680,7 +11680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00366",
 		"CenterLon":-1.055e2,
 		"CenterLat":4.9363448015713e1,
@@ -11712,7 +11712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00367",
 		"CenterLon":-1.05e2,
 		"CenterLat":3.117691453623979e1,
@@ -11744,7 +11744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00368",
 		"CenterLon":-1.05e2,
 		"CenterLat":3.290896534380867e1,
@@ -11776,7 +11776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00369",
 		"CenterLon":-1.05e2,
 		"CenterLat":3.464101615137754e1,
@@ -11808,7 +11808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00370",
 		"CenterLon":-1.05e2,
 		"CenterLat":3.6373066958946424e1,
@@ -11840,7 +11840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00371",
 		"CenterLon":-1.05e2,
 		"CenterLat":3.81051177665153e1,
@@ -11872,7 +11872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00372",
 		"CenterLon":-1.05e2,
 		"CenterLat":3.9837168574084174e1,
@@ -11904,7 +11904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00373",
 		"CenterLon":-1.05e2,
 		"CenterLat":4.1569219381653056e1,
@@ -11936,7 +11936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00374",
 		"CenterLon":-1.05e2,
 		"CenterLat":4.330127018922193e1,
@@ -11968,7 +11968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00375",
 		"CenterLon":-1.05e2,
 		"CenterLat":4.503332099679081e1,
@@ -12000,7 +12000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00376",
 		"CenterLon":-1.05e2,
 		"CenterLat":4.676537180435968e1,
@@ -12032,7 +12032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00377",
 		"CenterLon":-1.05e2,
 		"CenterLat":4.849742261192856e1,
@@ -12064,7 +12064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00378",
 		"CenterLon":-1.045e2,
 		"CenterLat":3.0310889132455355e1,
@@ -12096,7 +12096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00379",
 		"CenterLon":-1.045e2,
 		"CenterLat":3.2042939940024226e1,
@@ -12128,7 +12128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00380",
 		"CenterLon":-1.045e2,
 		"CenterLat":3.377499074759311e1,
@@ -12160,7 +12160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00381",
 		"CenterLon":-1.045e2,
 		"CenterLat":3.550704155516198e1,
@@ -12192,7 +12192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00382",
 		"CenterLon":-1.045e2,
 		"CenterLat":3.723909236273086e1,
@@ -12224,7 +12224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00383",
 		"CenterLon":-1.045e2,
 		"CenterLat":3.897114317029974e1,
@@ -12256,7 +12256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00384",
 		"CenterLon":-1.045e2,
 		"CenterLat":4.0703193977868615e1,
@@ -12288,7 +12288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00385",
 		"CenterLon":-1.045e2,
 		"CenterLat":4.243524478543749e1,
@@ -12320,7 +12320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00386",
 		"CenterLon":-1.045e2,
 		"CenterLat":4.4167295593006365e1,
@@ -12352,7 +12352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00387",
 		"CenterLon":-1.045e2,
 		"CenterLat":4.589934640057525e1,
@@ -12384,7 +12384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00388",
 		"CenterLon":-1.045e2,
 		"CenterLat":4.763139720814413e1,
@@ -12416,7 +12416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00389",
 		"CenterLon":-1.045e2,
 		"CenterLat":4.9363448015713e1,
@@ -12448,7 +12448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00390",
 		"CenterLon":-1.04e2,
 		"CenterLat":2.9444863728670914e1,
@@ -12480,7 +12480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00391",
 		"CenterLon":-1.04e2,
 		"CenterLat":3.117691453623979e1,
@@ -12512,7 +12512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00392",
 		"CenterLon":-1.04e2,
 		"CenterLat":3.290896534380867e1,
@@ -12544,7 +12544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00393",
 		"CenterLon":-1.04e2,
 		"CenterLat":3.464101615137754e1,
@@ -12576,7 +12576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00394",
 		"CenterLon":-1.04e2,
 		"CenterLat":3.6373066958946424e1,
@@ -12608,7 +12608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00395",
 		"CenterLon":-1.04e2,
 		"CenterLat":3.81051177665153e1,
@@ -12640,7 +12640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00396",
 		"CenterLon":-1.04e2,
 		"CenterLat":3.9837168574084174e1,
@@ -12672,7 +12672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00397",
 		"CenterLon":-1.04e2,
 		"CenterLat":4.1569219381653056e1,
@@ -12704,7 +12704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00398",
 		"CenterLon":-1.04e2,
 		"CenterLat":4.330127018922193e1,
@@ -12736,7 +12736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00399",
 		"CenterLon":-1.04e2,
 		"CenterLat":4.503332099679081e1,
@@ -12768,7 +12768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00400",
 		"CenterLon":-1.04e2,
 		"CenterLat":4.676537180435968e1,
@@ -12800,7 +12800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00401",
 		"CenterLon":-1.04e2,
 		"CenterLat":4.849742261192856e1,
@@ -12832,7 +12832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00402",
 		"CenterLon":-1.035e2,
 		"CenterLat":3.0310889132455355e1,
@@ -12864,7 +12864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00403",
 		"CenterLon":-1.035e2,
 		"CenterLat":3.2042939940024226e1,
@@ -12896,7 +12896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00404",
 		"CenterLon":-1.035e2,
 		"CenterLat":3.377499074759311e1,
@@ -12928,7 +12928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00405",
 		"CenterLon":-1.035e2,
 		"CenterLat":3.550704155516198e1,
@@ -12960,7 +12960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00406",
 		"CenterLon":-1.035e2,
 		"CenterLat":3.723909236273086e1,
@@ -12992,7 +12992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00407",
 		"CenterLon":-1.035e2,
 		"CenterLat":3.897114317029974e1,
@@ -13024,7 +13024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00408",
 		"CenterLon":-1.035e2,
 		"CenterLat":4.0703193977868615e1,
@@ -13056,7 +13056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00409",
 		"CenterLon":-1.035e2,
 		"CenterLat":4.243524478543749e1,
@@ -13088,7 +13088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00410",
 		"CenterLon":-1.035e2,
 		"CenterLat":4.4167295593006365e1,
@@ -13120,7 +13120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00411",
 		"CenterLon":-1.035e2,
 		"CenterLat":4.589934640057525e1,
@@ -13152,7 +13152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00412",
 		"CenterLon":-1.035e2,
 		"CenterLat":4.763139720814413e1,
@@ -13184,7 +13184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00413",
 		"CenterLon":-1.035e2,
 		"CenterLat":4.9363448015713e1,
@@ -13216,7 +13216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00414",
 		"CenterLon":-1.03e2,
 		"CenterLat":2.9444863728670914e1,
@@ -13248,7 +13248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00415",
 		"CenterLon":-1.03e2,
 		"CenterLat":3.117691453623979e1,
@@ -13280,7 +13280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00416",
 		"CenterLon":-1.03e2,
 		"CenterLat":3.290896534380867e1,
@@ -13312,7 +13312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00417",
 		"CenterLon":-1.03e2,
 		"CenterLat":3.464101615137754e1,
@@ -13344,7 +13344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00418",
 		"CenterLon":-1.03e2,
 		"CenterLat":3.6373066958946424e1,
@@ -13376,7 +13376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00419",
 		"CenterLon":-1.03e2,
 		"CenterLat":3.81051177665153e1,
@@ -13408,7 +13408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00420",
 		"CenterLon":-1.03e2,
 		"CenterLat":3.9837168574084174e1,
@@ -13440,7 +13440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00421",
 		"CenterLon":-1.03e2,
 		"CenterLat":4.1569219381653056e1,
@@ -13472,7 +13472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00422",
 		"CenterLon":-1.03e2,
 		"CenterLat":4.330127018922193e1,
@@ -13504,7 +13504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00423",
 		"CenterLon":-1.03e2,
 		"CenterLat":4.503332099679081e1,
@@ -13536,7 +13536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00424",
 		"CenterLon":-1.03e2,
 		"CenterLat":4.676537180435968e1,
@@ -13568,7 +13568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00425",
 		"CenterLon":-1.03e2,
 		"CenterLat":4.849742261192856e1,
@@ -13600,7 +13600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00426",
 		"CenterLon":-1.025e2,
 		"CenterLat":3.0310889132455355e1,
@@ -13632,7 +13632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00427",
 		"CenterLon":-1.025e2,
 		"CenterLat":3.2042939940024226e1,
@@ -13664,7 +13664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00428",
 		"CenterLon":-1.025e2,
 		"CenterLat":3.377499074759311e1,
@@ -13696,7 +13696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00429",
 		"CenterLon":-1.025e2,
 		"CenterLat":3.550704155516198e1,
@@ -13728,7 +13728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00430",
 		"CenterLon":-1.025e2,
 		"CenterLat":3.723909236273086e1,
@@ -13760,7 +13760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00431",
 		"CenterLon":-1.025e2,
 		"CenterLat":3.897114317029974e1,
@@ -13792,7 +13792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00432",
 		"CenterLon":-1.025e2,
 		"CenterLat":4.0703193977868615e1,
@@ -13824,7 +13824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00433",
 		"CenterLon":-1.025e2,
 		"CenterLat":4.243524478543749e1,
@@ -13856,7 +13856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00434",
 		"CenterLon":-1.025e2,
 		"CenterLat":4.4167295593006365e1,
@@ -13888,7 +13888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00435",
 		"CenterLon":-1.025e2,
 		"CenterLat":4.589934640057525e1,
@@ -13920,7 +13920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00436",
 		"CenterLon":-1.025e2,
 		"CenterLat":4.763139720814413e1,
@@ -13952,7 +13952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00437",
 		"CenterLon":-1.025e2,
 		"CenterLat":4.9363448015713e1,
@@ -13984,7 +13984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00438",
 		"CenterLon":-1.02e2,
 		"CenterLat":2.9444863728670914e1,
@@ -14016,7 +14016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00439",
 		"CenterLon":-1.02e2,
 		"CenterLat":3.117691453623979e1,
@@ -14048,7 +14048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00440",
 		"CenterLon":-1.02e2,
 		"CenterLat":3.290896534380867e1,
@@ -14080,7 +14080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00441",
 		"CenterLon":-1.02e2,
 		"CenterLat":3.464101615137754e1,
@@ -14112,7 +14112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00442",
 		"CenterLon":-1.02e2,
 		"CenterLat":3.6373066958946424e1,
@@ -14144,7 +14144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00443",
 		"CenterLon":-1.02e2,
 		"CenterLat":3.81051177665153e1,
@@ -14176,7 +14176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00444",
 		"CenterLon":-1.02e2,
 		"CenterLat":3.9837168574084174e1,
@@ -14208,7 +14208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00445",
 		"CenterLon":-1.02e2,
 		"CenterLat":4.1569219381653056e1,
@@ -14240,7 +14240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00446",
 		"CenterLon":-1.02e2,
 		"CenterLat":4.330127018922193e1,
@@ -14272,7 +14272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00447",
 		"CenterLon":-1.02e2,
 		"CenterLat":4.503332099679081e1,
@@ -14304,7 +14304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00448",
 		"CenterLon":-1.02e2,
 		"CenterLat":4.676537180435968e1,
@@ -14336,7 +14336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00449",
 		"CenterLon":-1.02e2,
 		"CenterLat":4.849742261192856e1,
@@ -14368,7 +14368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00450",
 		"CenterLon":-1.015e2,
 		"CenterLat":3.0310889132455355e1,
@@ -14400,7 +14400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00451",
 		"CenterLon":-1.015e2,
 		"CenterLat":3.2042939940024226e1,
@@ -14432,7 +14432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00452",
 		"CenterLon":-1.015e2,
 		"CenterLat":3.377499074759311e1,
@@ -14464,7 +14464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00453",
 		"CenterLon":-1.015e2,
 		"CenterLat":3.550704155516198e1,
@@ -14496,7 +14496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00454",
 		"CenterLon":-1.015e2,
 		"CenterLat":3.723909236273086e1,
@@ -14528,7 +14528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00455",
 		"CenterLon":-1.015e2,
 		"CenterLat":3.897114317029974e1,
@@ -14560,7 +14560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00456",
 		"CenterLon":-1.015e2,
 		"CenterLat":4.0703193977868615e1,
@@ -14592,7 +14592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00457",
 		"CenterLon":-1.015e2,
 		"CenterLat":4.243524478543749e1,
@@ -14624,7 +14624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00458",
 		"CenterLon":-1.015e2,
 		"CenterLat":4.4167295593006365e1,
@@ -14656,7 +14656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00459",
 		"CenterLon":-1.015e2,
 		"CenterLat":4.589934640057525e1,
@@ -14688,7 +14688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00460",
 		"CenterLon":-1.015e2,
 		"CenterLat":4.763139720814413e1,
@@ -14720,7 +14720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00461",
 		"CenterLon":-1.015e2,
 		"CenterLat":4.9363448015713e1,
@@ -14752,7 +14752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00462",
 		"CenterLon":-1.01e2,
 		"CenterLat":2.9444863728670914e1,
@@ -14784,7 +14784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00463",
 		"CenterLon":-1.01e2,
 		"CenterLat":3.117691453623979e1,
@@ -14816,7 +14816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00464",
 		"CenterLon":-1.01e2,
 		"CenterLat":3.290896534380867e1,
@@ -14848,7 +14848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00465",
 		"CenterLon":-1.01e2,
 		"CenterLat":3.464101615137754e1,
@@ -14880,7 +14880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00466",
 		"CenterLon":-1.01e2,
 		"CenterLat":3.6373066958946424e1,
@@ -14912,7 +14912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00467",
 		"CenterLon":-1.01e2,
 		"CenterLat":3.81051177665153e1,
@@ -14944,7 +14944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00468",
 		"CenterLon":-1.01e2,
 		"CenterLat":3.9837168574084174e1,
@@ -14976,7 +14976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00469",
 		"CenterLon":-1.01e2,
 		"CenterLat":4.1569219381653056e1,
@@ -15008,7 +15008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00470",
 		"CenterLon":-1.01e2,
 		"CenterLat":4.330127018922193e1,
@@ -15040,7 +15040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00471",
 		"CenterLon":-1.01e2,
 		"CenterLat":4.503332099679081e1,
@@ -15072,7 +15072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00472",
 		"CenterLon":-1.01e2,
 		"CenterLat":4.676537180435968e1,
@@ -15104,7 +15104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00473",
 		"CenterLon":-1.01e2,
 		"CenterLat":4.849742261192856e1,
@@ -15136,7 +15136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00474",
 		"CenterLon":-1.005e2,
 		"CenterLat":2.8578838324886473e1,
@@ -15168,7 +15168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00475",
 		"CenterLon":-1.005e2,
 		"CenterLat":3.0310889132455355e1,
@@ -15200,7 +15200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00476",
 		"CenterLon":-1.005e2,
 		"CenterLat":3.2042939940024226e1,
@@ -15232,7 +15232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00477",
 		"CenterLon":-1.005e2,
 		"CenterLat":3.377499074759311e1,
@@ -15264,7 +15264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00478",
 		"CenterLon":-1.005e2,
 		"CenterLat":3.550704155516198e1,
@@ -15296,7 +15296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00479",
 		"CenterLon":-1.005e2,
 		"CenterLat":3.723909236273086e1,
@@ -15328,7 +15328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00480",
 		"CenterLon":-1.005e2,
 		"CenterLat":3.897114317029974e1,
@@ -15360,7 +15360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00481",
 		"CenterLon":-1.005e2,
 		"CenterLat":4.0703193977868615e1,
@@ -15392,7 +15392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00482",
 		"CenterLon":-1.005e2,
 		"CenterLat":4.243524478543749e1,
@@ -15424,7 +15424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00483",
 		"CenterLon":-1.005e2,
 		"CenterLat":4.4167295593006365e1,
@@ -15456,7 +15456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00484",
 		"CenterLon":-1.005e2,
 		"CenterLat":4.589934640057525e1,
@@ -15488,7 +15488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00485",
 		"CenterLon":-1.005e2,
 		"CenterLat":4.763139720814413e1,
@@ -15520,7 +15520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00486",
 		"CenterLon":-1.005e2,
 		"CenterLat":4.9363448015713e1,
@@ -15552,7 +15552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00487",
 		"CenterLon":-1.0e2,
 		"CenterLat":2.9444863728670914e1,
@@ -15584,7 +15584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00488",
 		"CenterLon":-1.0e2,
 		"CenterLat":3.117691453623979e1,
@@ -15616,7 +15616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00489",
 		"CenterLon":-1.0e2,
 		"CenterLat":3.290896534380867e1,
@@ -15648,7 +15648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00490",
 		"CenterLon":-1.0e2,
 		"CenterLat":3.464101615137754e1,
@@ -15680,7 +15680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00491",
 		"CenterLon":-1.0e2,
 		"CenterLat":3.6373066958946424e1,
@@ -15712,7 +15712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00492",
 		"CenterLon":-1.0e2,
 		"CenterLat":3.81051177665153e1,
@@ -15744,7 +15744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00493",
 		"CenterLon":-1.0e2,
 		"CenterLat":3.9837168574084174e1,
@@ -15776,7 +15776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00494",
 		"CenterLon":-1.0e2,
 		"CenterLat":4.1569219381653056e1,
@@ -15808,7 +15808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00495",
 		"CenterLon":-1.0e2,
 		"CenterLat":4.330127018922193e1,
@@ -15840,7 +15840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00496",
 		"CenterLon":-1.0e2,
 		"CenterLat":4.503332099679081e1,
@@ -15872,7 +15872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00497",
 		"CenterLon":-1.0e2,
 		"CenterLat":4.676537180435968e1,
@@ -15904,7 +15904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00498",
 		"CenterLon":-1.0e2,
 		"CenterLat":4.849742261192856e1,
@@ -15936,7 +15936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00499",
 		"CenterLon":-9.95e1,
 		"CenterLat":2.6846787517317598e1,
@@ -15968,7 +15968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00500",
 		"CenterLon":-9.95e1,
 		"CenterLat":2.8578838324886473e1,
@@ -16000,7 +16000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00501",
 		"CenterLon":-9.95e1,
 		"CenterLat":3.0310889132455355e1,
@@ -16032,7 +16032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00502",
 		"CenterLon":-9.95e1,
 		"CenterLat":3.2042939940024226e1,
@@ -16064,7 +16064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00503",
 		"CenterLon":-9.95e1,
 		"CenterLat":3.377499074759311e1,
@@ -16096,7 +16096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00504",
 		"CenterLon":-9.95e1,
 		"CenterLat":3.550704155516198e1,
@@ -16128,7 +16128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00505",
 		"CenterLon":-9.95e1,
 		"CenterLat":3.723909236273086e1,
@@ -16160,7 +16160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00506",
 		"CenterLon":-9.95e1,
 		"CenterLat":3.897114317029974e1,
@@ -16192,7 +16192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00507",
 		"CenterLon":-9.95e1,
 		"CenterLat":4.0703193977868615e1,
@@ -16224,7 +16224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00508",
 		"CenterLon":-9.95e1,
 		"CenterLat":4.243524478543749e1,
@@ -16256,7 +16256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00509",
 		"CenterLon":-9.95e1,
 		"CenterLat":4.4167295593006365e1,
@@ -16288,7 +16288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00510",
 		"CenterLon":-9.95e1,
 		"CenterLat":4.589934640057525e1,
@@ -16320,7 +16320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00511",
 		"CenterLon":-9.95e1,
 		"CenterLat":4.763139720814413e1,
@@ -16352,7 +16352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00512",
 		"CenterLon":-9.95e1,
 		"CenterLat":4.9363448015713e1,
@@ -16384,7 +16384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00513",
 		"CenterLon":-9.9e1,
 		"CenterLat":2.771281292110204e1,
@@ -16416,7 +16416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00514",
 		"CenterLon":-9.9e1,
 		"CenterLat":2.9444863728670914e1,
@@ -16448,7 +16448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00515",
 		"CenterLon":-9.9e1,
 		"CenterLat":3.117691453623979e1,
@@ -16480,7 +16480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00516",
 		"CenterLon":-9.9e1,
 		"CenterLat":3.290896534380867e1,
@@ -16512,7 +16512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00517",
 		"CenterLon":-9.9e1,
 		"CenterLat":3.464101615137754e1,
@@ -16544,7 +16544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00518",
 		"CenterLon":-9.9e1,
 		"CenterLat":3.6373066958946424e1,
@@ -16576,7 +16576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00519",
 		"CenterLon":-9.9e1,
 		"CenterLat":3.81051177665153e1,
@@ -16608,7 +16608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00520",
 		"CenterLon":-9.9e1,
 		"CenterLat":3.9837168574084174e1,
@@ -16640,7 +16640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00521",
 		"CenterLon":-9.9e1,
 		"CenterLat":4.1569219381653056e1,
@@ -16672,7 +16672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00522",
 		"CenterLon":-9.9e1,
 		"CenterLat":4.330127018922193e1,
@@ -16704,7 +16704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00523",
 		"CenterLon":-9.9e1,
 		"CenterLat":4.503332099679081e1,
@@ -16736,7 +16736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00524",
 		"CenterLon":-9.9e1,
 		"CenterLat":4.676537180435968e1,
@@ -16768,7 +16768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00525",
 		"CenterLon":-9.9e1,
 		"CenterLat":4.849742261192856e1,
@@ -16800,7 +16800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00526",
 		"CenterLon":-9.85e1,
 		"CenterLat":2.6846787517317598e1,
@@ -16832,7 +16832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00527",
 		"CenterLon":-9.85e1,
 		"CenterLat":2.8578838324886473e1,
@@ -16864,7 +16864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00528",
 		"CenterLon":-9.85e1,
 		"CenterLat":3.0310889132455355e1,
@@ -16896,7 +16896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00529",
 		"CenterLon":-9.85e1,
 		"CenterLat":3.2042939940024226e1,
@@ -16928,7 +16928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00530",
 		"CenterLon":-9.85e1,
 		"CenterLat":3.377499074759311e1,
@@ -16960,7 +16960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00531",
 		"CenterLon":-9.85e1,
 		"CenterLat":3.550704155516198e1,
@@ -16992,7 +16992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00532",
 		"CenterLon":-9.85e1,
 		"CenterLat":3.723909236273086e1,
@@ -17024,7 +17024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00533",
 		"CenterLon":-9.85e1,
 		"CenterLat":3.897114317029974e1,
@@ -17056,7 +17056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00534",
 		"CenterLon":-9.85e1,
 		"CenterLat":4.0703193977868615e1,
@@ -17088,7 +17088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00535",
 		"CenterLon":-9.85e1,
 		"CenterLat":4.243524478543749e1,
@@ -17120,7 +17120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00536",
 		"CenterLon":-9.85e1,
 		"CenterLat":4.4167295593006365e1,
@@ -17152,7 +17152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00537",
 		"CenterLon":-9.85e1,
 		"CenterLat":4.589934640057525e1,
@@ -17184,7 +17184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00538",
 		"CenterLon":-9.85e1,
 		"CenterLat":4.763139720814413e1,
@@ -17216,7 +17216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00539",
 		"CenterLon":-9.85e1,
 		"CenterLat":4.9363448015713e1,
@@ -17248,7 +17248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00540",
 		"CenterLon":-9.8e1,
 		"CenterLat":2.5980762113533157e1,
@@ -17280,7 +17280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00541",
 		"CenterLon":-9.8e1,
 		"CenterLat":2.771281292110204e1,
@@ -17312,7 +17312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00542",
 		"CenterLon":-9.8e1,
 		"CenterLat":2.9444863728670914e1,
@@ -17344,7 +17344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00543",
 		"CenterLon":-9.8e1,
 		"CenterLat":3.117691453623979e1,
@@ -17376,7 +17376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00544",
 		"CenterLon":-9.8e1,
 		"CenterLat":3.290896534380867e1,
@@ -17408,7 +17408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00545",
 		"CenterLon":-9.8e1,
 		"CenterLat":3.464101615137754e1,
@@ -17440,7 +17440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00546",
 		"CenterLon":-9.8e1,
 		"CenterLat":3.6373066958946424e1,
@@ -17472,7 +17472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00547",
 		"CenterLon":-9.8e1,
 		"CenterLat":3.81051177665153e1,
@@ -17504,7 +17504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00548",
 		"CenterLon":-9.8e1,
 		"CenterLat":3.9837168574084174e1,
@@ -17536,7 +17536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00549",
 		"CenterLon":-9.8e1,
 		"CenterLat":4.1569219381653056e1,
@@ -17568,7 +17568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00550",
 		"CenterLon":-9.8e1,
 		"CenterLat":4.330127018922193e1,
@@ -17600,7 +17600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00551",
 		"CenterLon":-9.8e1,
 		"CenterLat":4.503332099679081e1,
@@ -17632,7 +17632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00552",
 		"CenterLon":-9.8e1,
 		"CenterLat":4.676537180435968e1,
@@ -17664,7 +17664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00553",
 		"CenterLon":-9.8e1,
 		"CenterLat":4.849742261192856e1,
@@ -17696,7 +17696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00554",
 		"CenterLon":-9.75e1,
 		"CenterLat":2.6846787517317598e1,
@@ -17728,7 +17728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00555",
 		"CenterLon":-9.75e1,
 		"CenterLat":2.8578838324886473e1,
@@ -17760,7 +17760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00556",
 		"CenterLon":-9.75e1,
 		"CenterLat":3.0310889132455355e1,
@@ -17792,7 +17792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00557",
 		"CenterLon":-9.75e1,
 		"CenterLat":3.2042939940024226e1,
@@ -17824,7 +17824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00558",
 		"CenterLon":-9.75e1,
 		"CenterLat":3.377499074759311e1,
@@ -17856,7 +17856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00559",
 		"CenterLon":-9.75e1,
 		"CenterLat":3.550704155516198e1,
@@ -17888,7 +17888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00560",
 		"CenterLon":-9.75e1,
 		"CenterLat":3.723909236273086e1,
@@ -17920,7 +17920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00561",
 		"CenterLon":-9.75e1,
 		"CenterLat":3.897114317029974e1,
@@ -17952,7 +17952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00562",
 		"CenterLon":-9.75e1,
 		"CenterLat":4.0703193977868615e1,
@@ -17984,7 +17984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00563",
 		"CenterLon":-9.75e1,
 		"CenterLat":4.243524478543749e1,
@@ -18016,7 +18016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00564",
 		"CenterLon":-9.75e1,
 		"CenterLat":4.4167295593006365e1,
@@ -18048,7 +18048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00565",
 		"CenterLon":-9.75e1,
 		"CenterLat":4.589934640057525e1,
@@ -18080,7 +18080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00566",
 		"CenterLon":-9.75e1,
 		"CenterLat":4.763139720814413e1,
@@ -18112,7 +18112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00567",
 		"CenterLon":-9.75e1,
 		"CenterLat":4.9363448015713e1,
@@ -18144,7 +18144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00568",
 		"CenterLon":-9.7e1,
 		"CenterLat":2.9444863728670914e1,
@@ -18176,7 +18176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00569",
 		"CenterLon":-9.7e1,
 		"CenterLat":3.117691453623979e1,
@@ -18208,7 +18208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00570",
 		"CenterLon":-9.7e1,
 		"CenterLat":3.290896534380867e1,
@@ -18240,7 +18240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00571",
 		"CenterLon":-9.7e1,
 		"CenterLat":3.464101615137754e1,
@@ -18272,7 +18272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00572",
 		"CenterLon":-9.7e1,
 		"CenterLat":3.6373066958946424e1,
@@ -18304,7 +18304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00573",
 		"CenterLon":-9.7e1,
 		"CenterLat":3.81051177665153e1,
@@ -18336,7 +18336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00574",
 		"CenterLon":-9.7e1,
 		"CenterLat":3.9837168574084174e1,
@@ -18368,7 +18368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00575",
 		"CenterLon":-9.7e1,
 		"CenterLat":4.1569219381653056e1,
@@ -18400,7 +18400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00576",
 		"CenterLon":-9.7e1,
 		"CenterLat":4.330127018922193e1,
@@ -18432,7 +18432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00577",
 		"CenterLon":-9.7e1,
 		"CenterLat":4.503332099679081e1,
@@ -18464,7 +18464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00578",
 		"CenterLon":-9.7e1,
 		"CenterLat":4.676537180435968e1,
@@ -18496,7 +18496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00579",
 		"CenterLon":-9.7e1,
 		"CenterLat":4.849742261192856e1,
@@ -18528,7 +18528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00580",
 		"CenterLon":-9.65e1,
 		"CenterLat":2.8578838324886473e1,
@@ -18560,7 +18560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00581",
 		"CenterLon":-9.65e1,
 		"CenterLat":3.0310889132455355e1,
@@ -18592,7 +18592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00582",
 		"CenterLon":-9.65e1,
 		"CenterLat":3.2042939940024226e1,
@@ -18624,7 +18624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00583",
 		"CenterLon":-9.65e1,
 		"CenterLat":3.377499074759311e1,
@@ -18656,7 +18656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00584",
 		"CenterLon":-9.65e1,
 		"CenterLat":3.550704155516198e1,
@@ -18688,7 +18688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00585",
 		"CenterLon":-9.65e1,
 		"CenterLat":3.723909236273086e1,
@@ -18720,7 +18720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00586",
 		"CenterLon":-9.65e1,
 		"CenterLat":3.897114317029974e1,
@@ -18752,7 +18752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00587",
 		"CenterLon":-9.65e1,
 		"CenterLat":4.0703193977868615e1,
@@ -18784,7 +18784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00588",
 		"CenterLon":-9.65e1,
 		"CenterLat":4.243524478543749e1,
@@ -18816,7 +18816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00589",
 		"CenterLon":-9.65e1,
 		"CenterLat":4.4167295593006365e1,
@@ -18848,7 +18848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00590",
 		"CenterLon":-9.65e1,
 		"CenterLat":4.589934640057525e1,
@@ -18880,7 +18880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00591",
 		"CenterLon":-9.65e1,
 		"CenterLat":4.763139720814413e1,
@@ -18912,7 +18912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00592",
 		"CenterLon":-9.65e1,
 		"CenterLat":4.9363448015713e1,
@@ -18944,7 +18944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00593",
 		"CenterLon":-9.6e1,
 		"CenterLat":2.9444863728670914e1,
@@ -18976,7 +18976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00594",
 		"CenterLon":-9.6e1,
 		"CenterLat":3.117691453623979e1,
@@ -19008,7 +19008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00595",
 		"CenterLon":-9.6e1,
 		"CenterLat":3.290896534380867e1,
@@ -19040,7 +19040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00596",
 		"CenterLon":-9.6e1,
 		"CenterLat":3.464101615137754e1,
@@ -19072,7 +19072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00597",
 		"CenterLon":-9.6e1,
 		"CenterLat":3.6373066958946424e1,
@@ -19104,7 +19104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00598",
 		"CenterLon":-9.6e1,
 		"CenterLat":3.81051177665153e1,
@@ -19136,7 +19136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00599",
 		"CenterLon":-9.6e1,
 		"CenterLat":3.9837168574084174e1,
@@ -19168,7 +19168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00600",
 		"CenterLon":-9.6e1,
 		"CenterLat":4.1569219381653056e1,
@@ -19200,7 +19200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00601",
 		"CenterLon":-9.6e1,
 		"CenterLat":4.330127018922193e1,
@@ -19232,7 +19232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00602",
 		"CenterLon":-9.6e1,
 		"CenterLat":4.503332099679081e1,
@@ -19264,7 +19264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00603",
 		"CenterLon":-9.6e1,
 		"CenterLat":4.676537180435968e1,
@@ -19296,7 +19296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00604",
 		"CenterLon":-9.6e1,
 		"CenterLat":4.849742261192856e1,
@@ -19328,7 +19328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00605",
 		"CenterLon":-9.55e1,
 		"CenterLat":2.8578838324886473e1,
@@ -19360,7 +19360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00606",
 		"CenterLon":-9.55e1,
 		"CenterLat":3.0310889132455355e1,
@@ -19392,7 +19392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00607",
 		"CenterLon":-9.55e1,
 		"CenterLat":3.2042939940024226e1,
@@ -19424,7 +19424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00608",
 		"CenterLon":-9.55e1,
 		"CenterLat":3.377499074759311e1,
@@ -19456,7 +19456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00609",
 		"CenterLon":-9.55e1,
 		"CenterLat":3.550704155516198e1,
@@ -19488,7 +19488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00610",
 		"CenterLon":-9.55e1,
 		"CenterLat":3.723909236273086e1,
@@ -19520,7 +19520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00611",
 		"CenterLon":-9.55e1,
 		"CenterLat":3.897114317029974e1,
@@ -19552,7 +19552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00612",
 		"CenterLon":-9.55e1,
 		"CenterLat":4.0703193977868615e1,
@@ -19584,7 +19584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00613",
 		"CenterLon":-9.55e1,
 		"CenterLat":4.243524478543749e1,
@@ -19616,7 +19616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00614",
 		"CenterLon":-9.55e1,
 		"CenterLat":4.4167295593006365e1,
@@ -19648,7 +19648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00615",
 		"CenterLon":-9.55e1,
 		"CenterLat":4.589934640057525e1,
@@ -19680,7 +19680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00616",
 		"CenterLon":-9.55e1,
 		"CenterLat":4.763139720814413e1,
@@ -19712,7 +19712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00617",
 		"CenterLon":-9.55e1,
 		"CenterLat":4.9363448015713e1,
@@ -19744,7 +19744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00618",
 		"CenterLon":-9.5e1,
 		"CenterLat":2.9444863728670914e1,
@@ -19776,7 +19776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00619",
 		"CenterLon":-9.5e1,
 		"CenterLat":3.117691453623979e1,
@@ -19808,7 +19808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00620",
 		"CenterLon":-9.5e1,
 		"CenterLat":3.290896534380867e1,
@@ -19840,7 +19840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00621",
 		"CenterLon":-9.5e1,
 		"CenterLat":3.464101615137754e1,
@@ -19872,7 +19872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00622",
 		"CenterLon":-9.5e1,
 		"CenterLat":3.6373066958946424e1,
@@ -19904,7 +19904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00623",
 		"CenterLon":-9.5e1,
 		"CenterLat":3.81051177665153e1,
@@ -19936,7 +19936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00624",
 		"CenterLon":-9.5e1,
 		"CenterLat":3.9837168574084174e1,
@@ -19968,7 +19968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00625",
 		"CenterLon":-9.5e1,
 		"CenterLat":4.1569219381653056e1,
@@ -20000,7 +20000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00626",
 		"CenterLon":-9.5e1,
 		"CenterLat":4.330127018922193e1,
@@ -20032,7 +20032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00627",
 		"CenterLon":-9.5e1,
 		"CenterLat":4.503332099679081e1,
@@ -20064,7 +20064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00628",
 		"CenterLon":-9.5e1,
 		"CenterLat":4.676537180435968e1,
@@ -20096,7 +20096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00629",
 		"CenterLon":-9.5e1,
 		"CenterLat":4.849742261192856e1,
@@ -20128,7 +20128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00630",
 		"CenterLon":-9.45e1,
 		"CenterLat":3.0310889132455355e1,
@@ -20160,7 +20160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00631",
 		"CenterLon":-9.45e1,
 		"CenterLat":3.2042939940024226e1,
@@ -20192,7 +20192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00632",
 		"CenterLon":-9.45e1,
 		"CenterLat":3.377499074759311e1,
@@ -20224,7 +20224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00633",
 		"CenterLon":-9.45e1,
 		"CenterLat":3.550704155516198e1,
@@ -20256,7 +20256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00634",
 		"CenterLon":-9.45e1,
 		"CenterLat":3.723909236273086e1,
@@ -20288,7 +20288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00635",
 		"CenterLon":-9.45e1,
 		"CenterLat":3.897114317029974e1,
@@ -20320,7 +20320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00636",
 		"CenterLon":-9.45e1,
 		"CenterLat":4.0703193977868615e1,
@@ -20352,7 +20352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00637",
 		"CenterLon":-9.45e1,
 		"CenterLat":4.243524478543749e1,
@@ -20384,7 +20384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00638",
 		"CenterLon":-9.45e1,
 		"CenterLat":4.4167295593006365e1,
@@ -20416,7 +20416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00639",
 		"CenterLon":-9.45e1,
 		"CenterLat":4.589934640057525e1,
@@ -20448,7 +20448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00640",
 		"CenterLon":-9.45e1,
 		"CenterLat":4.763139720814413e1,
@@ -20480,7 +20480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00641",
 		"CenterLon":-9.4e1,
 		"CenterLat":2.9444863728670914e1,
@@ -20512,7 +20512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00642",
 		"CenterLon":-9.4e1,
 		"CenterLat":3.117691453623979e1,
@@ -20544,7 +20544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00643",
 		"CenterLon":-9.4e1,
 		"CenterLat":3.290896534380867e1,
@@ -20576,7 +20576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00644",
 		"CenterLon":-9.4e1,
 		"CenterLat":3.464101615137754e1,
@@ -20608,7 +20608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00645",
 		"CenterLon":-9.4e1,
 		"CenterLat":3.6373066958946424e1,
@@ -20640,7 +20640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00646",
 		"CenterLon":-9.4e1,
 		"CenterLat":3.81051177665153e1,
@@ -20672,7 +20672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00647",
 		"CenterLon":-9.4e1,
 		"CenterLat":3.9837168574084174e1,
@@ -20704,7 +20704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00648",
 		"CenterLon":-9.4e1,
 		"CenterLat":4.1569219381653056e1,
@@ -20736,7 +20736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00649",
 		"CenterLon":-9.4e1,
 		"CenterLat":4.330127018922193e1,
@@ -20768,7 +20768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00650",
 		"CenterLon":-9.4e1,
 		"CenterLat":4.503332099679081e1,
@@ -20800,7 +20800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00651",
 		"CenterLon":-9.4e1,
 		"CenterLat":4.676537180435968e1,
@@ -20832,7 +20832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00652",
 		"CenterLon":-9.4e1,
 		"CenterLat":4.849742261192856e1,
@@ -20864,7 +20864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00653",
 		"CenterLon":-9.35e1,
 		"CenterLat":3.0310889132455355e1,
@@ -20896,7 +20896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00654",
 		"CenterLon":-9.35e1,
 		"CenterLat":3.2042939940024226e1,
@@ -20928,7 +20928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00655",
 		"CenterLon":-9.35e1,
 		"CenterLat":3.377499074759311e1,
@@ -20960,7 +20960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00656",
 		"CenterLon":-9.35e1,
 		"CenterLat":3.550704155516198e1,
@@ -20992,7 +20992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00657",
 		"CenterLon":-9.35e1,
 		"CenterLat":3.723909236273086e1,
@@ -21024,7 +21024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00658",
 		"CenterLon":-9.35e1,
 		"CenterLat":3.897114317029974e1,
@@ -21056,7 +21056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00659",
 		"CenterLon":-9.35e1,
 		"CenterLat":4.0703193977868615e1,
@@ -21088,7 +21088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00660",
 		"CenterLon":-9.35e1,
 		"CenterLat":4.243524478543749e1,
@@ -21120,7 +21120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00661",
 		"CenterLon":-9.35e1,
 		"CenterLat":4.4167295593006365e1,
@@ -21152,7 +21152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00662",
 		"CenterLon":-9.35e1,
 		"CenterLat":4.589934640057525e1,
@@ -21184,7 +21184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00663",
 		"CenterLon":-9.35e1,
 		"CenterLat":4.763139720814413e1,
@@ -21216,7 +21216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00664",
 		"CenterLon":-9.3e1,
 		"CenterLat":2.9444863728670914e1,
@@ -21248,7 +21248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00665",
 		"CenterLon":-9.3e1,
 		"CenterLat":3.117691453623979e1,
@@ -21280,7 +21280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00666",
 		"CenterLon":-9.3e1,
 		"CenterLat":3.290896534380867e1,
@@ -21312,7 +21312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00667",
 		"CenterLon":-9.3e1,
 		"CenterLat":3.464101615137754e1,
@@ -21344,7 +21344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00668",
 		"CenterLon":-9.3e1,
 		"CenterLat":3.6373066958946424e1,
@@ -21376,7 +21376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00669",
 		"CenterLon":-9.3e1,
 		"CenterLat":3.81051177665153e1,
@@ -21408,7 +21408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00670",
 		"CenterLon":-9.3e1,
 		"CenterLat":3.9837168574084174e1,
@@ -21440,7 +21440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00671",
 		"CenterLon":-9.3e1,
 		"CenterLat":4.1569219381653056e1,
@@ -21472,7 +21472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00672",
 		"CenterLon":-9.3e1,
 		"CenterLat":4.330127018922193e1,
@@ -21504,7 +21504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00673",
 		"CenterLon":-9.3e1,
 		"CenterLat":4.503332099679081e1,
@@ -21536,7 +21536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00674",
 		"CenterLon":-9.3e1,
 		"CenterLat":4.676537180435968e1,
@@ -21568,7 +21568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00675",
 		"CenterLon":-9.3e1,
 		"CenterLat":4.849742261192856e1,
@@ -21600,7 +21600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00676",
 		"CenterLon":-9.25e1,
 		"CenterLat":3.0310889132455355e1,
@@ -21632,7 +21632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00677",
 		"CenterLon":-9.25e1,
 		"CenterLat":3.2042939940024226e1,
@@ -21664,7 +21664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00678",
 		"CenterLon":-9.25e1,
 		"CenterLat":3.377499074759311e1,
@@ -21696,7 +21696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00679",
 		"CenterLon":-9.25e1,
 		"CenterLat":3.550704155516198e1,
@@ -21728,7 +21728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00680",
 		"CenterLon":-9.25e1,
 		"CenterLat":3.723909236273086e1,
@@ -21760,7 +21760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00681",
 		"CenterLon":-9.25e1,
 		"CenterLat":3.897114317029974e1,
@@ -21792,7 +21792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00682",
 		"CenterLon":-9.25e1,
 		"CenterLat":4.0703193977868615e1,
@@ -21824,7 +21824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00683",
 		"CenterLon":-9.25e1,
 		"CenterLat":4.243524478543749e1,
@@ -21856,7 +21856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00684",
 		"CenterLon":-9.25e1,
 		"CenterLat":4.4167295593006365e1,
@@ -21888,7 +21888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00685",
 		"CenterLon":-9.25e1,
 		"CenterLat":4.589934640057525e1,
@@ -21920,7 +21920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00686",
 		"CenterLon":-9.25e1,
 		"CenterLat":4.763139720814413e1,
@@ -21952,7 +21952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00687",
 		"CenterLon":-9.2e1,
 		"CenterLat":2.9444863728670914e1,
@@ -21984,7 +21984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00688",
 		"CenterLon":-9.2e1,
 		"CenterLat":3.117691453623979e1,
@@ -22016,7 +22016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00689",
 		"CenterLon":-9.2e1,
 		"CenterLat":3.290896534380867e1,
@@ -22048,7 +22048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00690",
 		"CenterLon":-9.2e1,
 		"CenterLat":3.464101615137754e1,
@@ -22080,7 +22080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00691",
 		"CenterLon":-9.2e1,
 		"CenterLat":3.6373066958946424e1,
@@ -22112,7 +22112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00692",
 		"CenterLon":-9.2e1,
 		"CenterLat":3.81051177665153e1,
@@ -22144,7 +22144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00693",
 		"CenterLon":-9.2e1,
 		"CenterLat":3.9837168574084174e1,
@@ -22176,7 +22176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00694",
 		"CenterLon":-9.2e1,
 		"CenterLat":4.1569219381653056e1,
@@ -22208,7 +22208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00695",
 		"CenterLon":-9.2e1,
 		"CenterLat":4.330127018922193e1,
@@ -22240,7 +22240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00696",
 		"CenterLon":-9.2e1,
 		"CenterLat":4.503332099679081e1,
@@ -22272,7 +22272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00697",
 		"CenterLon":-9.2e1,
 		"CenterLat":4.676537180435968e1,
@@ -22304,7 +22304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00698",
 		"CenterLon":-9.2e1,
 		"CenterLat":4.849742261192856e1,
@@ -22336,7 +22336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00699",
 		"CenterLon":-9.15e1,
 		"CenterLat":3.0310889132455355e1,
@@ -22368,7 +22368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00700",
 		"CenterLon":-9.15e1,
 		"CenterLat":3.2042939940024226e1,
@@ -22400,7 +22400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00701",
 		"CenterLon":-9.15e1,
 		"CenterLat":3.377499074759311e1,
@@ -22432,7 +22432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00702",
 		"CenterLon":-9.15e1,
 		"CenterLat":3.550704155516198e1,
@@ -22464,7 +22464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00703",
 		"CenterLon":-9.15e1,
 		"CenterLat":3.723909236273086e1,
@@ -22496,7 +22496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00704",
 		"CenterLon":-9.15e1,
 		"CenterLat":3.897114317029974e1,
@@ -22528,7 +22528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00705",
 		"CenterLon":-9.15e1,
 		"CenterLat":4.0703193977868615e1,
@@ -22560,7 +22560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00706",
 		"CenterLon":-9.15e1,
 		"CenterLat":4.243524478543749e1,
@@ -22592,7 +22592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00707",
 		"CenterLon":-9.15e1,
 		"CenterLat":4.4167295593006365e1,
@@ -22624,7 +22624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00708",
 		"CenterLon":-9.15e1,
 		"CenterLat":4.589934640057525e1,
@@ -22656,7 +22656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00709",
 		"CenterLon":-9.15e1,
 		"CenterLat":4.763139720814413e1,
@@ -22688,7 +22688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00710",
 		"CenterLon":-9.1e1,
 		"CenterLat":2.9444863728670914e1,
@@ -22720,7 +22720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00711",
 		"CenterLon":-9.1e1,
 		"CenterLat":3.117691453623979e1,
@@ -22752,7 +22752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00712",
 		"CenterLon":-9.1e1,
 		"CenterLat":3.290896534380867e1,
@@ -22784,7 +22784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00713",
 		"CenterLon":-9.1e1,
 		"CenterLat":3.464101615137754e1,
@@ -22816,7 +22816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00714",
 		"CenterLon":-9.1e1,
 		"CenterLat":3.6373066958946424e1,
@@ -22848,7 +22848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00715",
 		"CenterLon":-9.1e1,
 		"CenterLat":3.81051177665153e1,
@@ -22880,7 +22880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00716",
 		"CenterLon":-9.1e1,
 		"CenterLat":3.9837168574084174e1,
@@ -22912,7 +22912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00717",
 		"CenterLon":-9.1e1,
 		"CenterLat":4.1569219381653056e1,
@@ -22944,7 +22944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00718",
 		"CenterLon":-9.1e1,
 		"CenterLat":4.330127018922193e1,
@@ -22976,7 +22976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00719",
 		"CenterLon":-9.1e1,
 		"CenterLat":4.503332099679081e1,
@@ -23008,7 +23008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00720",
 		"CenterLon":-9.1e1,
 		"CenterLat":4.676537180435968e1,
@@ -23040,7 +23040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00721",
 		"CenterLon":-9.05e1,
 		"CenterLat":3.0310889132455355e1,
@@ -23072,7 +23072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00722",
 		"CenterLon":-9.05e1,
 		"CenterLat":3.2042939940024226e1,
@@ -23104,7 +23104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00723",
 		"CenterLon":-9.05e1,
 		"CenterLat":3.377499074759311e1,
@@ -23136,7 +23136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00724",
 		"CenterLon":-9.05e1,
 		"CenterLat":3.550704155516198e1,
@@ -23168,7 +23168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00725",
 		"CenterLon":-9.05e1,
 		"CenterLat":3.723909236273086e1,
@@ -23200,7 +23200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00726",
 		"CenterLon":-9.05e1,
 		"CenterLat":3.897114317029974e1,
@@ -23232,7 +23232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00727",
 		"CenterLon":-9.05e1,
 		"CenterLat":4.0703193977868615e1,
@@ -23264,7 +23264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00728",
 		"CenterLon":-9.05e1,
 		"CenterLat":4.243524478543749e1,
@@ -23296,7 +23296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00729",
 		"CenterLon":-9.05e1,
 		"CenterLat":4.4167295593006365e1,
@@ -23328,7 +23328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00730",
 		"CenterLon":-9.05e1,
 		"CenterLat":4.589934640057525e1,
@@ -23360,7 +23360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00731",
 		"CenterLon":-9.05e1,
 		"CenterLat":4.763139720814413e1,
@@ -23392,7 +23392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00732",
 		"CenterLon":-9.0e1,
 		"CenterLat":2.9444863728670914e1,
@@ -23424,7 +23424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00733",
 		"CenterLon":-9.0e1,
 		"CenterLat":3.117691453623979e1,
@@ -23456,7 +23456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00734",
 		"CenterLon":-9.0e1,
 		"CenterLat":3.290896534380867e1,
@@ -23488,7 +23488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00735",
 		"CenterLon":-9.0e1,
 		"CenterLat":3.464101615137754e1,
@@ -23520,7 +23520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00736",
 		"CenterLon":-9.0e1,
 		"CenterLat":3.6373066958946424e1,
@@ -23552,7 +23552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00737",
 		"CenterLon":-9.0e1,
 		"CenterLat":3.81051177665153e1,
@@ -23584,7 +23584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00738",
 		"CenterLon":-9.0e1,
 		"CenterLat":3.9837168574084174e1,
@@ -23616,7 +23616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00739",
 		"CenterLon":-9.0e1,
 		"CenterLat":4.1569219381653056e1,
@@ -23648,7 +23648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00740",
 		"CenterLon":-9.0e1,
 		"CenterLat":4.330127018922193e1,
@@ -23680,7 +23680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00741",
 		"CenterLon":-9.0e1,
 		"CenterLat":4.503332099679081e1,
@@ -23712,7 +23712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00742",
 		"CenterLon":-9.0e1,
 		"CenterLat":4.676537180435968e1,
@@ -23744,7 +23744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00743",
 		"CenterLon":-8.95e1,
 		"CenterLat":3.0310889132455355e1,
@@ -23776,7 +23776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00744",
 		"CenterLon":-8.95e1,
 		"CenterLat":3.2042939940024226e1,
@@ -23808,7 +23808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00745",
 		"CenterLon":-8.95e1,
 		"CenterLat":3.377499074759311e1,
@@ -23840,7 +23840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00746",
 		"CenterLon":-8.95e1,
 		"CenterLat":3.550704155516198e1,
@@ -23872,7 +23872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00747",
 		"CenterLon":-8.95e1,
 		"CenterLat":3.723909236273086e1,
@@ -23904,7 +23904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00748",
 		"CenterLon":-8.95e1,
 		"CenterLat":3.897114317029974e1,
@@ -23936,7 +23936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00749",
 		"CenterLon":-8.95e1,
 		"CenterLat":4.0703193977868615e1,
@@ -23968,7 +23968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00750",
 		"CenterLon":-8.95e1,
 		"CenterLat":4.243524478543749e1,
@@ -24000,7 +24000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00751",
 		"CenterLon":-8.95e1,
 		"CenterLat":4.4167295593006365e1,
@@ -24032,7 +24032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00752",
 		"CenterLon":-8.95e1,
 		"CenterLat":4.589934640057525e1,
@@ -24064,7 +24064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00753",
 		"CenterLon":-8.95e1,
 		"CenterLat":4.763139720814413e1,
@@ -24096,7 +24096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00754",
 		"CenterLon":-8.9e1,
 		"CenterLat":2.9444863728670914e1,
@@ -24128,7 +24128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00755",
 		"CenterLon":-8.9e1,
 		"CenterLat":3.117691453623979e1,
@@ -24160,7 +24160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00756",
 		"CenterLon":-8.9e1,
 		"CenterLat":3.290896534380867e1,
@@ -24192,7 +24192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00757",
 		"CenterLon":-8.9e1,
 		"CenterLat":3.464101615137754e1,
@@ -24224,7 +24224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00758",
 		"CenterLon":-8.9e1,
 		"CenterLat":3.6373066958946424e1,
@@ -24256,7 +24256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00759",
 		"CenterLon":-8.9e1,
 		"CenterLat":3.81051177665153e1,
@@ -24288,7 +24288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00760",
 		"CenterLon":-8.9e1,
 		"CenterLat":3.9837168574084174e1,
@@ -24320,7 +24320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00761",
 		"CenterLon":-8.9e1,
 		"CenterLat":4.1569219381653056e1,
@@ -24352,7 +24352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00762",
 		"CenterLon":-8.9e1,
 		"CenterLat":4.330127018922193e1,
@@ -24384,7 +24384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00763",
 		"CenterLon":-8.9e1,
 		"CenterLat":4.503332099679081e1,
@@ -24416,7 +24416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00764",
 		"CenterLon":-8.9e1,
 		"CenterLat":4.676537180435968e1,
@@ -24448,7 +24448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00765",
 		"CenterLon":-8.85e1,
 		"CenterLat":3.0310889132455355e1,
@@ -24480,7 +24480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00766",
 		"CenterLon":-8.85e1,
 		"CenterLat":3.2042939940024226e1,
@@ -24512,7 +24512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00767",
 		"CenterLon":-8.85e1,
 		"CenterLat":3.377499074759311e1,
@@ -24544,7 +24544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00768",
 		"CenterLon":-8.85e1,
 		"CenterLat":3.550704155516198e1,
@@ -24576,7 +24576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00769",
 		"CenterLon":-8.85e1,
 		"CenterLat":3.723909236273086e1,
@@ -24608,7 +24608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00770",
 		"CenterLon":-8.85e1,
 		"CenterLat":3.897114317029974e1,
@@ -24640,7 +24640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00771",
 		"CenterLon":-8.85e1,
 		"CenterLat":4.0703193977868615e1,
@@ -24672,7 +24672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00772",
 		"CenterLon":-8.85e1,
 		"CenterLat":4.243524478543749e1,
@@ -24704,7 +24704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00773",
 		"CenterLon":-8.85e1,
 		"CenterLat":4.4167295593006365e1,
@@ -24736,7 +24736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00774",
 		"CenterLon":-8.85e1,
 		"CenterLat":4.589934640057525e1,
@@ -24768,7 +24768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00775",
 		"CenterLon":-8.85e1,
 		"CenterLat":4.763139720814413e1,
@@ -24800,7 +24800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00776",
 		"CenterLon":-8.8e1,
 		"CenterLat":3.117691453623979e1,
@@ -24832,7 +24832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00777",
 		"CenterLon":-8.8e1,
 		"CenterLat":3.290896534380867e1,
@@ -24864,7 +24864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00778",
 		"CenterLon":-8.8e1,
 		"CenterLat":3.464101615137754e1,
@@ -24896,7 +24896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00779",
 		"CenterLon":-8.8e1,
 		"CenterLat":3.6373066958946424e1,
@@ -24928,7 +24928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00780",
 		"CenterLon":-8.8e1,
 		"CenterLat":3.81051177665153e1,
@@ -24960,7 +24960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00781",
 		"CenterLon":-8.8e1,
 		"CenterLat":3.9837168574084174e1,
@@ -24992,7 +24992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00782",
 		"CenterLon":-8.8e1,
 		"CenterLat":4.1569219381653056e1,
@@ -25024,7 +25024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00783",
 		"CenterLon":-8.8e1,
 		"CenterLat":4.330127018922193e1,
@@ -25056,7 +25056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00784",
 		"CenterLon":-8.8e1,
 		"CenterLat":4.503332099679081e1,
@@ -25088,7 +25088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00785",
 		"CenterLon":-8.8e1,
 		"CenterLat":4.676537180435968e1,
@@ -25120,7 +25120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00786",
 		"CenterLon":-8.75e1,
 		"CenterLat":3.0310889132455355e1,
@@ -25152,7 +25152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00787",
 		"CenterLon":-8.75e1,
 		"CenterLat":3.2042939940024226e1,
@@ -25184,7 +25184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00788",
 		"CenterLon":-8.75e1,
 		"CenterLat":3.377499074759311e1,
@@ -25216,7 +25216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00789",
 		"CenterLon":-8.75e1,
 		"CenterLat":3.550704155516198e1,
@@ -25248,7 +25248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00790",
 		"CenterLon":-8.75e1,
 		"CenterLat":3.723909236273086e1,
@@ -25280,7 +25280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00791",
 		"CenterLon":-8.75e1,
 		"CenterLat":3.897114317029974e1,
@@ -25312,7 +25312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00792",
 		"CenterLon":-8.75e1,
 		"CenterLat":4.0703193977868615e1,
@@ -25344,7 +25344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00793",
 		"CenterLon":-8.75e1,
 		"CenterLat":4.243524478543749e1,
@@ -25376,7 +25376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00794",
 		"CenterLon":-8.75e1,
 		"CenterLat":4.4167295593006365e1,
@@ -25408,7 +25408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00795",
 		"CenterLon":-8.75e1,
 		"CenterLat":4.589934640057525e1,
@@ -25440,7 +25440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00796",
 		"CenterLon":-8.75e1,
 		"CenterLat":4.763139720814413e1,
@@ -25472,7 +25472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00797",
 		"CenterLon":-8.7e1,
 		"CenterLat":3.117691453623979e1,
@@ -25504,7 +25504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00798",
 		"CenterLon":-8.7e1,
 		"CenterLat":3.290896534380867e1,
@@ -25536,7 +25536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00799",
 		"CenterLon":-8.7e1,
 		"CenterLat":3.464101615137754e1,
@@ -25568,7 +25568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00800",
 		"CenterLon":-8.7e1,
 		"CenterLat":3.6373066958946424e1,
@@ -25600,7 +25600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00801",
 		"CenterLon":-8.7e1,
 		"CenterLat":3.81051177665153e1,
@@ -25632,7 +25632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00802",
 		"CenterLon":-8.7e1,
 		"CenterLat":3.9837168574084174e1,
@@ -25664,7 +25664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00803",
 		"CenterLon":-8.7e1,
 		"CenterLat":4.1569219381653056e1,
@@ -25696,7 +25696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00804",
 		"CenterLon":-8.7e1,
 		"CenterLat":4.330127018922193e1,
@@ -25728,7 +25728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00805",
 		"CenterLon":-8.7e1,
 		"CenterLat":4.503332099679081e1,
@@ -25760,7 +25760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00806",
 		"CenterLon":-8.7e1,
 		"CenterLat":4.676537180435968e1,
@@ -25792,7 +25792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00807",
 		"CenterLon":-8.65e1,
 		"CenterLat":3.0310889132455355e1,
@@ -25824,7 +25824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00808",
 		"CenterLon":-8.65e1,
 		"CenterLat":3.2042939940024226e1,
@@ -25856,7 +25856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00809",
 		"CenterLon":-8.65e1,
 		"CenterLat":3.377499074759311e1,
@@ -25888,7 +25888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00810",
 		"CenterLon":-8.65e1,
 		"CenterLat":3.550704155516198e1,
@@ -25920,7 +25920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00811",
 		"CenterLon":-8.65e1,
 		"CenterLat":3.723909236273086e1,
@@ -25952,7 +25952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00812",
 		"CenterLon":-8.65e1,
 		"CenterLat":3.897114317029974e1,
@@ -25984,7 +25984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00813",
 		"CenterLon":-8.65e1,
 		"CenterLat":4.0703193977868615e1,
@@ -26016,7 +26016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00814",
 		"CenterLon":-8.65e1,
 		"CenterLat":4.243524478543749e1,
@@ -26048,7 +26048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00815",
 		"CenterLon":-8.65e1,
 		"CenterLat":4.4167295593006365e1,
@@ -26080,7 +26080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00816",
 		"CenterLon":-8.65e1,
 		"CenterLat":4.589934640057525e1,
@@ -26112,7 +26112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00817",
 		"CenterLon":-8.65e1,
 		"CenterLat":4.763139720814413e1,
@@ -26144,7 +26144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00818",
 		"CenterLon":-8.6e1,
 		"CenterLat":3.117691453623979e1,
@@ -26176,7 +26176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00819",
 		"CenterLon":-8.6e1,
 		"CenterLat":3.290896534380867e1,
@@ -26208,7 +26208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00820",
 		"CenterLon":-8.6e1,
 		"CenterLat":3.464101615137754e1,
@@ -26240,7 +26240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00821",
 		"CenterLon":-8.6e1,
 		"CenterLat":3.6373066958946424e1,
@@ -26272,7 +26272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00822",
 		"CenterLon":-8.6e1,
 		"CenterLat":3.81051177665153e1,
@@ -26304,7 +26304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00823",
 		"CenterLon":-8.6e1,
 		"CenterLat":3.9837168574084174e1,
@@ -26336,7 +26336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00824",
 		"CenterLon":-8.6e1,
 		"CenterLat":4.1569219381653056e1,
@@ -26368,7 +26368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00825",
 		"CenterLon":-8.6e1,
 		"CenterLat":4.330127018922193e1,
@@ -26400,7 +26400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00826",
 		"CenterLon":-8.6e1,
 		"CenterLat":4.503332099679081e1,
@@ -26432,7 +26432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00827",
 		"CenterLon":-8.6e1,
 		"CenterLat":4.676537180435968e1,
@@ -26464,7 +26464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00828",
 		"CenterLon":-8.55e1,
 		"CenterLat":3.0310889132455355e1,
@@ -26496,7 +26496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00829",
 		"CenterLon":-8.55e1,
 		"CenterLat":3.2042939940024226e1,
@@ -26528,7 +26528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00830",
 		"CenterLon":-8.55e1,
 		"CenterLat":3.377499074759311e1,
@@ -26560,7 +26560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00831",
 		"CenterLon":-8.55e1,
 		"CenterLat":3.550704155516198e1,
@@ -26592,7 +26592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00832",
 		"CenterLon":-8.55e1,
 		"CenterLat":3.723909236273086e1,
@@ -26624,7 +26624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00833",
 		"CenterLon":-8.55e1,
 		"CenterLat":3.897114317029974e1,
@@ -26656,7 +26656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00834",
 		"CenterLon":-8.55e1,
 		"CenterLat":4.0703193977868615e1,
@@ -26688,7 +26688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00835",
 		"CenterLon":-8.55e1,
 		"CenterLat":4.243524478543749e1,
@@ -26720,7 +26720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00836",
 		"CenterLon":-8.55e1,
 		"CenterLat":4.4167295593006365e1,
@@ -26752,7 +26752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00837",
 		"CenterLon":-8.55e1,
 		"CenterLat":4.589934640057525e1,
@@ -26784,7 +26784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00838",
 		"CenterLon":-8.5e1,
 		"CenterLat":2.9444863728670914e1,
@@ -26816,7 +26816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00839",
 		"CenterLon":-8.5e1,
 		"CenterLat":3.117691453623979e1,
@@ -26848,7 +26848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00840",
 		"CenterLon":-8.5e1,
 		"CenterLat":3.290896534380867e1,
@@ -26880,7 +26880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00841",
 		"CenterLon":-8.5e1,
 		"CenterLat":3.464101615137754e1,
@@ -26912,7 +26912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00842",
 		"CenterLon":-8.5e1,
 		"CenterLat":3.6373066958946424e1,
@@ -26944,7 +26944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00843",
 		"CenterLon":-8.5e1,
 		"CenterLat":3.81051177665153e1,
@@ -26976,7 +26976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00844",
 		"CenterLon":-8.5e1,
 		"CenterLat":3.9837168574084174e1,
@@ -27008,7 +27008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00845",
 		"CenterLon":-8.5e1,
 		"CenterLat":4.1569219381653056e1,
@@ -27040,7 +27040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00846",
 		"CenterLon":-8.5e1,
 		"CenterLat":4.330127018922193e1,
@@ -27072,7 +27072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00847",
 		"CenterLon":-8.5e1,
 		"CenterLat":4.503332099679081e1,
@@ -27104,7 +27104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00848",
 		"CenterLon":-8.5e1,
 		"CenterLat":4.676537180435968e1,
@@ -27136,7 +27136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00849",
 		"CenterLon":-8.45e1,
 		"CenterLat":3.0310889132455355e1,
@@ -27168,7 +27168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00850",
 		"CenterLon":-8.45e1,
 		"CenterLat":3.2042939940024226e1,
@@ -27200,7 +27200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00851",
 		"CenterLon":-8.45e1,
 		"CenterLat":3.377499074759311e1,
@@ -27232,7 +27232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00852",
 		"CenterLon":-8.45e1,
 		"CenterLat":3.550704155516198e1,
@@ -27264,7 +27264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00853",
 		"CenterLon":-8.45e1,
 		"CenterLat":3.723909236273086e1,
@@ -27296,7 +27296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00854",
 		"CenterLon":-8.45e1,
 		"CenterLat":3.897114317029974e1,
@@ -27328,7 +27328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00855",
 		"CenterLon":-8.45e1,
 		"CenterLat":4.0703193977868615e1,
@@ -27360,7 +27360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00856",
 		"CenterLon":-8.45e1,
 		"CenterLat":4.243524478543749e1,
@@ -27392,7 +27392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00857",
 		"CenterLon":-8.45e1,
 		"CenterLat":4.4167295593006365e1,
@@ -27424,7 +27424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00858",
 		"CenterLon":-8.45e1,
 		"CenterLat":4.589934640057525e1,
@@ -27456,7 +27456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00859",
 		"CenterLon":-8.4e1,
 		"CenterLat":3.117691453623979e1,
@@ -27488,7 +27488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00860",
 		"CenterLon":-8.4e1,
 		"CenterLat":3.290896534380867e1,
@@ -27520,7 +27520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00861",
 		"CenterLon":-8.4e1,
 		"CenterLat":3.464101615137754e1,
@@ -27552,7 +27552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00862",
 		"CenterLon":-8.4e1,
 		"CenterLat":3.6373066958946424e1,
@@ -27584,7 +27584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00863",
 		"CenterLon":-8.4e1,
 		"CenterLat":3.81051177665153e1,
@@ -27616,7 +27616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00864",
 		"CenterLon":-8.4e1,
 		"CenterLat":3.9837168574084174e1,
@@ -27648,7 +27648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00865",
 		"CenterLon":-8.4e1,
 		"CenterLat":4.1569219381653056e1,
@@ -27680,7 +27680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00866",
 		"CenterLon":-8.4e1,
 		"CenterLat":4.330127018922193e1,
@@ -27712,7 +27712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00867",
 		"CenterLon":-8.4e1,
 		"CenterLat":4.503332099679081e1,
@@ -27744,7 +27744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00868",
 		"CenterLon":-8.35e1,
 		"CenterLat":3.0310889132455355e1,
@@ -27776,7 +27776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00869",
 		"CenterLon":-8.35e1,
 		"CenterLat":3.2042939940024226e1,
@@ -27808,7 +27808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00870",
 		"CenterLon":-8.35e1,
 		"CenterLat":3.377499074759311e1,
@@ -27840,7 +27840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00871",
 		"CenterLon":-8.35e1,
 		"CenterLat":3.550704155516198e1,
@@ -27872,7 +27872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00872",
 		"CenterLon":-8.35e1,
 		"CenterLat":3.723909236273086e1,
@@ -27904,7 +27904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00873",
 		"CenterLon":-8.35e1,
 		"CenterLat":3.897114317029974e1,
@@ -27936,7 +27936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00874",
 		"CenterLon":-8.35e1,
 		"CenterLat":4.0703193977868615e1,
@@ -27968,7 +27968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00875",
 		"CenterLon":-8.35e1,
 		"CenterLat":4.243524478543749e1,
@@ -28000,7 +28000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00876",
 		"CenterLon":-8.35e1,
 		"CenterLat":4.4167295593006365e1,
@@ -28032,7 +28032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00877",
 		"CenterLon":-8.35e1,
 		"CenterLat":4.589934640057525e1,
@@ -28064,7 +28064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00878",
 		"CenterLon":-8.3e1,
 		"CenterLat":2.9444863728670914e1,
@@ -28096,7 +28096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00879",
 		"CenterLon":-8.3e1,
 		"CenterLat":3.117691453623979e1,
@@ -28128,7 +28128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00880",
 		"CenterLon":-8.3e1,
 		"CenterLat":3.290896534380867e1,
@@ -28160,7 +28160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00881",
 		"CenterLon":-8.3e1,
 		"CenterLat":3.464101615137754e1,
@@ -28192,7 +28192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00882",
 		"CenterLon":-8.3e1,
 		"CenterLat":3.6373066958946424e1,
@@ -28224,7 +28224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00883",
 		"CenterLon":-8.3e1,
 		"CenterLat":3.81051177665153e1,
@@ -28256,7 +28256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00884",
 		"CenterLon":-8.3e1,
 		"CenterLat":3.9837168574084174e1,
@@ -28288,7 +28288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00885",
 		"CenterLon":-8.3e1,
 		"CenterLat":4.1569219381653056e1,
@@ -28320,7 +28320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00886",
 		"CenterLon":-8.3e1,
 		"CenterLat":4.330127018922193e1,
@@ -28352,7 +28352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00887",
 		"CenterLon":-8.3e1,
 		"CenterLat":4.503332099679081e1,
@@ -28384,7 +28384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00888",
 		"CenterLon":-8.25e1,
 		"CenterLat":2.6846787517317598e1,
@@ -28416,7 +28416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00889",
 		"CenterLon":-8.25e1,
 		"CenterLat":2.8578838324886473e1,
@@ -28448,7 +28448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00890",
 		"CenterLon":-8.25e1,
 		"CenterLat":3.0310889132455355e1,
@@ -28480,7 +28480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00891",
 		"CenterLon":-8.25e1,
 		"CenterLat":3.2042939940024226e1,
@@ -28512,7 +28512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00892",
 		"CenterLon":-8.25e1,
 		"CenterLat":3.377499074759311e1,
@@ -28544,7 +28544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00893",
 		"CenterLon":-8.25e1,
 		"CenterLat":3.550704155516198e1,
@@ -28576,7 +28576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00894",
 		"CenterLon":-8.25e1,
 		"CenterLat":3.723909236273086e1,
@@ -28608,7 +28608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00895",
 		"CenterLon":-8.25e1,
 		"CenterLat":3.897114317029974e1,
@@ -28640,7 +28640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00896",
 		"CenterLon":-8.25e1,
 		"CenterLat":4.0703193977868615e1,
@@ -28672,7 +28672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00897",
 		"CenterLon":-8.25e1,
 		"CenterLat":4.243524478543749e1,
@@ -28704,7 +28704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00898",
 		"CenterLon":-8.25e1,
 		"CenterLat":4.4167295593006365e1,
@@ -28736,7 +28736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00899",
 		"CenterLon":-8.2e1,
 		"CenterLat":2.771281292110204e1,
@@ -28768,7 +28768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00900",
 		"CenterLon":-8.2e1,
 		"CenterLat":2.9444863728670914e1,
@@ -28800,7 +28800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00901",
 		"CenterLon":-8.2e1,
 		"CenterLat":3.117691453623979e1,
@@ -28832,7 +28832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00902",
 		"CenterLon":-8.2e1,
 		"CenterLat":3.290896534380867e1,
@@ -28864,7 +28864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00903",
 		"CenterLon":-8.2e1,
 		"CenterLat":3.464101615137754e1,
@@ -28896,7 +28896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00904",
 		"CenterLon":-8.2e1,
 		"CenterLat":3.6373066958946424e1,
@@ -28928,7 +28928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00905",
 		"CenterLon":-8.2e1,
 		"CenterLat":3.81051177665153e1,
@@ -28960,7 +28960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00906",
 		"CenterLon":-8.2e1,
 		"CenterLat":3.9837168574084174e1,
@@ -28992,7 +28992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00907",
 		"CenterLon":-8.2e1,
 		"CenterLat":4.1569219381653056e1,
@@ -29024,7 +29024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00908",
 		"CenterLon":-8.2e1,
 		"CenterLat":4.330127018922193e1,
@@ -29056,7 +29056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00909",
 		"CenterLon":-8.2e1,
 		"CenterLat":4.503332099679081e1,
@@ -29088,7 +29088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00910",
 		"CenterLon":-8.15e1,
 		"CenterLat":2.6846787517317598e1,
@@ -29120,7 +29120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00911",
 		"CenterLon":-8.15e1,
 		"CenterLat":2.8578838324886473e1,
@@ -29152,7 +29152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00912",
 		"CenterLon":-8.15e1,
 		"CenterLat":3.0310889132455355e1,
@@ -29184,7 +29184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00913",
 		"CenterLon":-8.15e1,
 		"CenterLat":3.2042939940024226e1,
@@ -29216,7 +29216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00914",
 		"CenterLon":-8.15e1,
 		"CenterLat":3.377499074759311e1,
@@ -29248,7 +29248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00915",
 		"CenterLon":-8.15e1,
 		"CenterLat":3.550704155516198e1,
@@ -29280,7 +29280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00916",
 		"CenterLon":-8.15e1,
 		"CenterLat":3.723909236273086e1,
@@ -29312,7 +29312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00917",
 		"CenterLon":-8.15e1,
 		"CenterLat":3.897114317029974e1,
@@ -29344,7 +29344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00918",
 		"CenterLon":-8.15e1,
 		"CenterLat":4.0703193977868615e1,
@@ -29376,7 +29376,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00919",
 		"CenterLon":-8.1e1,
 		"CenterLat":2.5980762113533157e1,
@@ -29408,7 +29408,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00920",
 		"CenterLon":-8.1e1,
 		"CenterLat":2.771281292110204e1,
@@ -29440,7 +29440,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00921",
 		"CenterLon":-8.1e1,
 		"CenterLat":2.9444863728670914e1,
@@ -29472,7 +29472,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00922",
 		"CenterLon":-8.1e1,
 		"CenterLat":3.117691453623979e1,
@@ -29504,7 +29504,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00923",
 		"CenterLon":-8.1e1,
 		"CenterLat":3.290896534380867e1,
@@ -29536,7 +29536,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00924",
 		"CenterLon":-8.1e1,
 		"CenterLat":3.464101615137754e1,
@@ -29568,7 +29568,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00925",
 		"CenterLon":-8.1e1,
 		"CenterLat":3.6373066958946424e1,
@@ -29600,7 +29600,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00926",
 		"CenterLon":-8.1e1,
 		"CenterLat":3.81051177665153e1,
@@ -29632,7 +29632,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00927",
 		"CenterLon":-8.1e1,
 		"CenterLat":3.9837168574084174e1,
@@ -29664,7 +29664,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00928",
 		"CenterLon":-8.1e1,
 		"CenterLat":4.1569219381653056e1,
@@ -29696,7 +29696,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00929",
 		"CenterLon":-8.05e1,
 		"CenterLat":2.5114736709748723e1,
@@ -29728,7 +29728,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00930",
 		"CenterLon":-8.05e1,
 		"CenterLat":2.6846787517317598e1,
@@ -29760,7 +29760,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00931",
 		"CenterLon":-8.05e1,
 		"CenterLat":2.8578838324886473e1,
@@ -29792,7 +29792,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00932",
 		"CenterLon":-8.05e1,
 		"CenterLat":3.2042939940024226e1,
@@ -29824,7 +29824,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00933",
 		"CenterLon":-8.05e1,
 		"CenterLat":3.377499074759311e1,
@@ -29856,7 +29856,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00934",
 		"CenterLon":-8.05e1,
 		"CenterLat":3.550704155516198e1,
@@ -29888,7 +29888,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00935",
 		"CenterLon":-8.05e1,
 		"CenterLat":3.723909236273086e1,
@@ -29920,7 +29920,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00936",
 		"CenterLon":-8.05e1,
 		"CenterLat":3.897114317029974e1,
@@ -29952,7 +29952,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00937",
 		"CenterLon":-8.05e1,
 		"CenterLat":4.0703193977868615e1,
@@ -29984,7 +29984,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00938",
 		"CenterLon":-8.0e1,
 		"CenterLat":2.5980762113533157e1,
@@ -30016,7 +30016,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00939",
 		"CenterLon":-8.0e1,
 		"CenterLat":2.771281292110204e1,
@@ -30048,7 +30048,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00940",
 		"CenterLon":-8.0e1,
 		"CenterLat":3.290896534380867e1,
@@ -30080,7 +30080,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00941",
 		"CenterLon":-8.0e1,
 		"CenterLat":3.464101615137754e1,
@@ -30112,7 +30112,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00942",
 		"CenterLon":-8.0e1,
 		"CenterLat":3.6373066958946424e1,
@@ -30144,7 +30144,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00943",
 		"CenterLon":-8.0e1,
 		"CenterLat":3.81051177665153e1,
@@ -30176,7 +30176,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00944",
 		"CenterLon":-8.0e1,
 		"CenterLat":3.9837168574084174e1,
@@ -30208,7 +30208,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00945",
 		"CenterLon":-8.0e1,
 		"CenterLat":4.1569219381653056e1,
@@ -30240,7 +30240,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00946",
 		"CenterLon":-7.95e1,
 		"CenterLat":3.377499074759311e1,
@@ -30272,7 +30272,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00947",
 		"CenterLon":-7.95e1,
 		"CenterLat":3.550704155516198e1,
@@ -30304,7 +30304,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00948",
 		"CenterLon":-7.95e1,
 		"CenterLat":3.723909236273086e1,
@@ -30336,7 +30336,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00949",
 		"CenterLon":-7.95e1,
 		"CenterLat":3.897114317029974e1,
@@ -30368,7 +30368,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00950",
 		"CenterLon":-7.95e1,
 		"CenterLat":4.0703193977868615e1,
@@ -30400,7 +30400,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00951",
 		"CenterLon":-7.95e1,
 		"CenterLat":4.243524478543749e1,
@@ -30432,7 +30432,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00952",
 		"CenterLon":-7.9e1,
 		"CenterLat":3.464101615137754e1,
@@ -30464,7 +30464,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00953",
 		"CenterLon":-7.9e1,
 		"CenterLat":3.6373066958946424e1,
@@ -30496,7 +30496,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00954",
 		"CenterLon":-7.9e1,
 		"CenterLat":3.81051177665153e1,
@@ -30528,7 +30528,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00955",
 		"CenterLon":-7.9e1,
 		"CenterLat":3.9837168574084174e1,
@@ -30560,7 +30560,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00956",
 		"CenterLon":-7.9e1,
 		"CenterLat":4.1569219381653056e1,
@@ -30592,7 +30592,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00957",
 		"CenterLon":-7.9e1,
 		"CenterLat":4.330127018922193e1,
@@ -30624,7 +30624,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00958",
 		"CenterLon":-7.85e1,
 		"CenterLat":3.377499074759311e1,
@@ -30656,7 +30656,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00959",
 		"CenterLon":-7.85e1,
 		"CenterLat":3.550704155516198e1,
@@ -30688,7 +30688,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00960",
 		"CenterLon":-7.85e1,
 		"CenterLat":3.723909236273086e1,
@@ -30720,7 +30720,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00961",
 		"CenterLon":-7.85e1,
 		"CenterLat":3.897114317029974e1,
@@ -30752,7 +30752,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00962",
 		"CenterLon":-7.85e1,
 		"CenterLat":4.0703193977868615e1,
@@ -30784,7 +30784,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00963",
 		"CenterLon":-7.85e1,
 		"CenterLat":4.243524478543749e1,
@@ -30816,7 +30816,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00964",
 		"CenterLon":-7.8e1,
 		"CenterLat":3.464101615137754e1,
@@ -30848,7 +30848,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00965",
 		"CenterLon":-7.8e1,
 		"CenterLat":3.6373066958946424e1,
@@ -30880,7 +30880,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00966",
 		"CenterLon":-7.8e1,
 		"CenterLat":3.81051177665153e1,
@@ -30912,7 +30912,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00967",
 		"CenterLon":-7.8e1,
 		"CenterLat":3.9837168574084174e1,
@@ -30944,7 +30944,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00968",
 		"CenterLon":-7.8e1,
 		"CenterLat":4.1569219381653056e1,
@@ -30976,7 +30976,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00969",
 		"CenterLon":-7.8e1,
 		"CenterLat":4.330127018922193e1,
@@ -31008,7 +31008,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00970",
 		"CenterLon":-7.75e1,
 		"CenterLat":3.377499074759311e1,
@@ -31040,7 +31040,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00971",
 		"CenterLon":-7.75e1,
 		"CenterLat":3.550704155516198e1,
@@ -31072,7 +31072,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00972",
 		"CenterLon":-7.75e1,
 		"CenterLat":3.723909236273086e1,
@@ -31104,7 +31104,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00973",
 		"CenterLon":-7.75e1,
 		"CenterLat":3.897114317029974e1,
@@ -31136,7 +31136,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00974",
 		"CenterLon":-7.75e1,
 		"CenterLat":4.0703193977868615e1,
@@ -31168,7 +31168,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00975",
 		"CenterLon":-7.75e1,
 		"CenterLat":4.243524478543749e1,
@@ -31200,7 +31200,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00976",
 		"CenterLon":-7.7e1,
 		"CenterLat":3.464101615137754e1,
@@ -31232,7 +31232,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00977",
 		"CenterLon":-7.7e1,
 		"CenterLat":3.6373066958946424e1,
@@ -31264,7 +31264,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00978",
 		"CenterLon":-7.7e1,
 		"CenterLat":3.81051177665153e1,
@@ -31296,7 +31296,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00979",
 		"CenterLon":-7.7e1,
 		"CenterLat":3.9837168574084174e1,
@@ -31328,7 +31328,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00980",
 		"CenterLon":-7.7e1,
 		"CenterLat":4.1569219381653056e1,
@@ -31360,7 +31360,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00981",
 		"CenterLon":-7.7e1,
 		"CenterLat":4.330127018922193e1,
@@ -31392,7 +31392,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00982",
 		"CenterLon":-7.65e1,
 		"CenterLat":3.550704155516198e1,
@@ -31424,7 +31424,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00983",
 		"CenterLon":-7.65e1,
 		"CenterLat":3.723909236273086e1,
@@ -31456,7 +31456,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00984",
 		"CenterLon":-7.65e1,
 		"CenterLat":3.897114317029974e1,
@@ -31488,7 +31488,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00985",
 		"CenterLon":-7.65e1,
 		"CenterLat":4.0703193977868615e1,
@@ -31520,7 +31520,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00986",
 		"CenterLon":-7.65e1,
 		"CenterLat":4.243524478543749e1,
@@ -31552,7 +31552,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00987",
 		"CenterLon":-7.65e1,
 		"CenterLat":4.4167295593006365e1,
@@ -31584,7 +31584,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00988",
 		"CenterLon":-7.6e1,
 		"CenterLat":3.464101615137754e1,
@@ -31616,7 +31616,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00989",
 		"CenterLon":-7.6e1,
 		"CenterLat":3.6373066958946424e1,
@@ -31648,7 +31648,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00990",
 		"CenterLon":-7.6e1,
 		"CenterLat":3.81051177665153e1,
@@ -31680,7 +31680,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00991",
 		"CenterLon":-7.6e1,
 		"CenterLat":3.9837168574084174e1,
@@ -31712,7 +31712,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00992",
 		"CenterLon":-7.6e1,
 		"CenterLat":4.1569219381653056e1,
@@ -31744,7 +31744,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00993",
 		"CenterLon":-7.6e1,
 		"CenterLat":4.330127018922193e1,
@@ -31776,7 +31776,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00994",
 		"CenterLon":-7.55e1,
 		"CenterLat":3.897114317029974e1,
@@ -31808,7 +31808,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00995",
 		"CenterLon":-7.55e1,
 		"CenterLat":4.0703193977868615e1,
@@ -31840,7 +31840,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00996",
 		"CenterLon":-7.55e1,
 		"CenterLat":4.243524478543749e1,
@@ -31872,7 +31872,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00997",
 		"CenterLon":-7.55e1,
 		"CenterLat":4.4167295593006365e1,
@@ -31904,7 +31904,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00998",
 		"CenterLon":-7.5e1,
 		"CenterLat":3.81051177665153e1,
@@ -31936,7 +31936,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile00999",
 		"CenterLon":-7.5e1,
 		"CenterLat":3.9837168574084174e1,
@@ -31968,7 +31968,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01000",
 		"CenterLon":-7.5e1,
 		"CenterLat":4.1569219381653056e1,
@@ -32000,7 +32000,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01001",
 		"CenterLon":-7.5e1,
 		"CenterLat":4.330127018922193e1,
@@ -32032,7 +32032,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01002",
 		"CenterLon":-7.5e1,
 		"CenterLat":4.503332099679081e1,
@@ -32064,7 +32064,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01003",
 		"CenterLon":-7.45e1,
 		"CenterLat":3.897114317029974e1,
@@ -32096,7 +32096,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01004",
 		"CenterLon":-7.45e1,
 		"CenterLat":4.0703193977868615e1,
@@ -32128,7 +32128,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01005",
 		"CenterLon":-7.45e1,
 		"CenterLat":4.243524478543749e1,
@@ -32160,7 +32160,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01006",
 		"CenterLon":-7.45e1,
 		"CenterLat":4.4167295593006365e1,
@@ -32192,7 +32192,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01007",
 		"CenterLon":-7.4e1,
 		"CenterLat":3.9837168574084174e1,
@@ -32224,7 +32224,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01008",
 		"CenterLon":-7.4e1,
 		"CenterLat":4.1569219381653056e1,
@@ -32256,7 +32256,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01009",
 		"CenterLon":-7.4e1,
 		"CenterLat":4.330127018922193e1,
@@ -32288,7 +32288,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01010",
 		"CenterLon":-7.4e1,
 		"CenterLat":4.503332099679081e1,
@@ -32320,7 +32320,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01011",
 		"CenterLon":-7.35e1,
 		"CenterLat":4.0703193977868615e1,
@@ -32352,7 +32352,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01012",
 		"CenterLon":-7.35e1,
 		"CenterLat":4.243524478543749e1,
@@ -32384,7 +32384,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01013",
 		"CenterLon":-7.35e1,
 		"CenterLat":4.4167295593006365e1,
@@ -32416,7 +32416,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01014",
 		"CenterLon":-7.3e1,
 		"CenterLat":4.1569219381653056e1,
@@ -32448,7 +32448,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01015",
 		"CenterLon":-7.3e1,
 		"CenterLat":4.330127018922193e1,
@@ -32480,7 +32480,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01016",
 		"CenterLon":-7.3e1,
 		"CenterLat":4.503332099679081e1,
@@ -32512,7 +32512,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01017",
 		"CenterLon":-7.25e1,
 		"CenterLat":4.0703193977868615e1,
@@ -32544,7 +32544,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01018",
 		"CenterLon":-7.25e1,
 		"CenterLat":4.243524478543749e1,
@@ -32576,7 +32576,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01019",
 		"CenterLon":-7.25e1,
 		"CenterLat":4.4167295593006365e1,
@@ -32608,7 +32608,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01020",
 		"CenterLon":-7.2e1,
 		"CenterLat":4.1569219381653056e1,
@@ -32640,7 +32640,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01021",
 		"CenterLon":-7.2e1,
 		"CenterLat":4.330127018922193e1,
@@ -32672,7 +32672,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01022",
 		"CenterLon":-7.2e1,
 		"CenterLat":4.503332099679081e1,
@@ -32704,7 +32704,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01023",
 		"CenterLon":-7.15e1,
 		"CenterLat":4.243524478543749e1,
@@ -32736,7 +32736,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01024",
 		"CenterLon":-7.15e1,
 		"CenterLat":4.4167295593006365e1,
@@ -32768,7 +32768,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01025",
 		"CenterLon":-7.1e1,
 		"CenterLat":4.1569219381653056e1,
@@ -32800,7 +32800,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01026",
 		"CenterLon":-7.1e1,
 		"CenterLat":4.330127018922193e1,
@@ -32832,7 +32832,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01027",
 		"CenterLon":-7.1e1,
 		"CenterLat":4.503332099679081e1,
@@ -32864,7 +32864,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01028",
 		"CenterLon":-7.05e1,
 		"CenterLat":4.243524478543749e1,
@@ -32896,7 +32896,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01029",
 		"CenterLon":-7.05e1,
 		"CenterLat":4.4167295593006365e1,
@@ -32928,7 +32928,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01030",
 		"CenterLon":-7.05e1,
 		"CenterLat":4.589934640057525e1,
@@ -32960,7 +32960,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01031",
 		"CenterLon":-7.0e1,
 		"CenterLat":4.1569219381653056e1,
@@ -32992,7 +32992,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01032",
 		"CenterLon":-7.0e1,
 		"CenterLat":4.330127018922193e1,
@@ -33024,7 +33024,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01033",
 		"CenterLon":-7.0e1,
 		"CenterLat":4.503332099679081e1,
@@ -33056,7 +33056,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01034",
 		"CenterLon":-7.0e1,
 		"CenterLat":4.676537180435968e1,
@@ -33088,7 +33088,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01035",
 		"CenterLon":-6.95e1,
 		"CenterLat":4.4167295593006365e1,
@@ -33120,7 +33120,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01036",
 		"CenterLon":-6.95e1,
 		"CenterLat":4.589934640057525e1,
@@ -33152,7 +33152,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01037",
 		"CenterLon":-6.9e1,
 		"CenterLat":4.503332099679081e1,
@@ -33184,7 +33184,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01038",
 		"CenterLon":-6.9e1,
 		"CenterLat":4.676537180435968e1,
@@ -33216,7 +33216,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01039",
 		"CenterLon":-6.85e1,
 		"CenterLat":4.589934640057525e1,
@@ -33248,7 +33248,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01040",
 		"CenterLon":-6.8e1,
 		"CenterLat":4.503332099679081e1,
@@ -33280,7 +33280,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01041",
 		"CenterLon":-6.8e1,
 		"CenterLat":4.676537180435968e1,
@@ -33312,7 +33312,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01042",
 		"CenterLon":-6.75e1,
 		"CenterLat":4.589934640057525e1,
@@ -33344,7 +33344,7 @@
 		]
 	},
 	{
-		"Taxonomy":"HexagonTile1deg",
+		"Taxonomy":"Hextile1deg",
 		"Tag":"tile01043",
 		"CenterLon":-6.7e1,
 		"CenterLat":4.503332099679081e1,
