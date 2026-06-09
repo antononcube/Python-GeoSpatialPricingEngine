@@ -7,6 +7,7 @@ Prompts for creation, ingestion, and plotting Geo-taxonomies.
 ## Geo-taxonomy ingestion
 
 See the notebook ["Geo-taxonomy-ingestion.ipynb"](../notebooks/Jupyter/Geo-taxonomy-ingestion.ipynb).
+
 The Geo-taxonomy JSON file was created with the Wolfram Language package 
 [GeoTileTaxonomy.m](https://github.com/antononcube/SystemModeling/blob/master/WL/GeoTileTaxonomy.m), [AAp1].
 
@@ -20,8 +21,7 @@ that is an array of dictionaries. The column "Coordinates" has JSON string of po
 Translate from Mathematica to Python using "plotly":
 
 ```mathematica
-Graphics[{FaceForm[{Gray, Opacity[0.3]}], EdgeForm[White], 
-  Polygon/@df["PolygonCoordinates"]}, ImageSize -> 1000]
+Graphics[{FaceForm[{Gray, Opacity[0.3]}], EdgeForm[White], Polygon/@df["PolygonCoordinates"]}, ImageSize -> 1000]
 ```
 
 ---
