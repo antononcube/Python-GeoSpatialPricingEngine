@@ -49,6 +49,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
     - Geohash with resolution 4 can be used to define a Geo-taxonomy.
 - **Tile**
   - A two-dimensional (2D) polygon which is an element of a Geo-taxonomy.
+  - The polygon of a tile with identifier $i$ -- as a set of points -- is denoted as $poly(i)$ or $P(i)$.
 - **Tile identifier (tile ID)**
   - A string that uniquely identifies a tile in a given Geo-taxonomy.
 - **Tile center**
@@ -114,8 +115,16 @@ The definitions are given with the "primary task" in mind. Some of the definitio
     2. Find a path $p$ from $t_1$ to $t_2$ in the Geo-taxonomy graph
        - This can be the shortest path, a or path over a subgraph (that corresponds to a route network.)
     3. Let the length of $p$ is $n$.
-    4. For each tile $i$ in $p$ find the passing direction $pass(p, i)$  
-    5. Here is the approximation formula assuming the support of each basis function $b(i)$ is the tile $i$:
+    4. For each tile $i$ in $p$ find the passing direction $pass(p, i)$
+    5. Assuming the support of each basis function $b(i)$ is the tile $i$ and $b(i)$ takes only the values ${0, 1}$, i.e.:
+$$
+b(i)(x)=
+\begin{cases}
+1 & \text{if }x\in poly(i),\\[4pt]
+0 & \text{otherwise}.
+\end{cases}
+$$    
+    6. Here is the approximation formula:
   $$
     price(g_1,g_2)=\sum_{i=1}^{n}{k(i) \, b(i) \, diam(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))}
   $$
@@ -128,10 +137,6 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - An optimization problem that finds concrete values for all tile variables 
     with which that minimizes a certain metric of the difference of between the training dataset prices
     and the prices computed with the price approximation formula.
-  - The optimization problem formulation can incorporate constraints like:
-    - $k(1) = k(i), \forall \, i \in GT$, i.e., constant distance factor for all tiles
-    - $n(1) = n(i), \forall \, i \in GT$, i.e., constant offset for all tiles
-    - $dir(i,j) ≤ 20, \forall \, i \in GT \land j \in [1,8]$. i.e., not tile is too "pivotal" in price conribution
   - Several metrics of the difference can be considered:
     - Minimizing the total difference:
       - total of approximated prices vs. total of training prices
@@ -182,10 +187,33 @@ $$
 (price(1), \dots, price(n_{GT}))
 $$
 
+### Additional constraints
+
+The optimization problem formulation can incorporate additional constraints like:
+
+  - $k(1) = k(i), \forall \, i \in GT$ 
+    - I.e., constant distance factor for all tiles.
+  - $n(1) = n(i), \forall \, i \in GT$
+    - I.e., constant offset for all tiles.
+  - $dir(i,j) ≤ 20, \forall \, i \in GT \land j \in [1,8]$
+    - I.e., no tile is too "pivotal" in price contribution.
+  - $0.1 ≤ k(i) ≤ 1.4, 0 ≤ n(i) ≤ 20, \forall \, i \in GT $ 
+    - I.e., the distance factors and intercepts are restrained according to certain assumptions. 
+
 ### Modification with distance
 
 If distance is given for each transportation trip then only $k(1)\,d(k) + n(1)$ is used in the approximation formula. 
 
+### Modification using the uniform norm
+
+In some cases using the Chebyshev distance or Infinity norm as a minimization objective function (as in the formulation above)
+the Uniform norm might be preferred. With the Uniform norm is attempted to make all deviations relatively small.
+Which norm to use should be determined by experiments. (Like business simulations.) 
+
 ----
 
-## Computation with a calibrated model
+## Extrapolation of variables
+
+With small training datasets not all variables are going to values changed or assigned by the calibration process.
+One simple approach is to extrapolate the calibrated values of tile variables to nearest neighbor tiles. 
+Such extrapolation can be (i) a simple copy of values, or (ii) assignment of values weighted by distance.
