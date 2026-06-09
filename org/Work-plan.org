@@ -1,0 +1,50 @@
+#+TITLE: Python-GeoSpatialPricingEngine work plans
+#+AUTHOR: Anton Antonov
+#+EMAIL: antononcube@posteo.net
+#+TODO: TODO ONGOING MAYBE | DONE CANCELED 
+#+OPTIONS: toc:1 num:0
+
+* TODO Geo-taxonomies [0%] [0/3]
+** TODO Generate reasonable experimental taxonomy
+- [ ] Over which country?
+  - [ ] Botswana
+  - [ ] Bulgaria
+  - [ ] Spain
+  - [ ] Russia
+  - [ ] USA
+- [ ] What tile shapes?
+  - [ ] Squares
+  - [ ] Hexagons
+  - [ ] Geohash
+- [ ] What resolution
+  - [ ] Precision 4 for GeoHash
+  - [ ] Degree 1 for Squares and Hexagons
+** TODO Export to CSV 
+** MAYBE Export to JSON
+* TODO Model Management System (MMS) [0%] [0/3]
+- [ ] Pick a database
+  - [ ] PostgreSQL
+  - [ ] DuckDB
+- [ ] Design via LLM prompt
+- [ ] Corrections
+- [ ] Full hook-up
+* TODO Fake data [%] [/]
+- Generation of fake data of chosen Geo-taxonomy.
+- [ ] Determine popular transportation trip start-end pairs
+- [ ] Come up with reasonable prices and transported goods volumes
+* TODO Program the OOP framework [0%] [0/4]
+- [ ] Using LLM for the first versions of the OOP classes
+- [ ] Importers of taxonomies
+- [ ] Importers of data
+- [ ] 
+* TODO Program the OR-Tools-based calibration
+* TODO Simplified task MVP [0%] [0/5]
+** TODO Correct implementations
+** TODO Hook-up tests
+** TODO Run experiments
+* TODO Primary task [0%] [0/4]
+** TODO Choose a graph library
+- Most likely ~iGraph~
+** TODO Hook-up tests
+** TODO Implement extrapolation
+** TODO Run experiments
