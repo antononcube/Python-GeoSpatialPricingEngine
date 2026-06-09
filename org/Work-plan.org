@@ -17,27 +17,40 @@
   - [ ] Hexagons
   - [ ] Geohash
 - [ ] What resolution
-  - [ ] Precision 4 for GeoHash
+  - [ ] Precision 4 for Geohash
   - [ ] Degree 1 for Squares and Hexagons
 ** TODO Export to CSV 
 ** MAYBE Export to JSON
-* TODO Model Management System (MMS) [0%] [0/3]
-- [ ] Pick a database
-  - [ ] PostgreSQL
-  - [ ] DuckDB
-- [ ] Design via LLM prompt
+* TODO Model Management System (MMS) [20%] [1/5]
+- [X] Pick a database
+  - [X] PostgreSQL
+  - [o] SQLite
+  - [o] DuckDB
+- [ ] Design via LLM
+  - [ ] Comprehensive prompt
+- [ ] Implement via LLM
+  - [ ] Generation of SQL statements
+  - [ ] Fill in with Geo-taxonomy (or two)
 - [ ] Corrections
 - [ ] Full hook-up
 * TODO Fake data [%] [/]
 - Generation of fake data of chosen Geo-taxonomy.
 - [ ] Determine popular transportation trip start-end pairs
 - [ ] Come up with reasonable prices and transported goods volumes
-* TODO Program the OOP framework [0%] [0/4]
+* TODO Program the OOP framework [0%] [0/6]
 - [ ] Using LLM for the first versions of the OOP classes
 - [ ] Importers of taxonomies
 - [ ] Importers of data
-- [ ] 
+- [ ] Ingest JSON specification execution run
+- [ ] Implement abstract classes:
+  - [ ] ~PricingEngine~
+  - [ ] ~TiledRegion~
+  - [ ] ~PricingEngineCalibrator~
+- [ ] Implement ~TiledRegionTrivialPaths~ class
 * TODO Program the OR-Tools-based calibration
+- [ ] Using LLM
+- [ ] Review and corrections
+- [ ] Verification with via executions and tests
 * TODO Simplified task MVP [0%] [0/5]
 ** TODO Correct implementations
 ** TODO Hook-up tests
