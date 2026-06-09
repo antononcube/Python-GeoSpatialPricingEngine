@@ -54,6 +54,9 @@ The definitions are given with the "primary task" in mind. Some of the definitio
 - **Tile center**
   - For a given tile $i$ the geometric center $c(i)$, of its polygon.
     - Also, $c_i$ is used.
+- **Tile diameter**
+  - For a regular tile or irregular tile $i$, the tile diameter is defined as $diam(i) = 2 \, \sqrt{area(i) / \pi}$.
+  - Reasonable approximations can be used. For example, for a regular hexagon tile the diameter can be the length of any line segment that passes through its center. 
 - **Geo-taxonomy graph**
   - Undirected graph obtained by connecting the center each tile with the centers of its adjacent neighbors.
     - The polygons of two adjacent neighbor tiles have a common side.
@@ -70,6 +73,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - The function support can be the tile itself, or the tile and a certain set of neighboring tiles.
     - In other words, the basis function support can coincide with the tile, or it is larger than the tile.
   - Larger-than-the-tile support basis functions can be used to obtain smoother approximations.
+  - In the simplest ("standard") case $b(i)$ is $1$ on the tile $i$ and $0$ elsewhere.
 - **Tile path** 
   - Primary task: An ordered set of *adjacent* tiles that correspond to a *transportation trip*.
     - The first tile contains trip's start location, the last tile contains trip's end location.
@@ -99,7 +103,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - The index $j$ of the found passing direction of $vec(j)$ is denoted with $pass(p,i)$.
 - **Tile formula**
   - For given tile $i$ its formula is:
-    - $k(i) \, b(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))$
+    - $k(i) \, b(i) \, diam(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))$
 - **Price approximation formula** 
   - Input
     - Geo-taxonomy graph
@@ -111,9 +115,9 @@ The definitions are given with the "primary task" in mind. Some of the definitio
        - This can be the shortest path, a or path over a subgraph (that corresponds to a route network.)
     3. Let the length of $p$ is $n$.
     4. For each tile $i$ in $p$ find the passing direction $pass(p, i)$  
-    5. Here is the global formula assuming the support of each basis function $b(i)$ is the tile $i$:
+    5. Here is the approximation formula assuming the support of each basis function $b(i)$ is the tile $i$:
   $$
-    price(g_1,g_2)=\sum_{i=1}^{n}{k(i) \, b(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))}
+    price(g_1,g_2)=\sum_{i=1}^{n}{k(i) \, b(i) \, diam(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))}
   $$
 - **Training data** or **training dataset**
   - A dataset of transportation trips.
@@ -178,6 +182,9 @@ $$
 (price(1), \dots, price(n_{GT}))
 $$
 
+### Modification with distance
+
+If distance is given for each transportation trip then only $k(1)\,d(k) + n(1)$ is used in the approximation formula. 
 
 ----
 
