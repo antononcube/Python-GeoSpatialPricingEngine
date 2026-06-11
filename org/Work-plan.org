@@ -4,37 +4,54 @@
 #+TODO: TODO ONGOING MAYBE | DONE CANCELED 
 #+OPTIONS: toc:1 num:0
 
-* TODO Geo-taxonomies [0%] [0/3]
+* TODO Geo-taxonomies [75%] [3/4]
 ** TODO Generate reasonable experimental taxonomy
-- [ ] Over which country?
-  - [ ] Botswana
-  - [ ] Bulgaria
-  - [ ] Spain
-  - [ ] Russia
-  - [ ] USA
+- [X] Over which country?
+  - [o] Botswana
+  - [o] Bulgaria
+  - [o] Spain
+  - [o] Russia
+  - [X] USA
 - [ ] What tile shapes?
   - [ ] Squares
-  - [ ] Hexagons
+  - [ ] Hexagons (aka hextile)
   - [ ] Geohash
-- [ ] What resolution
+- [-] What resolution
   - [ ] Precision 4 for Geohash
-  - [ ] Degree 1 for Squares and Hexagons
-** TODO Export to CSV 
-** MAYBE Export to JSON
-* TODO Model Management System (MMS) [20%] [1/5]
+  - [X] Degree 1 for Squares and Hexagons
+** DONE Obtain corresponding tile data 
+- [X] Elevation data
+- [X] Population data
+** CANCELED Export to CSV 
+** DONE Export to JSON
+* TODO Model Management System (MMS) [40%] [2/5]
 - [X] Pick a database
   - [X] PostgreSQL
   - [o] SQLite
   - [o] DuckDB
-- [ ] Design via LLM
-  - [ ] Comprehensive prompt
+- [C] Design via LLM
+  - [ ] Simple trial prompt
+    - In order to see or verify how an LLM can help.
+  - [C] Comprehensive prompt
+  - It was easier to write the spec itself.
+- [X] Full database tables description and connections between them
+  - Not that hard to do
+  - And it is not more work that designing with an LLM
 - [ ] Implement via LLM
   - [ ] Generation of SQL statements
   - [ ] Fill in with Geo-taxonomy (or two)
 - [ ] Corrections
 - [ ] Full hook-up
-* TODO Fake data [%] [/]
+* TODO Fake data [0%] [0/4]
 - Generation of fake data of chosen Geo-taxonomy.
+- [-] Study real data 
+  - From Freight Analysis Framework (FAF)
+  - [X] Get the data
+  - [ ] State-to-State Gasoline
+  - [ ] State-to-State Motorized vehicles
+- [ ] Prompts:
+  - [ ] For popular pairing of cities to deliver from-to.
+  - [ ] To generate a complete Jupyter chatbook (for fake data generation)
 - [ ] Determine popular transportation trip start-end pairs
 - [ ] Come up with reasonable prices and transported goods volumes
 * TODO Program the OOP framework [0%] [0/6]
