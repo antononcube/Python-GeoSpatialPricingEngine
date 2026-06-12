@@ -59,16 +59,18 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
   - Columns:
     - raw_transportation_trips_id
     - id
-    - start_lat
-    - start_lon
-    - start_state
-    - start_zip_code
-    - end_lat
-    - end_lon
-    - end_state
-    - end_zip_code
-    - distance (can be null)
-    - price
+    - start_lat      (numeric, cannot be null)
+    - start_lon      (numeric, cannot be null)
+    - start_state    (string, can be null)
+    - start_city     (string, can be null)
+    - start_zip_code (string, can be null)
+    - end_lat        (numeric, cannot be null) 
+    - end_lon        (numeric, cannot be null) 
+    - end_state      (string, can be null)
+    - end_city       (string, can be null)
+    - end_zip_code   (string, can be null)
+    - distance       (numeric, can be null)
+    - price          (numeric, cannot be null) 
 
 Generate the SQL code for the creation of the tables and their indexes.
 Chose reasonable column names and types make their names consistent.
