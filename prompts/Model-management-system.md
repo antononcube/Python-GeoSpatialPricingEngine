@@ -75,5 +75,12 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
 Generate the SQL code for the creation of the tables and their indexes.
 Chose reasonable column names and types make their names consistent.
 
+
+-----
+
+## Meta comments & prompts
+
 **Remark:** Maybe, the Mermaid-JS code should be generated first, and then the SQL.
 The Mermaid-Code can be used to tweak/tune the design. 
+
+**Codex prompt:** Carefully read "./prompts/Model-management-system.md" and generate the corresponding SQL script for creating the PostgreSQL tables in the directory "./sql".
