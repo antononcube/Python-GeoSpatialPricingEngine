@@ -42,13 +42,15 @@
   - [ ] Fill in with Geo-taxonomy (or two)
 - [ ] Corrections
 - [ ] Full hook-up
-* TODO Fake data [0%] [0/4]
+* TODO Fake data [25%] [1/4]
 - Generation of fake data of chosen Geo-taxonomy.
-- [-] Study real data 
+- [X] Study real data 
   - From Freight Analysis Framework (FAF)
   - [X] Get the data
-  - [ ] State-to-State Gasoline
-  - [ ] State-to-State Motorized vehicles
+  - [X] State-to-State Gasoline
+  - [X] State-to-State Motorized vehicles
+- [ ] Using FAF cities make from-to-distance triplets
+  - Via Wolfram Language (WL) since it has ~TravelDistance~
 - [ ] Prompts:
   - [ ] For popular pairing of cities to deliver from-to.
   - [ ] To generate a complete Jupyter chatbook (for fake data generation)
