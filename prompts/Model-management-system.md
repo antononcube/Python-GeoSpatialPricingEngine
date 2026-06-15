@@ -14,7 +14,9 @@ Many models can be trained over the same transportation data using different par
 Use the Star schema design pattern, the central table is `model`. Here are all tables:
 
 - `model`
-  - Model identifier (ID)
+  - model_id 
+  - model_name  (textual, cannot be null)
+  - description (textual, can be null) 
   - Connections to the tables used to create and calibrate the model:
     - `model_parameter` : one to many
     - `geo_taxonomy` : one to one for model_id vs geo_taxonomy_id 
@@ -22,20 +24,32 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
     - `transportation_trips` : one to one for model_id vs transportation_trips_id
     - `calibrated_value` : one to many for model_id vs id
 - `model_parameter`
-  - Parameter id, name, description, min-, and max value
+  - id
+  - model_id
+  - parameter_name
+  - min_value
+  - max_value
 - `calibrated_value`
   - Has all tile variable names and the calibrated values assigned to them
+  - id
+  - model_id (cannot be null)
+  - variable_name
+  - value
 - `geo_taxonomy`
-  - Has Geo-taxonomy ID, tile IDs, tile coordinates as JSON string, latitude and longitude of tiles' centers
+  - geo_taxonomy_id (textual, cannot be null)
+  - tile_id         (textual, cannot be null)
+  - center_lat
+  - center_lon
+  - coordinates     (tile polygon coordinates as JSON string)
 - `tile_data`
   - For each tile of a given Geo-taxonomy there is a set of numerical data variables, like, elevation and population.
   - Connects to `geo_taxonomy` 
     - One to one fo geo_taxonomy_id vs tile_data_id
   - Columns:
-    - tile_data_id 
-    - geo_taxonomy_id
+    - tile_data_id      (textual, cannot be null)
+    - geo_taxonomy_id   (textual, cannot be null)
     - id
-    - tile_id
+    - tile_id           (textual, cannot be null)
     - name
     - value
 - `transportation_trips`
@@ -45,8 +59,8 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
   - Preprocessed raw data used for model calibration.
   - Has an indicator column, `is_trianing`, for which records are for training and which for testing
   - Columns:
-    - transportation_trips_id
-    - raw_transportation_trips_id
+    - transportation_trips_id       (textual, cannot be null)
+    - raw_transportation_trips_id   (textual, can be null)
     - id
     - start_lat
     - start_lon
@@ -57,7 +71,7 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
     - is_training
 - `raw_transportation_trips`
   - Columns:
-    - raw_transportation_trips_id
+    - raw_transportation_trips_id  (textual, cannot be null)
     - id
     - start_lat      (numeric, cannot be null)
     - start_lon      (numeric, cannot be null)
