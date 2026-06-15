@@ -93,7 +93,6 @@ Here is an example dashboard of Postico 2 connected to the database "geo_spatial
 
 ![](./img/Postico2-database-dashboard-1.png)
 
-### Python script
+### Python script or notebook
 
-```python
-```
+See the notebook ["MMS-database-access.ipynb"](../notebooks/Jupyter/MMS-database-access.ipynb).
