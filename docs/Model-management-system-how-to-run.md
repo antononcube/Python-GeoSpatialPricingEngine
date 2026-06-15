@@ -89,6 +89,10 @@ This output should be returned:
 - Start the app PostgreSQL
 - Start Postico 2 and click on the database icon labeled as "geo_spatial_pricing_engine"
 
+Here is an example dashboard of Postico 2 connected to the database "geo_spatial_pricing_engine":
+
+![](./img/Postico2-database-dashboard-1.png)
+
 ### Python script
 
 ```python
