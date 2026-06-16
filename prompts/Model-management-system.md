@@ -18,12 +18,13 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
   - model_name  (textual, cannot be null, unique)
   - description (textual, can be null) 
   - Connections to the tables used to create and calibrate the model:
-    - `model_parameter` : one to many
-    - `geo_taxonomy` : one to one for model_id vs geo_taxonomy_id 
-    - `tile_data` : one to one for model_id vs tile_data_id
-    - `transportation_trips` : one to one for model_id vs transportation_trips_id
-    - `calibrated_value` : one to many for model_id vs id
+    - `model_parameter` : one to many for model_id vs model_parameter_id 
+    - `geo_taxonomy` : many to one for model_id vs geo_taxonomy_id 
+    - `tile_data` : many to one for model_id vs tile_data_id
+    - `transportation_trips` : many to one for model_id vs transportation_trips_id
+    - `calibrated_value` : one to many for model_id vs calibrated_value.id
 - `model_parameter`
+  - model_parameter_id (not null, not unique) 
   - id             (primary key)
   - model_id       (not unique)
   - parameter_name (textual, cannot be null, not unique)
@@ -91,13 +92,3 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
 
 Generate the SQL code for the creation of the tables and their indexes.
 Chose reasonable column names and types make their names consistent.
-
-
------
-
-## Meta comments & prompts
-
-**Remark:** Maybe, the Mermaid-JS code should be generated first, and then the SQL.
-The Mermaid-Code can be used to tweak/tune the design. 
-
-**Codex prompt:** Carefully read "./prompts/Model-management-system.md" and generate the corresponding SQL script for creating the PostgreSQL tables in the directory "./sql".
