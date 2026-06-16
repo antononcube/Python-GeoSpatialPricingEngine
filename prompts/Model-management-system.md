@@ -92,3 +92,37 @@ Use the Star schema design pattern, the central table is `model`. Here are all t
 
 Generate the SQL code for the creation of the tables and their indexes.
 Chose reasonable column names and types make their names consistent.
+
+
+-----
+
+## Meta comments & prompts
+
+**Remark:** Maybe, the Mermaid-JS code should be generated first, and then the SQL.
+The Mermaid-Code can be used to tweak/tune the design. 
+
+**Codex prompt:** Carefully read "./prompts/Model-management-system.md" and generate the corresponding SQL script for creating the PostgreSQL tables in the directory "./sql".
+
+---
+
+## Database fill-in via Python
+
+I want put the content of the data frame 
+
+```
+start_city start_state start_zip_code  start_lat  start_lon    end_city  end_state            end_zip_code    end_lat    end_lon     distance 
+Columbus        Ohio           None   39.988475   -82.988793  Washington   DistrictOfColumbia         None  38.904148 -77.017094   411.847423
+Columbus        Ohio           None   39.988475   -82.988793     Wichita   Kansas                     None  37.689363 -97.343805   852.893641
+Dallas         Texas            None  32.794176   -96.765503      Albany    NewYork                   None  42.665745 -73.798353  1640.481347
+```
+
+into an PostgreSQL table with the name "raw_transportation_trips" that has the same column names and 
+
+- The column "raw_transportation_trips_id" that should be set to "FAFDerived" for all records 
+- The column "price" that should be set to 0 for all records
+
+I use this code `psycopg.connect(**DB_CONFIG) as conn:` to interact with the database.
+
+The columns "start_lat", "start_lon", "end_lat", "end_lon" are numeric.
+
+I am using the new psycopg3.
