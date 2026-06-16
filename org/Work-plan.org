@@ -24,7 +24,7 @@
 - [X] Population data
 ** CANCELED Export to CSV 
 ** DONE Export to JSON
-* TODO Model Management System (MMS) [40%] [2/5]
+* TODO Model Management System (MMS) [80%] [4/5]
 - [X] Pick a database
   - [X] PostgreSQL
   - [o] SQLite
@@ -37,24 +37,34 @@
 - [X] Full database tables description and connections between them
   - Not that hard to do
   - And it is not more work that designing with an LLM
-- [ ] Implement via LLM
-  - [ ] Generation of SQL statements
-  - [ ] Fill in with Geo-taxonomy (or two)
-- [ ] Corrections
+- [X] Implement via LLM
+  - [X] Generation of SQL statements
+  - [X] Populate with raw transportation trips data
+  - [X] Populate with a Geo-taxonomy (or two)
+  - [X] Populate with a Geo-taxonomy tile data
+- [X] Corrections
 - [ ] Full hook-up
-* TODO Fake data [25%] [1/4]
+* TODO Fake data [60%] [3/5]
 - Generation of fake data of chosen Geo-taxonomy.
 - [X] Study real data 
   - From Freight Analysis Framework (FAF)
   - [X] Get the data
   - [X] State-to-State Gasoline
   - [X] State-to-State Motorized vehicles
-- [ ] Using FAF cities make from-to-distance triplets
-  - Via Wolfram Language (WL) since it has ~TravelDistance~
-- [ ] Prompts:
+- [C] Prompts:
   - [ ] For popular pairing of cities to deliver from-to.
-  - [ ] To generate a complete Jupyter chatbook (for fake data generation)
-- [ ] Determine popular transportation trip start-end pairs
+  - [ ] To generate a complete Jupyter chatbook (for fake data generation).
+  - Turned out it was "easier" to make the pairs of cities "manually".
+- [X] Using FAF cities make from-to-distance triplets
+  - Via Wolfram Language (WL) since it has ~TravelDistance~
+- [X] Determine popular transportation trip start-end pairs
+  - Using the FAF data approx. 4500 pairs were derived.
+  - I used a WL script / notebook.
+  - For each pair the travel distance was found using WL's
+    ~TravelDistance~.
+  - That pairs data was exported to a JSON file.
+- [ ] Ingest the star-end pairs raw data in MMS 
+  - Populate the table "raw_transportation_trips".
 - [ ] Come up with reasonable prices and transported goods volumes
 * TODO Program the OOP framework [0%] [0/6]
 - [ ] Using LLM for the first versions of the OOP classes
