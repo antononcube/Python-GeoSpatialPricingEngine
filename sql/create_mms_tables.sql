@@ -1,180 +1,170 @@
 BEGIN;
 
-CREATE TABLE IF NOT EXISTS geo_taxonomy (
-    geo_taxonomy_id BIGSERIAL PRIMARY KEY,
-    taxonomy_name TEXT NOT NULL,
-    tile_id TEXT NOT NULL,
-    tile_coordinates_json JSONB NOT NULL,
-    center_lat NUMERIC(10, 7) NOT NULL,
-    center_lon NUMERIC(10, 7) NOT NULL,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    UNIQUE (taxonomy_name, tile_id)
-);
+-- Model Management System (MMS) schema
 
 CREATE TABLE IF NOT EXISTS raw_transportation_trips (
-    raw_transportation_trips_id BIGSERIAL PRIMARY KEY,
-    id BIGINT NOT NULL,
-    start_lat NUMERIC(10, 7) NOT NULL,
-    start_lon NUMERIC(10, 7) NOT NULL,
-    start_state TEXT NULL,
-    start_city TEXT NULL,
-    start_zip_code TEXT NULL,
-    end_lat NUMERIC(10, 7) NOT NULL,
-    end_lon NUMERIC(10, 7) NOT NULL,
-    end_state TEXT NULL,
-    end_city TEXT NULL,
-    end_zip_code TEXT NULL,
-    distance NUMERIC(12, 4) NULL,
-    price NUMERIC(12, 4) NOT NULL,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    UNIQUE (id)
+    id BIGSERIAL PRIMARY KEY,
+    raw_transportation_trips_id TEXT NOT NULL,
+    start_lat NUMERIC(10,7) NOT NULL,
+    start_lon NUMERIC(10,7) NOT NULL,
+    start_state TEXT,
+    start_city TEXT,
+    start_zip_code TEXT,
+    end_lat NUMERIC(10,7) NOT NULL,
+    end_lon NUMERIC(10,7) NOT NULL,
+    end_state TEXT,
+    end_city TEXT,
+    end_zip_code TEXT,
+    distance NUMERIC(12,4),
+    price NUMERIC(12,4) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS geo_taxonomy (
+    id BIGSERIAL PRIMARY KEY,
+    geo_taxonomy_id TEXT NOT NULL,
+    tile_id TEXT NOT NULL,
+    center_lat NUMERIC(10,7),
+    center_lon NUMERIC(10,7),
+    coordinates JSONB
 );
 
 CREATE TABLE IF NOT EXISTS transportation_trips (
-    transportation_trips_id BIGSERIAL PRIMARY KEY,
-    raw_transportation_trips_id BIGINT NOT NULL UNIQUE,
-    id BIGINT NOT NULL,
-    start_lat NUMERIC(10, 7) NOT NULL,
-    start_lon NUMERIC(10, 7) NOT NULL,
-    end_lat NUMERIC(10, 7) NOT NULL,
-    end_lon NUMERIC(10, 7) NOT NULL,
-    distance NUMERIC(12, 4) NULL,
-    price NUMERIC(12, 4) NOT NULL,
-    is_training BOOLEAN NOT NULL,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    CONSTRAINT fk_transportation_trips_raw
-        FOREIGN KEY (raw_transportation_trips_id)
-        REFERENCES raw_transportation_trips (raw_transportation_trips_id),
-    UNIQUE (id)
+    id BIGSERIAL PRIMARY KEY,
+    transportation_trips_id TEXT NOT NULL,
+    raw_transportation_trips_id TEXT,
+    start_lat NUMERIC(10,7),
+    start_lon NUMERIC(10,7),
+    end_lat NUMERIC(10,7),
+    end_lon NUMERIC(10,7),
+    distance NUMERIC(12,4),
+    price NUMERIC(12,4),
+    is_training BOOLEAN NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS tile_data (
     id BIGSERIAL PRIMARY KEY,
-    tile_data_id BIGINT NOT NULL,
-    geo_taxonomy_id BIGINT NOT NULL,
+    tile_data_id TEXT NOT NULL,
+    geo_taxonomy_id TEXT NOT NULL,
     tile_id TEXT NOT NULL,
-    name TEXT NOT NULL,
-    value NUMERIC(18, 6) NOT NULL,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    CONSTRAINT fk_tile_data_geo_taxonomy
-        FOREIGN KEY (geo_taxonomy_id)
-        REFERENCES geo_taxonomy (geo_taxonomy_id),
-    UNIQUE (tile_data_id, tile_id, name),
-    UNIQUE (tile_data_id, geo_taxonomy_id)
+    name TEXT,
+    value NUMERIC
 );
 
 CREATE TABLE IF NOT EXISTS model (
     model_id BIGSERIAL PRIMARY KEY,
-    model_name TEXT NOT NULL,
-    model_version TEXT NULL,
-    model_description TEXT NULL,
-    geo_taxonomy_id BIGINT NOT NULL UNIQUE,
-    tile_data_id BIGINT NOT NULL UNIQUE,
-    transportation_trips_id BIGINT NOT NULL UNIQUE,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    CONSTRAINT fk_model_geo_taxonomy
-        FOREIGN KEY (geo_taxonomy_id)
-        REFERENCES geo_taxonomy (geo_taxonomy_id),
-    CONSTRAINT fk_model_transportation_trips
-        FOREIGN KEY (transportation_trips_id)
-        REFERENCES transportation_trips (transportation_trips_id),
-    CONSTRAINT fk_model_tile_data
-        FOREIGN KEY (tile_data_id, geo_taxonomy_id)
-        REFERENCES tile_data (tile_data_id, geo_taxonomy_id),
-    UNIQUE (model_name, model_version)
+    model_name TEXT NOT NULL UNIQUE,
+    description TEXT,
+    geo_taxonomy_id TEXT NOT NULL,
+    tile_data_id TEXT NOT NULL,
+    transportation_trips_id TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS model_parameter (
-    parameter_id BIGSERIAL PRIMARY KEY,
+    model_parameter_id TEXT NOT NULL,
+    id BIGSERIAL PRIMARY KEY,
     model_id BIGINT NOT NULL,
     parameter_name TEXT NOT NULL,
-    parameter_description TEXT NULL,
-    min_value NUMERIC(18, 6) NULL,
-    max_value NUMERIC(18, 6) NULL,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    CONSTRAINT fk_model_parameter_model
+    min_value NUMERIC,
+    max_value NUMERIC,
+    CONSTRAINT fk_model_parameter_model_id
         FOREIGN KEY (model_id)
-        REFERENCES model (model_id),
-    CHECK (min_value IS NULL OR max_value IS NULL OR min_value <= max_value),
-    UNIQUE (model_id, parameter_name)
+        REFERENCES model (model_id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS calibrated_value (
-    calibrated_value_id BIGSERIAL PRIMARY KEY,
+    id BIGSERIAL PRIMARY KEY,
     model_id BIGINT NOT NULL,
-    variable_name TEXT NOT NULL,
-    calibrated_value NUMERIC(18, 8) NOT NULL,
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    CONSTRAINT fk_calibrated_value_model
+    variable_name TEXT,
+    value NUMERIC,
+    CONSTRAINT fk_calibrated_value_model_id
         FOREIGN KEY (model_id)
-        REFERENCES model (model_id),
-    UNIQUE (model_id, variable_name)
+        REFERENCES model (model_id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS experiment (
-    experiment_id BIGSERIAL PRIMARY KEY,
+    id BIGSERIAL PRIMARY KEY,
     model_id BIGINT NOT NULL,
     experiment_name TEXT NOT NULL,
-    experiment_description TEXT NULL,
-    started_at TIMESTAMPTZ NULL,
-    completed_at TIMESTAMPTZ NULL,
-    status TEXT NOT NULL DEFAULT 'planned',
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    CONSTRAINT fk_experiment_model
+    description TEXT,
+    started_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    ended_at TIMESTAMPTZ,
+    status TEXT,
+    CONSTRAINT fk_experiment_model_id
         FOREIGN KEY (model_id)
-        REFERENCES model (model_id),
-    CHECK (completed_at IS NULL OR started_at IS NULL OR completed_at >= started_at),
-    CHECK (status IN ('planned', 'running', 'completed', 'failed')),
-    UNIQUE (model_id, experiment_name)
+        REFERENCES model (model_id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS experimental_result (
-    experimental_result_id BIGSERIAL PRIMARY KEY,
+    id BIGSERIAL PRIMARY KEY,
     experiment_id BIGINT NOT NULL,
     metric_name TEXT NOT NULL,
-    metric_value NUMERIC(18, 8) NOT NULL,
-    metric_unit TEXT NULL,
-    split_type TEXT NULL,
-    observed_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    created_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
-    CONSTRAINT fk_experimental_result_experiment
+    metric_value NUMERIC NOT NULL,
+    notes TEXT,
+    recorded_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+    CONSTRAINT fk_experimental_result_experiment_id
         FOREIGN KEY (experiment_id)
-        REFERENCES experiment (experiment_id),
-    CHECK (split_type IS NULL OR split_type IN ('train', 'validation', 'test')),
-    UNIQUE (experiment_id, metric_name, split_type)
+        REFERENCES experiment (id)
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
 );
+
+-- Indexes for common joins and filtering
+
+CREATE INDEX IF NOT EXISTS idx_raw_transportation_trips_raw_id
+    ON raw_transportation_trips (raw_transportation_trips_id);
+
+CREATE INDEX IF NOT EXISTS idx_geo_taxonomy_geo_taxonomy_id
+    ON geo_taxonomy (geo_taxonomy_id);
 
 CREATE INDEX IF NOT EXISTS idx_geo_taxonomy_tile_id
     ON geo_taxonomy (tile_id);
 
-CREATE INDEX IF NOT EXISTS idx_geo_taxonomy_center
-    ON geo_taxonomy (center_lat, center_lon);
+CREATE INDEX IF NOT EXISTS idx_transportation_trips_trips_id
+    ON transportation_trips (transportation_trips_id);
 
-CREATE INDEX IF NOT EXISTS idx_raw_trips_start_coords
-    ON raw_transportation_trips (start_lat, start_lon);
+CREATE INDEX IF NOT EXISTS idx_transportation_trips_raw_id
+    ON transportation_trips (raw_transportation_trips_id);
 
-CREATE INDEX IF NOT EXISTS idx_raw_trips_end_coords
-    ON raw_transportation_trips (end_lat, end_lon);
-
-CREATE INDEX IF NOT EXISTS idx_transportation_trips_training
+CREATE INDEX IF NOT EXISTS idx_transportation_trips_is_training
     ON transportation_trips (is_training);
 
-CREATE INDEX IF NOT EXISTS idx_transportation_trips_id
-    ON transportation_trips (id);
+CREATE INDEX IF NOT EXISTS idx_tile_data_tile_data_id
+    ON tile_data (tile_data_id);
 
-CREATE INDEX IF NOT EXISTS idx_tile_data_lookup
-    ON tile_data (geo_taxonomy_id, tile_id, name);
+CREATE INDEX IF NOT EXISTS idx_tile_data_geo_taxonomy_id
+    ON tile_data (geo_taxonomy_id);
 
-CREATE INDEX IF NOT EXISTS idx_model_parameter_model
+CREATE INDEX IF NOT EXISTS idx_tile_data_tile_id
+    ON tile_data (tile_id);
+
+CREATE INDEX IF NOT EXISTS idx_model_parameter_model_id
     ON model_parameter (model_id);
 
-CREATE INDEX IF NOT EXISTS idx_calibrated_value_model
+CREATE INDEX IF NOT EXISTS idx_model_parameter_parameter_name
+    ON model_parameter (parameter_name);
+
+CREATE INDEX IF NOT EXISTS idx_calibrated_value_model_id
     ON calibrated_value (model_id);
 
-CREATE INDEX IF NOT EXISTS idx_experiment_model_status
-    ON experiment (model_id, status);
+CREATE INDEX IF NOT EXISTS idx_calibrated_value_variable_name
+    ON calibrated_value (variable_name);
 
-CREATE INDEX IF NOT EXISTS idx_experimental_result_experiment
+CREATE INDEX IF NOT EXISTS idx_experiment_model_id
+    ON experiment (model_id);
+
+CREATE INDEX IF NOT EXISTS idx_experiment_started_at
+    ON experiment (started_at);
+
+CREATE INDEX IF NOT EXISTS idx_experimental_result_experiment_id
     ON experimental_result (experiment_id);
+
+CREATE INDEX IF NOT EXISTS idx_experimental_result_metric_name
+    ON experimental_result (metric_name);
 
 COMMIT;
