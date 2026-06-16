@@ -57,27 +57,28 @@ Inside the `psql` app run the command:
 This output should be returned:
 
 ```
-                                    List of relations
- Schema |                           Name                           |   Type   |  Owner   
---------+----------------------------------------------------------+----------+----------
- public | calibrated_value                                         | table    | postgres
- public | calibrated_value_calibrated_value_id_seq                 | sequence | postgres
- public | experiment                                               | table    | postgres
- public | experiment_experiment_id_seq                             | sequence | postgres
- public | experimental_result                                      | table    | postgres
- public | experimental_result_experimental_result_id_seq           | sequence | postgres
- public | geo_taxonomy                                             | table    | postgres
- public | geo_taxonomy_geo_taxonomy_id_seq                         | sequence | postgres
- public | model                                                    | table    | postgres
- public | model_model_id_seq                                       | sequence | postgres
- public | model_parameter                                          | table    | postgres
- public | model_parameter_parameter_id_seq                         | sequence | postgres
- public | raw_transportation_trips                                 | table    | postgres
- public | raw_transportation_trips_raw_transportation_trips_id_seq | sequence | postgres
- public | tile_data                                                | table    | postgres
- public | tile_data_id_seq                                         | sequence | postgres
- public | transportation_trips                                     | table    | postgres
- public | transportation_trips_transportation_trips_id_seq         | sequence | postgres
+                       List of relations
+ Schema |              Name               |   Type   |  Owner  
+--------+---------------------------------+----------+---------
+ public | calibrated_value                | table    | antonov
+ public | calibrated_value_id_seq         | sequence | antonov
+ public | experiment                      | table    | antonov
+ public | experiment_id_seq               | sequence | antonov
+ public | experimental_result             | table    | antonov
+ public | experimental_result_id_seq      | sequence | antonov
+ public | geo_taxonomy                    | table    | antonov
+ public | geo_taxonomy_id_seq             | sequence | antonov
+ public | model                           | table    | antonov
+ public | model_model_id_seq              | sequence | antonov
+ public | model_parameter                 | table    | antonov
+ public | model_parameter_id_seq          | sequence | antonov
+ public | raw_transportation_trips        | table    | antonov
+ public | raw_transportation_trips_id_seq | sequence | antonov
+ public | tile_data                       | table    | antonov
+ public | tile_data_id_seq                | sequence | antonov
+ public | transportation_trips            | table    | antonov
+ public | transportation_trips_id_seq     | sequence | antonov
+(18 rows)
 ```
 
 ----
