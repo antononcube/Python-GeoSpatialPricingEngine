@@ -4,21 +4,30 @@
 #+TODO: TODO ONGOING MAYBE | DONE CANCELED 
 #+OPTIONS: toc:1 num:0
 
-* TODO Geo-taxonomies [75%] [3/4]
-** TODO Generate reasonable experimental taxonomy
+* DONE Geo-taxonomies [100%] [4/4]
+** DONE Generate reasonable experimental taxonomy
 - [X] Over which country?
   - [o] Botswana
   - [o] Bulgaria
   - [o] Spain
   - [o] Russia
   - [X] USA
-- [ ] What tile shapes?
-  - [ ] Squares
-  - [ ] Hexagons (aka hextile)
-  - [ ] Geohash
-- [-] What resolution
-  - [ ] Precision 4 for Geohash
+- [X] What tile shapes?
+  - [o] Squares
+    - No real advantages except that is easier to create.
+      - Which is not a factor because of the:
+        - Python package [[https://pypi.org/project/TileStats/]["TileStats"]]
+        - WL paclet [[https://resources.wolframcloud.com/PacletRepository/resources/AntonAntonov/TileStats/]["TileStats"]]
+  - [X] Hexagons (aka hextile)
+  - [o] Geohash
+    - At some point it has to be used because is simple and "standard".
+  - [o] (Uber's) [[https://h3geo.org][H3]]
+- [X] What resolution
+  - [X] Precision 4 for Geohash
+    - Precision 4 is too coarse, precision 5 is too fine.
+  - See WFR's [[https://resources.wolframcloud.com/FunctionRepository/resources/GeoHash/][GeoHash]].  
   - [X] Degree 1 for Squares and Hexagons
+- [X] Commit to MMS
 ** DONE Obtain corresponding tile data 
 - [X] Elevation data
 - [X] Population data
@@ -44,7 +53,7 @@
   - [X] Populate with a Geo-taxonomy tile data
 - [X] Corrections
 - [ ] Full hook-up
-* TODO Fake data [60%] [3/5]
+* TODO Fake data [83%] [5/6]
 - Generation of fake data of chosen Geo-taxonomy.
 - [X] Study real data 
   - From Freight Analysis Framework (FAF)
@@ -52,8 +61,8 @@
   - [X] State-to-State Gasoline
   - [X] State-to-State Motorized vehicles
 - [C] Prompts:
-  - [ ] For popular pairing of cities to deliver from-to.
-  - [ ] To generate a complete Jupyter chatbook (for fake data generation).
+  - [C] For popular pairing of cities to deliver from-to.
+  - [C] To generate a complete Jupyter chatbook (for fake data generation).
   - Turned out it was "easier" to make the pairs of cities "manually".
 - [X] Using FAF cities make from-to-distance triplets
   - Via Wolfram Language (WL) since it has ~TravelDistance~
@@ -63,9 +72,13 @@
   - For each pair the travel distance was found using WL's
     ~TravelDistance~.
   - That pairs data was exported to a JSON file.
-- [ ] Ingest the star-end pairs raw data in MMS 
+- [X] Ingest the star-end pairs raw data in MMS 
   - Populate the table "raw_transportation_trips".
-- [ ] Come up with reasonable prices and transported goods volumes
+- [-] Price formulas and rules
+  - [X] Linear function formula
+  - [ ] Come up with reasonable prices and transported goods volumes
+- [X] Transfer from data from MMS ~raw_transportation_trips~ to ~transportation_trips~
+  - With price formula application
 * TODO Program the OOP framework [0%] [0/6]
 - [ ] Using LLM for the first versions of the OOP classes
 - [ ] Importers of taxonomies
