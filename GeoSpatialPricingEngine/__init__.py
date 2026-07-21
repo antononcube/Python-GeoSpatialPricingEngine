@@ -11,6 +11,7 @@ from .pricing_engine import PricingEngine
 from .pricing_engine_calibrator import PricingEngineCalibrator
 from .pricing_engine_extrapolator import PricingEngineExtrapolator
 from .pricing_engine_builder import PricingEngineBuilder
+from .postgresql_access import PostgreSQLAccess
 
 __all__ = [
     "Point2D",
@@ -24,4 +25,5 @@ __all__ = [
     "PricingEngineCalibrator",
     "PricingEngineExtrapolator",
     "PricingEngineBuilder",
+    "PostgreSQLAccess",
 ]
