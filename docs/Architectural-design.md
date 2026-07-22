@@ -71,10 +71,10 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
 - `GeoPoint`
   - Inherits from `Point2D`
   - Has an `id`
-  - Has a gist (`__str__`) the includes the ID and coordinates
+  - Has a gist (`__str__`) that includes the ID and coordinates
   - Can compute distance in miles and kilometers
     - I.e. convert from Earth radians to miles and kilometers
-- `Geo-taxonomy`
+- `GeoTaxonomy`
   - Can read/import a Geo-taxonomy given in different formats:
     - CSV
     - JSON 
@@ -93,12 +93,12 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
   - All tile paths are just the start tile and end tile.
     - For example, for the Geo-points `(x1, y1)` and `(x2, y2)` the tile path is `[self.tile(x1, y1), self.tile(x2, y2)]` 
 - `TiledRegionGraph`
-  - Use two graphs of tiles in order to find tile paths.
+  - Uses two graphs of tiles in order to find tile paths.
     - The first, coarse graph corresponds to a network of highways or/and primary roads
     - The second, fine graph corresponds to the nearest neighbor graph of the Geo-taxonomy
   - If the coarse graph is not given only the fine graph is used.
 - `Orders`
-  - Abstract class for the ingestion of collection of orders and transforming them in convenient computational data structures. 
+  - Abstract class for the ingestion of collection of orders and transforming them into convenient computational data structures. 
   - The descendants of the class know how to ingest CSV or JSON files, or retrieve orders from databases.
   - Its hierarchy uses both Template Method and Strategy.
 - `PricingEngine`
@@ -107,7 +107,7 @@ that can create, calibrate, and invoke objects that compute numerical values (pr
   - Has methods to compute prices via different signatures.
 - `PricingEngineCalibrator`
   - Calibrates a pricing strategy with a set of orders.
-  - The class has attributes that are instances of `Orders`, `TiledRegsion`, and `PricingEngine`.
+  - The class has attributes that are instances of `Orders`, `TiledRegion`, and `PricingEngine`.
   - Uses Google OR-Tools to formulate and solve the optimizational problem that corresponds to the calibration process.
 - `PricingEngineExtrapolator`
   - A class that corresponds to a certain type of post-processing of calibrated pricing strategies.
