@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import math
 from typing import Union
 
 
@@ -40,10 +41,22 @@ class Point2D:
         self.y = value
 
     def norm(self) -> float:
-        raise NotImplementedError
+        return math.hypot(self.x, self.y)
 
     def dot_product(self, other: PointLike) -> float:
-        raise NotImplementedError
+        if isinstance(other, Point2D):
+            other_x, other_y = other.x, other.y
+        elif isinstance(other, tuple) and len(other) == 2:
+            other_x, other_y = other
+        else:
+            raise TypeError(
+                "'other' must be a Point2D instance or a 2-item tuple of coordinates"
+            )
+
+        return (self.x * other_x) + (self.y * other_y)
 
     def distance_to(self, other: "Point2D") -> float:
-        raise NotImplementedError
+        if not isinstance(other, Point2D):
+            raise TypeError("'other' must be a Point2D instance")
+
+        return math.hypot(self.x - other.x, self.y - other.y)
