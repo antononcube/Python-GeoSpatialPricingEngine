@@ -1,5 +1,7 @@
 # Package development prompts
 
+----
+
 ## First version
 
 The first versions of the files in the package directory ["../GeoSpatialPricingEngine"](../GeoSpatialPricingEngine) were
@@ -10,6 +12,8 @@ Analyze the document "./docs/Architectural-design.md" and implement the Python p
 Each class should have its own file. Implement the class attributes, setters, and getters, but do not implement the "serious", functionality methods. 
 (I will direct their implementation later on.)
 ```
+
+----
 
 ## Separate PostgreSQL class
 
@@ -70,3 +74,11 @@ produces a data frame with more than 4000 rows and columns: 'id', 'raw_transport
        'start_state', 'start_city', 'start_zip_code', 'end_lat', 'end_lon',
        'end_state', 'end_city', 'end_zip_code', 'distance', 'price'.
 ````
+
+----
+
+## Geo-points handling classes
+
+```text
+Fully implement the classes `Point2D` and `GeoPoint` -- see the section "Classes" in the document "./docs/Architectural-design.md".
+```
