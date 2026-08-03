@@ -211,3 +211,12 @@ Good. Analyze the file "./docs/Tile-based-aproximator.md" -- do you think other 
 > - Add extrapolation subtype for nearest neighbors: `"copy"` vs `"distance_weighted"` (`docs/Tile-based-aproximator.md:220`).
 >
 > If you want, I can now update `resources/PricingEngineSpecForm.json` with these fields (keeping your current schema backward-compatible).
+
+
+## Ingestion of the JSON calibration spec
+
+```text
+Implement the ingestion of the JSON calibration spec in the class PricingEngineBuilder in "./GeoSpatialPricingEngine/pricing_engine_builder.py". 
+The spec ingestion method should take a file path. 
+Check does the file exist, and can be JSON parsed.
+```
