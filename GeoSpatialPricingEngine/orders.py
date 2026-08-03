@@ -33,12 +33,11 @@ class Orders(ABC):
     def ingest_json(self, path: str, **kwargs: Any) -> Any:
         raise NotImplementedError
 
-    def ingest_db(self, connection: Any, **kwargs: Any) -> Any:
-        transportation_trips_id = kwargs.get("transportation_trips_id")
-        if transportation_trips_id is None:
-            raise ValueError("transportation_trips_id is required")
+    def ingest_db(self, connection: Any, transportation_trips_id: str, **kwargs: Any) -> Any:
 
-        if isinstance(connection, PostgreSQLAccess):
+        if hasattr(connection, "import_transportation_trips") and callable(
+            connection.import_transportation_trips
+        ):
             dataframe = connection.import_transportation_trips(transportation_trips_id)
         elif isinstance(connection, Mapping):
             with PostgreSQLAccess(connection) as database_access:
