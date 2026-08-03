@@ -1,0 +1,57 @@
+{
+  "pricing_engine_id": "my_pricing_engine",
+  "database": {
+    "dbname": "geo_spatial_pricing_engine",
+    "user": "postgres",
+    "password": "",
+    "host": "localhost",
+    "port": "5432"
+  },
+  "retrieve_geo_taxonomy": {
+    "source": "postgresql",
+    "geo_taxonomy_id": "geo_taxonomy_001"
+  },
+  "ingest_orders": {
+    "source": "postgresql",
+    "transportation_trips_id": "transportation_trips_001",
+    "split_training_testing": true,
+    "training_flag_column": "is_training"
+  },
+  "calibration": {
+    "parameter_bounds": {
+      "k": {
+        "min": 0.0,
+        "max": 2.0
+      },
+      "n": {
+        "min": -100.0,
+        "max": 100.0
+      },
+      "sn": {
+        "min": -50.0,
+        "max": 50.0
+      },
+      "en": {
+        "min": -50.0,
+        "max": 50.0
+      },
+      "p": {
+        "min": -10.0,
+        "max": 10.0
+      },
+      "ev": {
+        "min": -10.0,
+        "max": 10.0
+      }
+    },
+    "directional_variables": {
+      "min": 0.0,
+      "max": 100.0
+    }
+  },
+  "post_processing": {
+    "use_extrapolation": true,
+    "extrapolation_method": "nearest-neighbors",
+    "nearest_neighbors": 5
+  }
+}
