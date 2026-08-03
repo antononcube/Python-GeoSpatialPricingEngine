@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections.abc import Mapping, Sequence
+import json
 from typing import Any
 import pandas as pd
 from psycopg import sql
@@ -156,6 +157,46 @@ class PostgreSQLAccess:
         )
         query = sql.SQL("SELECT * FROM {}").format(table_identifier)
         return self.import_dataframe(query, column_names=column_names)
+
+    def import_geo_taxonomy(self, geo_taxonomy_id: str) -> Any:
+        """Import a geo taxonomy by ID and parse coordinates JSON arrays."""
+        query = sql.SQL(
+            "SELECT * FROM {} WHERE {} = %s"
+        ).format(
+            sql.Identifier("geo_taxonomy"),
+            sql.Identifier("geo_taxonomy_id"),
+        )
+        dataframe = self.import_dataframe(query, params=(geo_taxonomy_id,))
+
+        for column_name in ("id", "geo_taxonomy_id", "tile_id"):
+            if column_name in dataframe.columns:
+                dataframe[column_name] = dataframe[column_name].astype("string")
+
+        for column_name in ("center_lat", "center_lon"):
+            if column_name in dataframe.columns:
+                dataframe[column_name] = pd.to_numeric(
+                    dataframe[column_name], errors="raise"
+                )
+
+        if "coordinates" in dataframe.columns:
+
+            def _parse_coordinates(value: Any) -> Any:
+                if pd.isna(value):
+                    return value
+                if isinstance(value, str):
+                    parsed = json.loads(value)
+                    if not isinstance(parsed, list):
+                        raise ValueError(
+                            "coordinates must decode to a JSON array"
+                        )
+                    return parsed
+                if isinstance(value, tuple):
+                    return list(value)
+                return value
+
+            dataframe["coordinates"] = dataframe["coordinates"].apply(_parse_coordinates)
+
+        return dataframe
 
     def __enter__(self) -> "PostgreSQLAccess":
         self.connect()
