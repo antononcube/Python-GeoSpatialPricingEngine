@@ -185,7 +185,7 @@ The building steps include:
     - Number of nearest neighbors for the extrapolation method "nearest-neighbors"
 ```
 
-### Review & change
+#### Review & change
 
 After the generation of the JSON spec with the prompt above:
 
@@ -213,7 +213,7 @@ Good. Analyze the file "./docs/Tile-based-aproximator.md" -- do you think other 
 > If you want, I can now update `resources/PricingEngineSpecForm.json` with these fields (keeping your current schema backward-compatible).
 
 
-## Ingestion of the JSON calibration spec
+### Ingestion of the JSON calibration spec
 
 ```text
 Implement the ingestion of the JSON calibration spec in the class PricingEngineBuilder in "./GeoSpatialPricingEngine/pricing_engine_builder.py". 
