@@ -184,3 +184,30 @@ The building steps include:
     - Extrapolation method
     - Number of nearest neighbors for the extrapolation method "nearest-neighbors"
 ```
+
+### Review & change
+
+After the generation of the JSON spec with the prompt above:
+
+```text
+Good. Analyze the file "./docs/Tile-based-aproximator.md" -- do you think other elements to the JSON calibration spec should be added? 
+```
+
+
+> Great prompt — I’ll read that design doc and map any missing JSON spec elements to concrete keys.
+>
+> Yes — based on `docs/Tile-based-aproximator.md`, I’d add several important spec fields.
+>
+> **Recommended Additions**
+> - Add all 8 directional coefficients (not only a single cap): `N,S,E,W,NE,NW,SE,SW` bounds, since directions are explicit in the model (`docs/Tile-based-aproximator.md:30`, `docs/Tile-based-aproximator.md:181`).
+> - Add optimization objective selection: `objective_norm: "l1" | "linf"` (`docs/Tile-based-aproximator.md:140`, `docs/Tile-based-aproximator.md:207`).
+> - Add constraint toggles for “shared across all tiles” variables, e.g. `k_constant_across_tiles`, `n_constant_across_tiles` (`docs/Tile-based-aproximator.md:194`).
+> - Add model mode: `task_mode: "primary" | "simplified"` and `distance_only_formula` option (`docs/Tile-based-aproximator.md:8`, `docs/Tile-based-aproximator.md:205`).
+> - Add route/path policy: `path_strategy` (e.g., shortest-path vs route-subgraph) (`docs/Tile-based-aproximator.md:65`, `docs/Tile-based-aproximator.md:118`).
+> - Add basis-function configuration: support type (`tile_only` vs neighbors) and neighbor radius (`docs/Tile-based-aproximator.md:73`).
+>
+> **Post-processing Additions**
+> - Add `extrapolate_variables` list (which coefficients are extrapolated), since extrapolation is described per variable (`docs/Tile-based-aproximator.md:216`).
+> - Add extrapolation subtype for nearest neighbors: `"copy"` vs `"distance_weighted"` (`docs/Tile-based-aproximator.md:220`).
+>
+> If you want, I can now update `resources/PricingEngineSpecForm.json` with these fields (keeping your current schema backward-compatible).
