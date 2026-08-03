@@ -79,22 +79,25 @@
   - [ ] Come up with reasonable prices and transported goods volumes
 - [X] Transfer from data from MMS ~raw_transportation_trips~ to ~transportation_trips~
   - With price formula application
-* TODO Program the OOP framework [25%] [2/8]
+* TODO Program the OOP framework [40%] [4/10]
 - [X] Using LLM for the first versions of the OOP classes
 - [X] Implement abstract classes [100%] [4/4]
   - [X] ~Orders~
   - [X] ~PricingEngine~
   - [X] ~TiledRegion~
   - [X] ~GeoTaxonomy~
-- [ ] Generic PostgreSQL access class
+- [X] Generic PostgreSQL access class
   - Encapsulates the PostgreSQL database access
   - Imports data to data frames
   - Importers provide new column names if renaming is needed
-- [ ] Importers of taxonomies [0%] [0/3]
-  - [ ] From database
+- [X] Implement ~Point2D~ and ~GeoPoint~
+- [-] Importers of Geo-taxonomies in ~GeoTaxonomy~ [50%] [2/4]
+  - [X] First placeholder version
+  - [X] From database
   - [ ] From CSV files
   - [ ] From JSON files
-- [ ] Importers of transportation data [0%] [0/3]
+- [-] Importers of transportation data [25%] [1/4]
+  - [X] First placeholder version
   - [ ] From database
   - [ ] From CSV files
   - [ ] From JSON files
@@ -106,6 +109,13 @@
   - [X] First, placeholder version
   - [ ] Complete version
 - [ ] Implement ~TiledRegionTrivialPaths~ class
+* TODO Unit tests [50%] [1/2] 
+- [X] PostgreSQL access class tests
+  - [X] Ingestion of Geo-taxonomy
+  - [X] Ingestion of orders
+- [ ] Mapping transportation trips to Geo-taxonomy
+  - [ ] Trivial paths
+  - [ ] Nearest-neighbors graph
 * TODO Program the OR-Tools-based calibration
 - [ ] Using LLM
 - [ ] Review and corrections
