@@ -8,14 +8,20 @@ from GeoSpatialPricingEngine import PricingEngineBuilder
 
 
 def test_build_from_json_loads_spec(tmp_path):
-    spec = {"pricing_engine_id": "example", "calibration": {"objective_norm": "l1"}}
+    spec = {
+        "pricing_engine_id": "example",
+        "calibration": {"objective_norm": "linf"},
+    }
     spec_path = tmp_path / "pricing-engine-spec.json"
     spec_path.write_text(json.dumps(spec), encoding="utf-8")
 
     builder = PricingEngineBuilder.build_from_json(spec_path)
 
     assert isinstance(builder, PricingEngineBuilder)
-    assert builder.get_spec() == spec
+    assert builder.get_spec()["pricing_engine_id"] == "example"
+    assert builder.get_spec()["calibration"]["objective_norm"] == "linf"
+    assert "database" in builder.get_spec()
+    assert "post_processing" in builder.get_spec()
 
 
 def test_build_from_json_requires_existing_file(tmp_path):
