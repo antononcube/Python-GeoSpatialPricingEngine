@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+import json
+from os import PathLike
+from pathlib import Path
 from typing import Any
-
-from .pricing_engine import PricingEngine
 
 
 class PricingEngineBuilder:
@@ -24,8 +25,22 @@ class PricingEngineBuilder:
         self.spec = value
 
     @classmethod
-    def build_from_json(cls, spec: Any) -> PricingEngine:
-        raise NotImplementedError
+    def build_from_json(
+        cls, file_path: str | PathLike[str]
+    ) -> "PricingEngineBuilder":
+        path = Path(file_path)
+        if not path.is_file():
+            raise FileNotFoundError(f"JSON specification file does not exist: {path}")
+
+        try:
+            with path.open(encoding="utf-8") as file:
+                spec = json.load(file)
+        except json.JSONDecodeError as error:
+            raise ValueError(
+                f"JSON specification file is not valid JSON: {path}"
+            ) from error
+
+        return cls(spec)
 
     def retrieve_geo_taxonomy(self, **kwargs: Any) -> Any:
         raise NotImplementedError
