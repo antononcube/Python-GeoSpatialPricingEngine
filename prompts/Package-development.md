@@ -153,3 +153,34 @@ When I run "test_orders.py" I getting the error:
 > Expected :True
 > Actual   :np.True_
 ```
+
+----
+
+## Pricing Engine builder
+
+### Calibration JSON spec
+
+```text
+Create a JSON specification form that is a JSON dictionary to create and calibrate a `PricingEngine` object,
+and put in the directory "./resources".
+
+The building steps include:
+- PostgreSQL database access elements 
+- Retrieval of Geo-taxonomy: Geo-taxonomy ID
+- Ingestion of orders: transportation orders ID
+- Whether to split the data in training & testing parts
+    - Assuming the transportation orders have the column 'is_training'
+- Calibration of a pricing strategy
+    - min & max of multiplication factor `k`
+    - min & max of global offset `n`
+    - min & max of start-location offset `sn`
+    - min & max of start-location offset `sn`
+    - min & max of end-location offset `en`
+    - min & max of population offset `p`
+    - min & max of elevation offset `ev`
+    - max of directional variables `dir`
+- Post-processing
+    - Whether to use extrapolation or not
+    - Extrapolation method
+    - Number of nearest neighbors for the extrapolation method "nearest-neighbors"
+```
