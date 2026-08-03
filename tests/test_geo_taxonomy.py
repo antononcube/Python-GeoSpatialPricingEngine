@@ -49,7 +49,7 @@ def test_read_sql_imports_geo_taxonomy(monkeypatch):
         _fake_constructor,
     )
 
-    geo_taxonomy = GeoTaxonomy.read_sql("Hextile1deg")
+    geo_taxonomy = GeoTaxonomy.read_sql(None, "Hextile1deg")
 
     assert captured["db_config"] == {
         "dbname": "geo_spatial_pricing_engine",
