@@ -37,15 +37,27 @@ class GeoTaxonomy:
         raise NotImplementedError
 
     @classmethod
-    def read_sql(cls, geo_taxonomy_id: str) -> "GeoTaxonomy":
-        db_config: Mapping[str, Any] = {
-            "dbname": "geo_spatial_pricing_engine",
-            "user": "postgres",
-            "password": "",
-            "host": "localhost",
-            "port": "5432",
-        }
+    def read_sql(cls, connection: Any, geo_taxonomy_id: str) -> "GeoTaxonomy":
+        if hasattr(connection, "import_geo_taxonomy") and callable(
+            connection.import_geo_taxonomy
+        ):
+            dataframe = connection.import_geo_taxonomy(geo_taxonomy_id)
+        elif isinstance(connection, Mapping):
+            with PostgreSQLAccess(connection) as database_access:
+                dataframe = database_access.import_geo_taxonomy(geo_taxonomy_id)
+        elif connection is None:
+            db_config: Mapping[str, Any] = {
+                "dbname": "geo_spatial_pricing_engine",
+                "user": "postgres",
+                "password": "",
+                "host": "localhost",
+                "port": "5432",
+            }
+            with PostgreSQLAccess(db_config) as database_access:
+                dataframe = database_access.import_geo_taxonomy(geo_taxonomy_id)
+        else:
+            raise TypeError(
+                "connection must be PostgreSQLAccess, mapping config, or None"
+            )
 
-        with PostgreSQLAccess(db_config) as database_access:
-            dataframe = database_access.import_geo_taxonomy(geo_taxonomy_id)
         return cls(dataframe)
