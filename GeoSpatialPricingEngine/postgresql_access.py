@@ -198,6 +198,54 @@ class PostgreSQLAccess:
 
         return dataframe
 
+    def import_transportation_trips(self, transportation_trips_id: str) -> Any:
+        """Import transportation trips by ID with normalized column types."""
+        query = sql.SQL(
+            "SELECT * FROM {} WHERE {} = %s"
+        ).format(
+            sql.Identifier("transportation_trips"),
+            sql.Identifier("transportation_trips_id"),
+        )
+        dataframe = self.import_dataframe(query, params=(transportation_trips_id,))
+
+        for column_name in ("id", "transportation_trips_id"):
+            if column_name in dataframe.columns:
+                dataframe[column_name] = dataframe[column_name].astype("string")
+
+        for column_name in (
+            "start_lat",
+            "start_lon",
+            "end_lat",
+            "end_lon",
+            "distance",
+            "price",
+        ):
+            if column_name in dataframe.columns:
+                dataframe[column_name] = pd.to_numeric(
+                    dataframe[column_name], errors="raise"
+                )
+
+        if "is_training" in dataframe.columns:
+
+            def _parse_boolean(value: Any) -> Any:
+                if pd.isna(value):
+                    return value
+                if isinstance(value, bool):
+                    return value
+                if isinstance(value, (int, float)):
+                    return bool(value)
+                if isinstance(value, str):
+                    value_text = value.strip().lower()
+                    if value_text in {"true", "t", "1", "yes", "y"}:
+                        return True
+                    if value_text in {"false", "f", "0", "no", "n"}:
+                        return False
+                raise ValueError("is_training must be coercible to boolean")
+
+            dataframe["is_training"] = dataframe["is_training"].apply(_parse_boolean)
+
+        return dataframe
+
     def __enter__(self) -> "PostgreSQLAccess":
         self.connect()
         return self
