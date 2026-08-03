@@ -82,3 +82,27 @@ produces a data frame with more than 4000 rows and columns: 'id', 'raw_transport
 ```text
 Fully implement the classes `Point2D` and `GeoPoint` -- see the section "Classes" in the document "./docs/Architectural-design.md".
 ```
+
+----
+
+## Geo-taxonomy class
+
+### Importing from SQL
+
+```text
+In the class `GeoTaxonomy` in './GeoSpatialPricingEngine/geo_taxonomy.py', 
+using the class `PostgreSQLAccess` in './GeoSpatialPricingEngine/postgresql_access.py',
+implement the method `read_sql` for the database import of a Geo-taxonomy for a specified `geo_taxonomy_id`. 
+
+The ingestion from the database table `geo_taxonomy` is with the SQL query:
+
+```sql
+SELECT * FROM geo_taxonomy WHERE geo_taxonomy_id = 'Hextile1deg' 
+```
+
+The produced data frame is with the columns: 'id', 'geo_taxonomy_id', 'tile_id', 'center_lat', 'center_lon', 'coordinates',
+The corresponding column types are: string, string, string, number, number, JSON-string.
+
+The 'coordinates' column should have JSON array strings -- convert them to Python arrays.
+```
+
