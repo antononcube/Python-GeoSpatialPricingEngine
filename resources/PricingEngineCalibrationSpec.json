@@ -17,7 +17,21 @@
     "split_training_testing": true,
     "training_flag_column": "is_training"
   },
+  "model": {
+    "task_mode": "primary",
+    "distance_only_formula": false,
+    "path_strategy": "shortest-path",
+    "basis_function": {
+      "support": "tile_only",
+      "neighbor_radius": 0
+    }
+  },
   "calibration": {
+    "objective_norm": "l1",
+    "constraints": {
+      "k_constant_across_tiles": false,
+      "n_constant_across_tiles": false
+    },
     "parameter_bounds": {
       "k": {
         "min": 0.0,
@@ -46,12 +60,32 @@
     },
     "directional_variables": {
       "min": 0.0,
-      "max": 100.0
+      "max": 100.0,
+      "directions": [
+        "N",
+        "S",
+        "E",
+        "W",
+        "NE",
+        "NW",
+        "SE",
+        "SW"
+      ]
     }
   },
   "post_processing": {
     "use_extrapolation": true,
     "extrapolation_method": "nearest-neighbors",
-    "nearest_neighbors": 5
+    "nearest_neighbors": 5,
+    "extrapolate_variables": [
+      "k",
+      "n",
+      "sn",
+      "en",
+      "p",
+      "ev",
+      "directional_variables"
+    ],
+    "nearest_neighbors_method": "distance_weighted"
   }
 }
