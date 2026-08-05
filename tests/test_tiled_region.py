@@ -107,3 +107,35 @@ def test_trivial_paths_contain_start_and_end_tiles(monkeypatch):
         "tile-5.0",
         "tile-7.0",
     ]
+
+
+def test_trivial_region_converts_orders_to_calibration_records():
+    region = TiledRegionTrivial(GeoTaxonomy(_TaxonomyData([])))
+    region.find_path_for_coords = lambda x1, y1, x2, y2: [
+        f"tile-{x1}",
+        f"tile-{x2}",
+    ]
+    orders = types.SimpleNamespace(
+        data=_TaxonomyData(
+            [
+                {
+                    "id": 5,
+                    "start_lat": 10.0,
+                    "start_lon": 20.0,
+                    "end_lat": 11.0,
+                    "end_lon": 21.0,
+                    "distance": 1004.7,
+                    "price": 394,
+                }
+            ]
+        )
+    )
+
+    assert region.to_calibration_records(orders) == {
+        "5": {
+            "id": 5,
+            "path": ["tile-10.0", "tile-11.0"],
+            "distance": 1004.7,
+            "price": 394,
+        }
+    }
