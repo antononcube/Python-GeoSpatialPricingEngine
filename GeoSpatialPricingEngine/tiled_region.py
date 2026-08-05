@@ -9,6 +9,7 @@ from GeometricNearestNeighborsProcessor import (
 
 from .geo_point import GeoPoint
 from .geo_taxonomy import GeoTaxonomy
+from .orders import Orders
 
 
 class TiledRegion(ABC):
@@ -66,3 +67,21 @@ class TiledRegion(ABC):
         self, x1: float, y1: float, x2: float, y2: float
     ) -> Any:
         raise NotImplementedError
+
+    def to_calibration_records(self, orders: Orders) -> dict[str, dict[str, Any]]:
+        calibration_records = {}
+        for order in orders.data.to_dict(orient="records"):
+            order_id = order["id"]
+            calibration_records[str(order_id)] = {
+                "id": order_id,
+                "path": self.find_path_for_coords(
+                    order["start_lat"],
+                    order["start_lon"],
+                    order["end_lat"],
+                    order["end_lon"],
+                ),
+                "distance": order["distance"],
+                "price": order["price"],
+            }
+
+        return calibration_records
