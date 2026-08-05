@@ -220,3 +220,28 @@ Implement the ingestion of the JSON calibration spec in the class PricingEngineB
 The spec ingestion method should take a file path. 
 Check does the file exist, and can be JSON parsed.
 ```
+
+----
+
+## Tiled region 
+
+### Tile mapper method
+
+A Template Method for the mapping of Geo-positions to Geo-taxonomy tiles.
+
+````text
+For the class `TiledRegion` in "./GeoSpatialPricingEngine/tiled_region.py" implement a Template Method method that maps Geo-positions to Geo-taxonomy tile IDs.
+Here is how to use the package "GeometricNearestNeighborsProcessor" is used to make a mapping object: 
+
+```python
+from GeometricNearestNeighborsProcessor import *
+aTileCenters={rec["tile_id"]: (rec["center_lat"], rec["center_lon"]) for rec in dfTaxonomy.to_dict(orient="records")}
+gnnObj=GeometricNearestNeighborsProcessor(aTileCenters)
+``` 
+
+Here is how the tile of a given point is found:
+
+```python
+gnnObj.find_nearest(point=(rec["lat"], rec["lon"]), n=1).take_value()["ID"][0]
+```
+````
