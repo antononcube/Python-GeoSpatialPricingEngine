@@ -245,3 +245,16 @@ Here is how the tile of a given point is found:
 gnnObj.find_nearest(point=(rec["lat"], rec["lon"]), n=1).take_value()["ID"][0]
 ```
 ````
+
+### Trivial paths
+
+````text
+Implement the methods `find_path` and `find_path_for_coords` of the class `TiledRegionTrivial` using the `TiledRegion`
+method `tile_for_coords` and `tile_for_point`.
+
+The trivial path is an array of exactly two strings each of which is a tile ID. For example
+
+```python
+['tile01012', 'tile00851']
+```
+````
