@@ -88,3 +88,22 @@ def test_tile_for_point_requires_geo_point():
 
     with pytest.raises(TypeError, match="GeoPoint"):
         region.tile_for_point((1.0, 2.0))
+
+
+def test_trivial_paths_contain_start_and_end_tiles(monkeypatch):
+    monkeypatch.setattr(
+        "GeoSpatialPricingEngine.tiled_region.GeometricNearestNeighborsProcessor",
+        _FakeNearestNeighborsProcessor,
+    )
+    region = TiledRegionTrivial(GeoTaxonomy(_TaxonomyData([])))
+    region.tile_for_point = lambda point: f"tile-{point.x}"
+    region.tile_for_coords = lambda x, y: f"tile-{x}"
+
+    assert region.find_path(GeoPoint(1.0, 2.0), GeoPoint(3.0, 4.0)) == [
+        "tile-1.0",
+        "tile-3.0",
+    ]
+    assert region.find_path_for_coords(5.0, 6.0, 7.0, 8.0) == [
+        "tile-5.0",
+        "tile-7.0",
+    ]
