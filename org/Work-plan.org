@@ -79,7 +79,7 @@
   - [ ] Come up with reasonable prices and transported goods volumes
 - [X] Transfer from data from MMS ~raw_transportation_trips~ to ~transportation_trips~
   - With price formula application
-* TODO Program the OOP framework [40%] [4/10]
+* TODO Program the OOP framework [45%] [5/11]
 - [X] Using LLM for the first versions of the OOP classes
 - [X] Implement abstract classes [100%] [4/4]
   - [X] ~Orders~
@@ -96,12 +96,21 @@
   - [X] From database
   - [ ] From CSV files
   - [ ] From JSON files
-- [-] Importers of transportation data [25%] [1/4]
+- [-] Importers of transportation data [50%] [2/4]
   - [X] First placeholder version
-  - [ ] From database
+  - [X] From database
   - [ ] From CSV files
   - [ ] From JSON files
-- [ ] Ingest JSON specification execution run
+- [X] JSON specification for execution runs
+  - [X] Create the spec & LLM-review it
+  - [X] Ingestion of the form in ~PricingEngineBuilder~
+- [-] Tiled regions [66%] [2/3]
+  - [X] Trivial paths derivation
+    - In ~TiledRegionTrivial~
+  - [ ] Graph paths derivation
+    - In ~TiledResionGraph~
+  - [X] Calibration records derivation
+    - Template method
 - [-] The class ~PricingEngineCalibrator~
   - [X] First placeholder version
   - [ ] Complete version
