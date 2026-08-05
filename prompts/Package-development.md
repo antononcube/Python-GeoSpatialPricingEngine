@@ -248,6 +248,7 @@ gnnObj.find_nearest(point=(rec["lat"], rec["lon"]), n=1).take_value()["ID"][0]
 
 ### Trivial paths
 
+
 ````text
 Implement the methods `find_path` and `find_path_for_coords` of the class `TiledRegionTrivial` using the `TiledRegion`
 method `tile_for_coords` and `tile_for_point`.
@@ -257,4 +258,34 @@ The trivial path is an array of exactly two strings each of which is a tile ID. 
 ```python
 ['tile01012', 'tile00851']
 ```
+````
+
+### Calibration records
+
+````text
+Implement the method `to_calibration_records` in `TiledRegion` that converts an `Orders` object 
+into a dictionary of dictionaries witt the form:
+
+```python
+{
+'5': {
+    'id': 5,
+    'path': ['tile01012', 'tile00851'],
+    'distance': 1004.7,
+    'price': 394
+   },
+'6': {
+    'id': 6,
+    'path': ['tile01012', 'tile00556'],
+    'distance': 1835.9,
+    'price': 503
+   },   
+  ...
+]
+```
+
+As it can be seen in "./GeoSpatialPricingEngine/postgresql_access.py" the data attribute of `Orders` 
+is a data frame with columns: "id", "start_lat", "start_lon", "end_lat", "end_lon", "distance", "price".
+
+Make tests using `TiledRegionTrivial`.
 ````
