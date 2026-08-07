@@ -6,6 +6,21 @@ from os import PathLike
 from pathlib import Path
 from typing import Any
 
+from .geo_taxonomy import GeoTaxonomy
+from .orders import Orders
+from .tiled_region_trivial import TiledRegionTrivial
+
+
+class _BuilderOrders(Orders):
+    def ingest_csv(self, path: str, **kwargs: Any) -> Any:
+        raise NotImplementedError(
+            "CSV order ingestion is not supported by the builder"
+        )
+
+    def ingest_json(self, path: str, **kwargs: Any) -> Any:
+        raise NotImplementedError(
+            "JSON order ingestion is not supported by the builder"
+        )
 
 class PricingEngineBuilder:
     DEFAULT_SPEC_PATH = (
@@ -16,6 +31,10 @@ class PricingEngineBuilder:
 
     def __init__(self, spec: Any = None) -> None:
         self._spec = spec
+        self.geo_taxonomy: GeoTaxonomy | None = None
+        self.orders: Orders | None = None
+        self.tiled_region: TiledRegionTrivial | None = None
+        self.calibration_records: dict[str, dict[str, Any]] | None = None
 
     @property
     def spec(self) -> Any:
@@ -47,7 +66,42 @@ class PricingEngineBuilder:
                 f"{cls.DEFAULT_SPEC_PATH}"
             )
 
-        return cls(cls._merge_specs(default_spec, user_spec))
+        spec = cls._merge_specs(default_spec, user_spec)
+        path_strategy = spec.get("model", {}).get("path_strategy")
+        if path_strategy != "trivial-path":
+            raise ValueError(
+                "Unsupported model.path_strategy "
+                f"{path_strategy!r}; only 'trivial-path' is supported"
+            )
+
+        builder = cls(spec)
+        database = spec.get("database")
+        taxonomy_spec = spec.get("retrieve_geo_taxonomy", {})
+        if taxonomy_spec.get("source") != "postgresql":
+            raise ValueError(
+                "Unsupported retrieve_geo_taxonomy.source: "
+                f"{taxonomy_spec.get('source')!r}"
+            )
+        builder.geo_taxonomy = GeoTaxonomy.read_sql(
+            database, taxonomy_spec["geo_taxonomy_id"]
+        )
+
+        orders_spec = spec.get("ingest_orders", {})
+        if orders_spec.get("source") != "postgresql":
+            raise ValueError(
+                "Unsupported ingest_orders.source: "
+                f"{orders_spec.get('source')!r}"
+            )
+        builder.orders = _BuilderOrders()
+        builder.orders.ingest_db(
+            database, orders_spec["transportation_trips_id"]
+        )
+
+        builder.tiled_region = TiledRegionTrivial(builder.geo_taxonomy)
+        builder.calibration_records = builder.tiled_region.to_calibration_records(
+            builder.orders
+        )
+        return builder
 
     @staticmethod
     def _load_json_file(path: Path) -> Any:
