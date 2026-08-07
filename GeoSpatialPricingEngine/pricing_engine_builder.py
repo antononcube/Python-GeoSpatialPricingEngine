@@ -24,7 +24,7 @@ class _BuilderOrders(Orders):
 
 class PricingEngineBuilder:
     DEFAULT_SPEC_PATH = (
-        Path(__file__).resolve().parents[1]
+        Path(__file__).resolve().parent
         / "resources"
         / "PricingEngineCalibrationSpec.json"
     )
