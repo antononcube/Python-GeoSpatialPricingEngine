@@ -7,7 +7,7 @@ setup(
     description="Object-oriented framework for geo-spatial pricing engines",
     url="https://github.com/antononcube/Python-GeoSpatialPricingEngine",
     packages=find_packages(),
-    include_package_data=True,
+    package_data={"GeoSpatialPricingEngine": ["resources/*.json"]},
     install_requires=[
         "pandas",
         "psycopg[binary]",
