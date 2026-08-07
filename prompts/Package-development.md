@@ -289,3 +289,20 @@ is a data frame with columns: "id", "start_lat", "start_lon", "end_lat", "end_lo
 
 Make tests using `TiledRegionTrivial`.
 ````
+
+---
+
+
+## Pricing engine builder
+
+### Building from JSON (first)
+
+```text
+In the method `PricingEngineBuilder.build_from_json` implement the steps:
+- Reading the JSON spec file
+- Ingesting the specified Geo-taxonomy
+- Ingesting the specified transportation orders data
+- Mapping the transportation orders to Geo-tiles
+    - If the specified "model.path_strategy" is different than "trivial-path" give an error message.
+    - Otherwise use `TiledRegion.to_calibration_records` to do the mapping with an instance of `TiledRegionTrivial`. 
+```
