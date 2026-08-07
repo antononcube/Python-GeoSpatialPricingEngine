@@ -20,7 +20,7 @@
   "model": {
     "task_mode": "primary",
     "distance_only_formula": false,
-    "path_strategy": "shortest-path",
+    "path_strategy": "trivial-path",
     "basis_function": {
       "support": "tile_only",
       "neighbor_radius": 0
