@@ -114,9 +114,19 @@
 - [-] The class ~PricingEngineCalibrator~
   - [X] First placeholder version
   - [ ] Complete version
-- [-] The class ~PricingEngineBuilder~ 
+- [-] The class ~PricingEngineBuilder~ [40%] [2/5]
   - [X] First, placeholder version
-  - [ ] Complete version
+  - [X] Ingestion steps [100%] [5/5]
+    - [X] Ingest JSON spec
+    - [X] Retrieve Geo-taxonomy
+    - [X] Retrieve transportation trips (orders)
+    - [X] Create tiled region
+    - [X] Convert transportation trips to calibration records
+  - [ ] Calibration step
+  - [ ] Extrapolation step
+  - [ ] Post-processing steps
+    - [ ] Export of calibrated model (if specified to do so)
+    - [ ] Statistics of approximation 
 - [ ] Implement ~TiledRegionTrivialPaths~ class
 * TODO Unit tests [50%] [1/2] 
 - [X] PostgreSQL access class tests
