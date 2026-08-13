@@ -181,7 +181,8 @@ class PostgreSQLAccess:
         if "coordinates" in dataframe.columns:
 
             def _parse_coordinates(value: Any) -> Any:
-                if pd.isna(value):
+                missing = pd.isna(value)
+                if getattr(missing, "ndim", 0) == 0 and bool(missing):
                     return value
                 if isinstance(value, str):
                     parsed = json.loads(value)
