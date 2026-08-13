@@ -1,6 +1,7 @@
 import pytest
+import numpy as np
 
-pytest.importorskip("pandas")
+pd = pytest.importorskip("pandas")
 pytest.importorskip("psycopg")
 
 from GeoSpatialPricingEngine import PostgreSQLAccess
@@ -39,6 +40,28 @@ def test_import_geo_taxonomy(database_access):
 
     assert len(dataframe) > 1000
     assert list(dataframe.columns) == expected_columns
+
+
+def test_import_geo_taxonomy_parses_nested_coordinate_arrays(monkeypatch):
+    access = PostgreSQLAccess(DB_CONFIG)
+
+    def _fake_import_dataframe(query, params=None, column_names=None):
+        return pd.DataFrame(
+            [{
+                "id": 1,
+                "geo_taxonomy_id": "Hextile1deg",
+                "tile_id": "tile-1",
+                "center_lat": "10.5",
+                "center_lon": "20.5",
+                "coordinates": [[1.0, 2.0], [3.0, 4.0]],
+            }]
+        )
+
+    monkeypatch.setattr(access, "import_dataframe", _fake_import_dataframe)
+
+    dataframe = access.import_geo_taxonomy("Hextile1deg")
+
+    assert dataframe.loc[0, "coordinates"] == [[1.0, 2.0], [3.0, 4.0]]
 
 
 def test_import_raw_transportation_trips(database_access):
@@ -102,4 +125,4 @@ def test_import_transportation_trips_types_are_parsed(monkeypatch):
     assert dataframe.loc[0, "end_lon"] == pytest.approx(40.5)
     assert dataframe.loc[0, "distance"] == pytest.approx(99.9)
     assert dataframe.loc[0, "price"] == pytest.approx(123.45)
-    assert dataframe.loc[0, "is_training"] is True
+    assert dataframe.loc[0, "is_training"] in [True, np.True_]
