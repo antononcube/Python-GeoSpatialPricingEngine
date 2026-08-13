@@ -3,15 +3,16 @@
 ## Problem formulation
 
 - The **primary task** is to approximate a multidimensional function that: 
-  - Has a codomain that positive reals (prices) 
-  - Has a domain that defined by continuous paths over a Geo-spatial route network
-- The **simplified task** is to approximate six-dimensional function:
+  - Has a codomain that is the non-negative reals (prices) 
+  - Has a domain that is defined by continuous paths over a Geo-spatial route network
+- The **simplified task** is to approximate a six-dimensional function:
   - The coordinates of the route points are ignored and only route distances are used
   - The function domain becomes five-dimensional: start-latitude, start-longitude, end-latitude, end-longitude, distance
 - A **transportation trip** is a Geo-spatial route from a start point to an end point and associated a price.
 - A set of transportation trips is used to solve the primary- and simplified tasks.
   - That set can be small or large.
   - It is expected that the trips are consistent according to a certain rationale.
+    - For example, the prices can have trends or patterns corresponding to distance, direction of travel, or locations.
 
 ---
 
