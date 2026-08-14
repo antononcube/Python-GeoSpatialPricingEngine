@@ -1,4 +1,6 @@
 import pytest
+import types
+from math import pi, sqrt
 
 pytest.importorskip("pandas")
 package = pytest.importorskip("GeoSpatialPricingEngine")
@@ -6,6 +8,8 @@ package = pytest.importorskip("GeoSpatialPricingEngine")
 import pandas as pd
 
 GeoTaxonomy = package.GeoTaxonomy
+PricingEngine = package.PricingEngine
+PricingEngineCalibrator = package.PricingEngineCalibrator
 
 
 class _FakePostgreSQLAccess:
@@ -61,3 +65,34 @@ def test_read_sql_imports_geo_taxonomy(monkeypatch):
     assert captured["access"].last_geo_taxonomy_id == "Hextile1deg"
     assert isinstance(geo_taxonomy.data, pd.DataFrame)
     assert geo_taxonomy.data.loc[0, "coordinates"] == [[1.0, 2.0], [3.0, 4.0]]
+
+
+def test_tile_area_and_calibration_diameter_precedence():
+    taxonomy = GeoTaxonomy(
+        pd.DataFrame(
+            [
+                {
+                    "tile_id": "tile-1",
+                    "center_lat": 0.5,
+                    "center_lon": 0.5,
+                    "coordinates": [[0, 0], [1, 0], [1, 1], [0, 1]],
+                }
+            ]
+        )
+    )
+    calibrator = PricingEngineCalibrator(
+        types.SimpleNamespace(),
+        types.SimpleNamespace(geo_taxonomy=taxonomy),
+        PricingEngine(),
+    )
+
+    assert taxonomy.tile_diameter is None
+    assert taxonomy.tile_area("tile-1") == pytest.approx(1.0)
+    assert calibrator._tile_data()["tile-1"]["diameter"] == pytest.approx(
+        2.0 / sqrt(pi)
+    )
+
+    taxonomy.set_tile_diameter(7.5)
+
+    assert taxonomy.get_tile_diameter() == 7.5
+    assert calibrator._tile_data()["tile-1"]["diameter"] == 7.5
