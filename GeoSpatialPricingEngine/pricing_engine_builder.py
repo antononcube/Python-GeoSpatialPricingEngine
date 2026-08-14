@@ -8,6 +8,8 @@ from typing import Any
 
 from .geo_taxonomy import GeoTaxonomy
 from .orders import Orders
+from .pricing_engine import PricingEngine
+from .pricing_engine_calibrator import PricingEngineCalibrator
 from .tiled_region_trivial import TiledRegionTrivial
 
 
@@ -35,6 +37,8 @@ class PricingEngineBuilder:
         self.orders: Orders | None = None
         self.tiled_region: TiledRegionTrivial | None = None
         self.calibration_records: dict[str, dict[str, Any]] | None = None
+        self.pricing_engine: PricingEngine | None = None
+        self.calibrator: PricingEngineCalibrator | None = None
 
     @property
     def spec(self) -> Any:
@@ -101,6 +105,11 @@ class PricingEngineBuilder:
         builder.calibration_records = builder.tiled_region.to_calibration_records(
             builder.orders
         )
+        builder.pricing_engine = PricingEngine()
+        builder.calibrator = PricingEngineCalibrator(
+            builder.orders, builder.tiled_region, builder.pricing_engine
+        )
+        builder.calibrate()
         return builder
 
     @staticmethod
@@ -136,8 +145,16 @@ class PricingEngineBuilder:
     def ingest_orders(self, **kwargs: Any) -> Any:
         raise NotImplementedError
 
-    def calibrate(self, **kwargs: Any) -> Any:
-        raise NotImplementedError
+    def calibrate(self, **kwargs: Any) -> PricingEngine:
+        if self.calibrator is None or self.pricing_engine is None:
+            raise RuntimeError("Builder has not initialized a pricing engine calibrator")
+        options = {
+            "spec": self.spec,
+            "calibration_records": self.calibration_records,
+            **kwargs,
+        }
+        self.pricing_engine = self.calibrator.calibrate(**options)
+        return self.pricing_engine
 
     def post_process(self, **kwargs: Any) -> Any:
         raise NotImplementedError
