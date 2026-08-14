@@ -196,7 +196,7 @@ Good. Analyze the file "./docs/Tile-based-aproximator.md" -- do you think other 
 
 > Great prompt — I’ll read that design doc and map any missing JSON spec elements to concrete keys.
 >
-> Yes — based on `docs/Tile-based-aproximator.md`, I’d add several important spec fields.
+> Yes — based on `../docs/Tile-based-approximator.md`, I’d add several important spec fields.
 >
 > **Recommended Additions**
 > - Add all 8 directional coefficients (not only a single cap): `N,S,E,W,NE,NW,SE,SW` bounds, since directions are explicit in the model (`docs/Tile-based-aproximator.md:30`, `docs/Tile-based-aproximator.md:181`).
@@ -320,4 +320,20 @@ Add URL placeholder.
 
 ```text
 Make the sure the resource package "./resources/PricingEngineCalibrationSpec.json" is accessible when the package is loaded with from GeoSpatialPricingEngine import *.
+```
+
+---
+
+## Pricing engine calibrator
+
+```text
+Carefully analyze the theoretical model description in the file "./docs/Tile-based-approximator.md" and implement
+the corresponding calibration steps in the class `PricingEngineCalibrator`. 
+
+Use Google OR-Tools for the Linear Programming (LP)
+implementation. See how the JSON file calibration specification is utilized in the Jupyter notebook "./notebooks/Jupyter/Pricing-engine-calibration.ipynb".
+The notebook shows the data frames and data structures that are used in `PricingEngineCalibrator`.
+
+Make the calibration implementation coherent -- set the required attributes `PricingEngineCalibrator` in `PricingEngineBuilder.build_from_json`
+and trigger the calibration from ``PricingEngineCalibrator.build_from_json`.
 ```
