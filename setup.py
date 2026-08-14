@@ -12,5 +12,6 @@ setup(
         "pandas",
         "psycopg[binary]",
         "GeometricNearestNeighborsProcessor",
+        "ortools",
     ],
 )
