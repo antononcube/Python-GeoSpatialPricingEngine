@@ -337,3 +337,11 @@ The notebook shows the data frames and data structures that are used in `Pricing
 Make the calibration implementation coherent -- set the required attributes `PricingEngineCalibrator` in `PricingEngineBuilder.build_from_json`
 and trigger the calibration from ``PricingEngineCalibrator.build_from_json`.
 ```
+
+After reviewing the first implementation:
+
+```text
+In the class `GeoTaxonomy` add the attribute `_tile_diameter` with default value `None` and corresponding setter and getter methods. 
+Implement in `GeoTaxonomy` the method `tile_area` that finds polygon area from its coordinates. 
+In the calibration implementation if the tile diameter is a number (or not `None`) use it for all tiles; if it is `None` use `tile_area` per tile.
+```
