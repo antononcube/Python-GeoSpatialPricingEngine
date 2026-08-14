@@ -20,7 +20,7 @@
 
 - In order to approximate the pricing function of the primary task we use a Mathematical Artifact (MA) that is 
 composed of Geo-spatial tiles that cover the geographical area of interest.
-- For a given pair of geographical start- and end point MA finds a route over the route network and derives the corresponding prices from the tiles the route passes through.
+- For a given pair of geographical start- and end point MA finds a route over the route network and derives the corresponding price from the tiles the route passes through.
 - Each tile contributes to MA's (approximating) price in an additive manner.
 - All tiles use the same formula based on the same *generic variables*.
 - The *generic variables* associated with each tile are:
@@ -28,7 +28,7 @@ composed of Geo-spatial tiles that cover the geographical area of interest.
   - Offset
   - Departure offset
   - Arrival offset
-  - Eight directions: North, South, East, West, North-East, North-West, South-East, South-West
+  - Eight directions: North, North-West, West, South-West, South, South-East, East, North-East
   - Population
   - Elevation
 - Additional variables can be added for certain temporal events corresponding to:
@@ -40,13 +40,13 @@ composed of Geo-spatial tiles that cover the geographical area of interest.
 ## The model formulation
 
 
-The definitions are given with the "primary task" in mind. Some of the definitions are have are differ when considering "simplified task". 
+The definitions are given with the primary task in mind. Some of the definitions differ when considering the simplified task. 
 
 - **Geo-taxonomy** 
-  - A Geo taxonomy is a collection of polygons:
+  - A Geo taxonomy is a collection of polygons.
   - The polygons cover the geographical area of interest.
   - The mesh or grid of a Geo-taxonomy can be regular or irregular.
-    - For example, square grid, each square with length 1 degree (i.e. ≈ 69 miles or 111 km).
+    - For example, a square grid, each square with length 1 degree (i.e. ≈ 69 miles or ≈ 111 km).
     - Geohash with resolution 4 can be used to define a Geo-taxonomy.
 - **Tile**
   - A two-dimensional (2D) polygon which is an element of a Geo-taxonomy.
@@ -58,7 +58,8 @@ The definitions are given with the "primary task" in mind. Some of the definitio
     - Also, $c_i$ is used.
 - **Tile diameter**
   - For a regular tile or irregular tile $i$, the tile diameter is defined as $diam(i) = 2 * \sqrt{area(i) / \pi}$.
-  - Reasonable approximations can be used. For example, for a regular hexagon tile the diameter can be the length of any line segment that passes through its center. 
+  - Reasonable approximations can be used. 
+    - For example, for a regular hexagon tile the diameter can be the length of any line segment that passes through its center. 
 - **Geo-taxonomy graph**
   - Undirected graph obtained by connecting the center each tile with the centers of its adjacent neighbors.
     - The polygons of two adjacent neighbor tiles have a common side.
@@ -66,7 +67,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - A Geo-taxonomy graph $GT$ can have one or many subgraphs that have edges determined by route networks mapped on $GT$.
     - Those route networks are in the geographical area covered by $GT$.
 - **Geo-tile basis**
-  - A set of Geo-spatial tiles each endowed with a formula based on a set of variables.
+  - A set of Geo-spatial tiles, each tile endowed with a formula based on a set of variables.
   - Each tile has the same formula, $F_{generic}$.
     - $F_{gen}$ for short, if the context allows.  
   - Each tile has its own localization of $F_{gen}$ based on the tile-localized generic variables.
@@ -82,14 +83,14 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - Simplified task: An ordered *pair* of tiles that correspond to a *transportation trip*.
 - **Geo-taxonomy data**
   - Geospatial data associated with a given taxonomy.
-  - For tile ID $i$:
+  - For a tile ID $i$:
     - $pop(i)$ : population in tile $i$ (number of people, count)
     - $elev(i)$ : average Geo-elevation in the tile $i$ (feet or meters)
     - *For now the Geo-elevation variance is not considered.*
 - **Tile variables**
   - For a tile ID $i$ we define the following variables
-  - $k(i)$ : a distance multiplier of the tile basis function $b(i)$
-  - $n(i)$ : an intercept for $b(i)$
+  - $k(i)$ : distance multiplier of the tile basis function $b(i)$
+  - $n(i)$ : intercept for $b(i)$
     - The approximation formula uses this term $k(i) * b(i) + n(i)$; see below.
   - $sn(i)$ : starting tile offset
   - $en(i)$ : end tile offest
@@ -105,7 +106,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - The index $j$ of the found passing direction of $vec(j)$ is denoted with $pass(p,i)$.
 - **Tile formula**
   - For given tile $i$ its formula is:
-    - $k(i) * b(i) * diam(i)+n(i) + sn(i) + en(i) + p(i) * pop(i) + ev(i) * elev(i) + dir(i,pass(p,i))$
+    - $k(i) * b(i) * diam(i) + n(i) + sn(i) + en(i) + p(i) * pop(i) + ev(i) * elev(i) + dir(i,pass(p,i))$
 - **Price approximation formula** 
   - Input
     - Geo-taxonomy graph
@@ -115,7 +116,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
     1. Find the tiles $t_1: g_1 \in t_1$ and $t_2: t_2 \in g_2$  
     2. Find a path $p$ from $t_1$ to $t_2$ in the Geo-taxonomy graph
        - This can be the shortest path, a or path over a subgraph (that corresponds to a route network.)
-    3. Let the length of $p$ is $n$.
+    3. Let the length of $p$ is $l$.
     4. For each tile $i$ in $p$ find the passing direction $pass(p, i)$
     5. Assuming the support of each basis function $b(i)$ is the tile $i$ and $b(i)$ takes only the values ${0, 1}$, i.e.:
 $$
@@ -127,7 +128,7 @@ b(i)(x)=
 $$    
     6. Here is the approximation formula:
   $$
-    price(g_1,g_2)=\sum_{i=1}^{n}{k(i) * b(i) * diam(i) + n(i) + sn(i) + en(i) + p(i) * pop(i) + ev(i) * elev(i) + dir(i,pass(p,i))}
+    price(g_1,g_2)=\sum_{i=1}^{l}{k(i) * b(i) * diam(i) + n(i) + sn(i) + en(i) + p(i) * pop(i) + ev(i) * elev(i) + dir(i,pass(p,i))}
   $$
 - **Training data** or **training dataset**
   - A dataset of transportation trips.
@@ -158,34 +159,34 @@ $$
 In order to calibrate the tile-based approximation model (or "mathematical artifact")
 a linear optimization problem is formulated with the following steps:
 
-1. Define a Geo-taxonomy, $GT$ with $n_{GT}$ tiles 
-2. Obtain a training dataset, $TD$, with $n_D$ transportation trips
+1. Define a Geo-taxonomy, $GT$ with $l_{GT}$ tiles 
+2. Obtain a training dataset, $TD$, with $l_{TD}$ transportation trips
    - Each $trip(k) \in TD$ has an associated price $price(k)$. 
 3. For each transportation trip $trip(k) \in TD$ apply the price approximation formula
    - Denote the expression as $formula(k)$
-4. Introduce the non-negative slack variables $s^{+}(i) \ge 0, i \in [1, n_{TD}]$ and $s^{-}(i) \ge 0, i \in [1, n_{TD}]$
+4. Introduce the non-negative slack variables $s^{+}(i) \ge 0, i \in [1, l_{TD}]$ and $s^{-}(i) \ge 0, i \in [1, l_{TD}]$
 5. Make the constraints:
 
 $$
-expr(k) + s^{+}(k) - s^{-}(k) = price(k), k \in [1, n_{TD}]
+expr(k) + s^{+}(k) - s^{-}(k) = price(k), k \in [1, l_{TD}]
 $$
  
 6. Make the objective function to be minimized -- infinity norm:
 
 $$
-\sum_{k=1}^{n_{TD}}{s^{+}(k)} + \sum_{k=1}^{n_{TD}}{s^{-}(k)}
+\sum_{k=1}^{l_{TD}}{s^{+}(k)} + \sum_{k=1}^{l_{TD}}{s^{-}(k)}
 $$
 
 7. From the constraints make the corresponding matrix to be multiplied by the vector:
 
 $$
-(k(1), \dots, k(n_{GT}), n(1), \dots , n(n_{GT}), sn(1), \dots , sn(n_{GT}), en(1), \dots , en(n_{GT}), p(1), \dots , p(n_{GT}), ev(1), \dots , ev(n_{GT}), dir(1,1), \dots , dir(1, 8), \dots, dir(8, n_{GT}))
+(k(1), \dots, k(l_{GT}), n(1), \dots , n(l_{GT}), sn(1), \dots , sn(l_{GT}), en(1), \dots , en(l_{GT}), p(1), \dots , p(l_{GT}), ev(1), \dots , ev(l_{GT}), dir(1,1), \dots , dir(1, 8), \dots, dir(8, l_{GT}))
 $$
 
 8. From the constraints make the corresponding Right Hand Side (RHS) vector:
 
 $$
-(price(1), \dots, price(n_{GT}))
+(price(1), \dots, price(l_{GT}))
 $$
 
 ### Additional constraints
