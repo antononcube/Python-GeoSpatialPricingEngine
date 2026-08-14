@@ -268,7 +268,8 @@ class PricingEngineCalibrator:
         return objective.Value()
 
     def _tile_data(self) -> dict[str, dict[str, float]]:
-        data = self.tiled_region.geo_taxonomy.data
+        taxonomy = self.tiled_region.geo_taxonomy
+        data = taxonomy.data
         records = data.to_dict(orient="records")
         result = {}
         for record in records:
@@ -276,9 +277,12 @@ class PricingEngineCalibrator:
             tile_id = normalized.get("tile_id", normalized.get("tag"))
             if tile_id is None:
                 continue
-            area = self._number(normalized.get("area"), 0.0)
+            diameter = taxonomy.tile_diameter
+            if diameter is None:
+                area = taxonomy.tile_area(str(tile_id))
+                diameter = 2.0 * sqrt(area / pi)
             result[str(tile_id)] = {
-                "diameter": self._number(normalized.get("diameter", normalized.get("tile_diameter")), 2.0 * sqrt(area / pi) if area > 0 else 0.0),
+                "diameter": self._number(diameter, 0.0),
                 "population": self._number(normalized.get("population", normalized.get("pop")), 0.0),
                 "elevation": self._number(normalized.get("elevation", normalized.get("elev")), 0.0),
                 "lat": self._number(normalized.get("center_lat", normalized.get("lat")), 0.0),
