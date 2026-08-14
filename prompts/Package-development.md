@@ -210,7 +210,7 @@ Good. Analyze the file "./docs/Tile-based-aproximator.md" -- do you think other 
 > - Add `extrapolate_variables` list (which coefficients are extrapolated), since extrapolation is described per variable (`docs/Tile-based-aproximator.md:216`).
 > - Add extrapolation subtype for nearest neighbors: `"copy"` vs `"distance_weighted"` (`docs/Tile-based-aproximator.md:220`).
 >
-> If you want, I can now update `resources/PricingEngineSpecForm.json` with these fields (keeping your current schema backward-compatible).
+> If you want, I can now update `../GeoSpatialPricingEngine/resources/PricingEngineSpecForm.json` with these fields (keeping your current schema backward-compatible).
 
 
 ### Ingestion of the JSON calibration spec
@@ -292,7 +292,6 @@ Make tests using `TiledRegionTrivial`.
 
 ---
 
-
 ## Pricing engine builder
 
 ### Building from JSON (first)
@@ -305,4 +304,20 @@ In the method `PricingEngineBuilder.build_from_json` implement the steps:
 - Mapping the transportation orders to Geo-tiles
     - If the specified "model.path_strategy" is different than "trivial-path" give an error message.
     - Otherwise use `TiledRegion.to_calibration_records` to do the mapping with an instance of `TiledRegionTrivial`. 
+```
+
+---
+
+## Package building
+
+```text
+Add "setup.py" file in order to install packages.
+```
+
+```text
+Add URL placeholder.
+```
+
+```text
+Make the sure the resource package "./resources/PricingEngineCalibrationSpec.json" is accessible when the package is loaded with from GeoSpatialPricingEngine import *.
 ```
