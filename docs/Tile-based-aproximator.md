@@ -9,7 +9,7 @@
   - The coordinates of the route points are ignored and only route distances are used
   - The function domain becomes five-dimensional: start-latitude, start-longitude, end-latitude, end-longitude, distance
 - A **transportation trip** is a Geo-spatial route from a start point to an end point and associated a price.
-- A set of transportation trips is used to solve the primary- and simplified tasks.
+- A set of transportation trips is used to solve the primary- and simplified task.
   - That set can be small or large.
   - It is expected that the trips are consistent according to a certain rationale.
     - For example, the prices can have trends or patterns corresponding to distance, direction of travel, or locations.
@@ -57,7 +57,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - For a given tile $i$ the geometric center $c(i)$, of its polygon.
     - Also, $c_i$ is used.
 - **Tile diameter**
-  - For a regular tile or irregular tile $i$, the tile diameter is defined as $diam(i) = 2 \, \sqrt{area(i) / \pi}$.
+  - For a regular tile or irregular tile $i$, the tile diameter is defined as $diam(i) = 2 * \sqrt{area(i) / \pi}$.
   - Reasonable approximations can be used. For example, for a regular hexagon tile the diameter can be the length of any line segment that passes through its center. 
 - **Geo-taxonomy graph**
   - Undirected graph obtained by connecting the center each tile with the centers of its adjacent neighbors.
@@ -90,7 +90,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - For a tile ID $i$ we define the following variables
   - $k(i)$ : a distance multiplier of the tile basis function $b(i)$
   - $n(i)$ : an intercept for $b(i)$
-    - The approximation formula uses this term $k(i) \, b(i)+n(i)$; see below.
+    - The approximation formula uses this term $k(i) * b(i) + n(i)$; see below.
   - $sn(i)$ : starting tile offset
   - $en(i)$ : end tile offest
   - $vec(j), j \in [1,8]$ : eight Geo-direction vectors enumerated counter-clockwise, starting with the vector $(1,0)$
@@ -105,7 +105,7 @@ The definitions are given with the "primary task" in mind. Some of the definitio
   - The index $j$ of the found passing direction of $vec(j)$ is denoted with $pass(p,i)$.
 - **Tile formula**
   - For given tile $i$ its formula is:
-    - $k(i) \, b(i) \, diam(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))$
+    - $k(i) * b(i) * diam(i)+n(i) + sn(i) + en(i) + p(i) * pop(i) + ev(i) * elev(i) + dir(i,pass(p,i))$
 - **Price approximation formula** 
   - Input
     - Geo-taxonomy graph
@@ -127,7 +127,7 @@ b(i)(x)=
 $$    
     6. Here is the approximation formula:
   $$
-    price(g_1,g_2)=\sum_{i=1}^{n}{k(i) \, b(i) \, diam(i)+n(i) + sn(i) + en(i) + p(i) \, pop(i) + ev(i) \, elev(i) + dir(i,pass(p,i))}
+    price(g_1,g_2)=\sum_{i=1}^{n}{k(i) * b(i) * diam(i) + n(i) + sn(i) + en(i) + p(i) * pop(i) + ev(i) * elev(i) + dir(i,pass(p,i))}
   $$
 - **Training data** or **training dataset**
   - A dataset of transportation trips.
@@ -203,7 +203,7 @@ The optimization problem formulation can incorporate additional constraints like
 
 ### Modification with distance
 
-If distance is given for each transportation trip then only $k(1)\,d(k) + n(1)$ is used in the approximation formula. 
+If distance is given for each transportation trip then only $k(1) * d(k) + n(1)$ is used in the approximation formula. 
 
 ### Modification using the uniform norm
 
